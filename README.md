@@ -1,3 +1,5 @@
 # DSD_group_6
 initial_readme
-Hemat_configured 
+: Yasmin_configured
+: Hemat_configured 
+: Michael_configured
