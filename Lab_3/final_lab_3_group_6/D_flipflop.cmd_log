@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/MicSeltene/Desktop/Lab_3_Michael/n_bit_twisted_ring_counter/D_flipflop.xst" -ofn "C:/Users/MicSeltene/Desktop/Lab_3_Michael/n_bit_twisted_ring_counter/D_flipflop.syr" 

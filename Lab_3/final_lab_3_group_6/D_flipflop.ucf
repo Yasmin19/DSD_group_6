@@ -1,0 +1,11 @@
+
+
+NET "D" LOC = J12;
+NET "preset" LOC = H16;
+
+NET "CLK" LOC = C10;
+NET "CLK" CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET "Q" LOC = C11;
+NET "Q_bar" LOC = D11;
+NET "reset" LOC = G12;

@@ -1,0 +1,16 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "CLK" LOC = C10;
+NET "CLK" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "preset" LOC = C12;
+NET "reset" LOC = D12;
+NET "Shift_in" LOC = G12;
+NET "shift_rotate" LOC = E14;
+NET "F[1]" LOC = D16;
+NET "F[0]" LOC = B16;
+
+NET "Q_outputs[3]" = C11;
+NET "Q_outputs[2]" = D11;
+NET "Q_outputs[1]" = B11;
+NET "Q_outputs[0]" = A12;

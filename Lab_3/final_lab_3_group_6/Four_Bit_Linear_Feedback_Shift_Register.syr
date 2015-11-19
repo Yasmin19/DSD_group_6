@@ -1,0 +1,155 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: Four_Bit_Linear_Feedback_Shift_Register.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Four_Bit_Linear_Feedback_Shift_Register.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Four_Bit_Linear_Feedback_Shift_Register"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-ft256
+
+---- Source Options
+Top Module Name                    : Four_Bit_Linear_Feedback_Shift_Register
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/Four_Bit_Linear_Feedback_Shift_Register is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/Four_Bit_Linear_Feedback_Shift_Register.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/Four_Bit_Linear_Feedback_Shift_Register.vhd".
+WARNING:HDLParsers:3607 - Unit work/Four_Bit_Linear_Feedback_Shift_Register/Behavioral is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/Four_Bit_Linear_Feedback_Shift_Register.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/Four_Bit_Linear_Feedback_Shift_Register.vhd".
+WARNING:HDLParsers:3607 - Unit work/n_bit_shift_register_with_parallel_load is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/n_bit_shift_with_parallel_load.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/n_bit_shift_with_parallel_load.vhd".
+WARNING:HDLParsers:3607 - Unit work/n_bit_shift_register_with_parallel_load/Behavioral is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/n_bit_shift_with_parallel_load.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/n_bit_shift_with_parallel_load.vhd".
+WARNING:HDLParsers:3607 - Unit work/xor_gate is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/xor_gate.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/xor_gate.vhd".
+WARNING:HDLParsers:3607 - Unit work/xor_gate/Behavioral is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/xor_gate.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/xor_gate.vhd".
+WARNING:HDLParsers:3607 - Unit work/nbit_two_input_mux is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/nbit_two_input_mux.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/nbit_two_input_mux.vhd".
+WARNING:HDLParsers:3607 - Unit work/nbit_two_input_mux/nbit_two_input_mux_architecture is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/nbit_two_input_mux.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/nbit_two_input_mux.vhd".
+WARNING:HDLParsers:3607 - Unit work/n_bit_register is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/n_bit_register.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/n_bit_register.vhd".
+WARNING:HDLParsers:3607 - Unit work/n_bit_register/Behavioral is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/n_bit_register.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/n_bit_register.vhd".
+WARNING:HDLParsers:3607 - Unit work/D_flipflop is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/D_flipflop.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/D_flipflop.vhd".
+WARNING:HDLParsers:3607 - Unit work/D_flipflop/Behavioral is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/D_flipflop.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/D_flipflop.vhd".
+WARNING:HDLParsers:3607 - Unit work/two_input_multiplexer is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/two_input_multiplexer.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/two_input_multiplexer.vhd".
+WARNING:HDLParsers:3607 - Unit work/two_input_multiplexer/two_input_multiplexer_behavioral is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/two_input_multiplexer.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/two_input_multiplexer.vhd".
+WARNING:HDLParsers:3607 - Unit work/and_gate is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/and_gate.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/and_gate.vhd".
+WARNING:HDLParsers:3607 - Unit work/and_gate/and_gate_behavioral is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/and_gate.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/and_gate.vhd".
+WARNING:HDLParsers:3607 - Unit work/not_gate is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/not_gate.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/not_gate.vhd".
+WARNING:HDLParsers:3607 - Unit work/not_gate/Behavioral is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/not_gate.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/not_gate.vhd".
+WARNING:HDLParsers:3607 - Unit work/or_gate is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/or_gate.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/or_gate.vhd".
+WARNING:HDLParsers:3607 - Unit work/or_gate/or_gate_behaviour is now defined in a different file.  It was defined in "C:/Users/Yasmin/Documents/Lab_3/or_gate.vhd", and is now defined in "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/or_gate.vhd".
+Compiling vhdl file "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/not_gate.vhd" in Library work.
+Architecture behavioral of Entity not_gate is up to date.
+Compiling vhdl file "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/and_gate.vhd" in Library work.
+Architecture and_gate_behavioral of Entity and_gate is up to date.
+Compiling vhdl file "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/or_gate.vhd" in Library work.
+Architecture or_gate_behaviour of Entity or_gate is up to date.
+Compiling vhdl file "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/D_flipflop.vhd" in Library work.
+Architecture behavioral of Entity d_flipflop is up to date.
+Compiling vhdl file "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/two_input_multiplexer.vhd" in Library work.
+Architecture two_input_multiplexer_behavioral of Entity two_input_multiplexer is up to date.
+Compiling vhdl file "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/nbit_two_input_mux.vhd" in Library work.
+Architecture nbit_two_input_mux_architecture of Entity nbit_two_input_mux is up to date.
+Compiling vhdl file "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/n_bit_register.vhd" in Library work.
+Architecture behavioral of Entity n_bit_register is up to date.
+Compiling vhdl file "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/xor_gate.vhd" in Library work.
+Architecture behavioral of Entity xor_gate is up to date.
+Compiling vhdl file "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/n_bit_shift_with_parallel_load.vhd" in Library work.
+Architecture behavioral of Entity n_bit_shift_register_with_parallel_load is up to date.
+Compiling vhdl file "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/Four_Bit_Linear_Feedback_Shift_Register.vhd" in Library work.
+Entity <four_bit_linear_feedback_shift_register> compiled.
+ERROR:HDLParsers:3324 - "C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/Four_Bit_Linear_Feedback_Shift_Register.vhd" Line 70. IN mode Formal preset of n_bit_shift_register_with_parallel_load with no default value must be associated with an actual value.
+--> 
+
+Total memory usage is 279328 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :   20 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

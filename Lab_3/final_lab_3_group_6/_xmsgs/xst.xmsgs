@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Four_Bit_Linear_Feedback_Shift_Register</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/Four_Bit_Linear_Feedback_Shift_Register.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/Four_Bit_Linear_Feedback_Shift_Register.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Four_Bit_Linear_Feedback_Shift_Register/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/Four_Bit_Linear_Feedback_Shift_Register.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/Four_Bit_Linear_Feedback_Shift_Register.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/n_bit_shift_register_with_parallel_load</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/n_bit_shift_with_parallel_load.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/n_bit_shift_with_parallel_load.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/n_bit_shift_register_with_parallel_load/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/n_bit_shift_with_parallel_load.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/n_bit_shift_with_parallel_load.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/xor_gate</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/xor_gate.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/xor_gate.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/xor_gate/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/xor_gate.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/xor_gate.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/nbit_two_input_mux</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/nbit_two_input_mux.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/nbit_two_input_mux.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/nbit_two_input_mux/nbit_two_input_mux_architecture</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/nbit_two_input_mux.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/nbit_two_input_mux.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/n_bit_register</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/n_bit_register.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/n_bit_register.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/n_bit_register/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/n_bit_register.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/n_bit_register.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/D_flipflop</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/D_flipflop.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/D_flipflop.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/D_flipflop/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/D_flipflop.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/D_flipflop.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/two_input_multiplexer</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/two_input_multiplexer.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/two_input_multiplexer.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/two_input_multiplexer/two_input_multiplexer_behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/two_input_multiplexer.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/two_input_multiplexer.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/and_gate</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/and_gate.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/and_gate.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/and_gate/and_gate_behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/and_gate.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/and_gate.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/not_gate</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/not_gate.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/not_gate.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/not_gate/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/not_gate.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/not_gate.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/or_gate</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/or_gate.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/or_gate.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/or_gate/or_gate_behaviour</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Yasmin/Documents/Lab_3/or_gate.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/or_gate.vhd</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3324" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Yasmin/Documents/QM Work/Year 3/Digital Systems Design/Lab_3_prep/Four_Bit_Linear_Feedback_Shift_Register.vhd</arg>&quot; Line <arg fmt="%d" index="2">70</arg>. IN mode Formal <arg fmt="%s" index="3">preset</arg> of <arg fmt="%s" index="4">n_bit_shift_register_with_parallel_load</arg> with no default value must be associated with an actual value.
+</msg>
+
+</messages>
+
