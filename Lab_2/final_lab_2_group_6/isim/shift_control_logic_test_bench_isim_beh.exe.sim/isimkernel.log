@@ -1,0 +1,29 @@
+Command line:
+   shift_control_logic_test_bench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  3
+     -socket  49853
+
+Tue Nov 03 12:03:32 2015
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 841.908 Meg
+
+ Total Signals          : 4
+ Total Nets             : 5
+ Total Signal Drivers   : 3
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 3
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 506
+Total Line Count : 19
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 370.024 Meg
+
+Tue Nov 03 12:31:49 2015
+

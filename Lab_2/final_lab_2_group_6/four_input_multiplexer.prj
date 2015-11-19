@@ -1,0 +1,4 @@
+vhdl work "three_input_and_gate.vhd"
+vhdl work "not_gate.vhd"
+vhdl work "four_input_or_gate.vhd"
+vhdl work "four_input_multiplexer.vhd"

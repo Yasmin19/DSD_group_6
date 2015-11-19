@@ -1,0 +1,29 @@
+Command line:
+   four_bit_lac_tb_vhd_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  50055
+
+Tue Nov 03 12:34:41 2015
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 841.9 Meg
+
+ Total Signals          : 10
+ Total Nets             : 21
+ Total Signal Drivers   : 8
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 7
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 522
+Total Line Count : 19
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 370.016 Meg
+
+Tue Nov 03 12:47:52 2015
+

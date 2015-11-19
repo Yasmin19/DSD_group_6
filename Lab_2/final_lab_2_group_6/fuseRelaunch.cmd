@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Yasmin/Documents/Lab_2/four_bit_alu_tb_vhd_isim_beh.exe" -prj "C:/Users/Yasmin/Documents/Lab_2/four_bit_alu_tb_vhd_beh.prj" "work.four_bit_alu_tb_vhd" 

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Yasmin/Documents/Lab_2/n_bit_shifter_rotator_unit.xst" -ofn "C:/Users/Yasmin/Documents/Lab_2/n_bit_shifter_rotator_unit.syr" 
+xst -intstyle ise -ifn "C:/Users/Yasmin/Documents/Lab_2/n_bit_shifter_rotator_unit.xst" -ofn "C:/Users/Yasmin/Documents/Lab_2/n_bit_shifter_rotator_unit.syr" 

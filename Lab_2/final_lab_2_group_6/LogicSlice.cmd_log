@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Yasmin/Documents/Lab_2/LogicSlice.xst" -ofn "C:/Users/Yasmin/Documents/Lab_2/LogicSlice.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I LogicSlice.ngc LogicSlice.ngd  

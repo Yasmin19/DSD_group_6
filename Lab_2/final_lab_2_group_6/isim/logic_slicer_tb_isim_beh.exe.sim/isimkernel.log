@@ -1,0 +1,29 @@
+Command line:
+   logic_slicer_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  49832
+
+Tue Nov 03 11:53:44 2015
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 841.789 Meg
+
+ Total Signals          : 85
+ Total Nets             : 20
+ Total Signal Drivers   : 19
+ Total Blocks           : 25
+ Total Primitive Blocks : 19
+ Total Processes        : 17
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 398
+Total Line Count : 32
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 369.906 Meg
+
+Tue Nov 03 12:32:00 2015
+

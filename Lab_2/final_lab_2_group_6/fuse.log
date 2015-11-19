@@ -1,0 +1,56 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Yasmin/Documents/Lab_2/four_bit_alu_tb_vhd_isim_beh.exe -prj C:/Users/Yasmin/Documents/Lab_2/four_bit_alu_tb_vhd_beh.prj work.four_bit_alu_tb_vhd 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/xor_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/and_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/or_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/half_adder.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/not_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/full_adder.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/two_input_multiplexer.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/n_bit_adder.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/four_bit_LAC.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/nbit_xor_control.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/four_input_multiplexer.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/four_bit_lac_adder.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/nbit_two_input_mux.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/LogicSlice.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/four_bit_subtractor.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/nbit_logic_unit.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/four_bit_arithmetic_unit.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/four_bit_alu.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/Lab_2/four_bit_alu_test_bench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity not_gate [not_gate_default]
+Compiling architecture and_gate_behavioral of entity and_gate [and_gate_default]
+Compiling architecture or_gate_behaviour of entity or_gate [or_gate_default]
+Compiling architecture two_input_multiplexer_behavioral of entity two_input_multiplexer [two_input_multiplexer_default]
+Compiling architecture nbit_two_input_mux_architecture of entity nbit_two_input_mux [\nbit_two_input_mux(4)\]
+Compiling architecture behavioral of entity xor_gate [xor_gate_default]
+Compiling architecture behavioral of entity nbit_xor_control [\nbit_xor_control(4)\]
+Compiling architecture behavioral of entity four_bit_LAC [four_bit_lac_default]
+Compiling architecture half_adder_behavioral of entity half_adder [half_adder_default]
+Compiling architecture full_adder_behavioral of entity full_adder [full_adder_default]
+Compiling architecture n_bit_adder_behavioral of entity n_bit_adder [\n_bit_adder(4)\]
+Compiling architecture four_bit_lac_adder_behavioral of entity four_bit_lac_adder [\four_bit_lac_adder(4)\]
+Compiling architecture four_bit_adder_subtractor_behavioral of entity four_bit_adder_subtractor [\four_bit_adder_subtractor(4)\]
+Compiling architecture behavioral of entity four_bit_arithmetic_unit [four_bit_arithmetic_unit_default]
+Compiling architecture behavioral of entity four_input_multiplexer [four_input_multiplexer_default]
+Compiling architecture behavioral of entity LogicSlice [logicslice_default]
+Compiling architecture behavioral of entity nbit_logic_unit [\nbit_logic_unit(4)\]
+Compiling architecture behavioral of entity four_bit_alu [four_bit_alu_default]
+Compiling architecture behavior of entity four_bit_alu_tb_vhd
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 42 VHDL Units
+Built simulation executable C:/Users/Yasmin/Documents/Lab_2/four_bit_alu_tb_vhd_isim_beh.exe
+Fuse Memory Usage: 36872 KB
+Fuse CPU Usage: 843 ms

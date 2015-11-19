@@ -1,0 +1,8 @@
+vhdl isim_temp "or_gate.vhd"
+vhdl isim_temp "not_gate.vhd"
+vhdl isim_temp "and_gate.vhd"
+vhdl isim_temp "two_input_multiplexer.vhd"
+vhdl isim_temp "xor_gate.vhd"
+vhdl isim_temp "four_input_multiplexer.vhd"
+vhdl isim_temp "LogicSlice.vhd"
+vhdl isim_temp "logic_slice_test_bench.vhd"

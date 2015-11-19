@@ -1,0 +1,29 @@
+Command line:
+   four_input_multiplexer_test_bench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51022
+
+Tue Nov 03 15:38:42 2015
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 841.429 Meg
+
+ Total Signals          : 68
+ Total Nets             : 18
+ Total Signal Drivers   : 17
+ Total Blocks           : 21
+ Total Primitive Blocks : 16
+ Total Processes        : 13
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 519
+Total Line Count : 37
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 369.545 Meg
+
+Tue Nov 03 15:52:09 2015
+

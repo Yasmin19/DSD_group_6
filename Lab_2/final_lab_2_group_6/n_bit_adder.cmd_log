@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "H:/Documents/QM University Work/Year 3/Digital Systems Design/final_lab_1_group_7_project/Lab_2/n_bit_adder.xst" -ofn "H:/Documents/QM University Work/Year 3/Digital Systems Design/final_lab_1_group_7_project/Lab_2/n_bit_adder.syr" 
