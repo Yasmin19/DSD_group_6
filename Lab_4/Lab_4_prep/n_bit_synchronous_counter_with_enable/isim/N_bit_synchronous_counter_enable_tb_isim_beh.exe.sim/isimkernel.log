@@ -1,0 +1,28 @@
+Command line:
+   N_bit_synchronous_counter_enable_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  11456
+
+Mon Nov 16 22:23:34 2015
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 1319.92 Meg
+
+ Total Signals          : 152
+ Total Nets             : 46
+ Total Signal Drivers   : 45
+ Total Blocks           : 55
+ Total Primitive Blocks : 27
+ Total Processes        : 36
+ Total Traceable Variables  : 30
+ Total Scalar Nets and Variables : 444
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 376.152 Meg
+
+Mon Nov 16 22:31:58 2015
+

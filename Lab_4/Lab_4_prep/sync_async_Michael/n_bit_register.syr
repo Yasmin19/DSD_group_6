@@ -1,0 +1,345 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.28 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.30 secs
+ 
+--> Reading design: n_bit_register.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "n_bit_register.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "n_bit_register"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-ft256
+
+---- Source Options
+Top Module Name                    : n_bit_register
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/D_flipflop.vhd" in Library work.
+Architecture behavioral of Entity d_flipflop is up to date.
+Compiling vhdl file "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_register.vhd" in Library work.
+Architecture behavioral of Entity n_bit_register is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <n_bit_register> in library <work> (architecture <behavioral>) with generics.
+	n = 8
+
+Analyzing hierarchy for entity <D_flipflop> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <n_bit_register> in library <work> (Architecture <behavioral>).
+	n = 8
+Entity <n_bit_register> analyzed. Unit <n_bit_register> generated.
+
+Analyzing Entity <D_flipflop> in library <work> (Architecture <behavioral>).
+Entity <D_flipflop> analyzed. Unit <D_flipflop> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <D_flipflop>.
+    Related source file is "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/D_flipflop.vhd".
+INFO:Xst:1608 - Relative priorities of control signals on register <Q_bar> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+    Found 1-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_bar>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <D_flipflop> synthesized.
+
+
+Synthesizing Unit <n_bit_register>.
+    Related source file is "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_register.vhd".
+Unit <n_bit_register> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 16
+ 1-bit register                                        : 16
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <n_bit_register> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block n_bit_register, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : n_bit_register.ngr
+Top Level Output File Name         : n_bit_register
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 27
+
+Cell Usage :
+# BELS                             : 9
+#      INV                         : 8
+#      LUT2                        : 1
+# FlipFlops/Latches                : 16
+#      FDCP                        : 16
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 26
+#      IBUF                        : 10
+#      OBUF                        : 16
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500eft256-4 
+
+ Number of Slices:                        1  out of   4656     0%  
+ Number of 4 input LUTs:                  9  out of   9312     0%  
+ Number of IOs:                          27
+ Number of bonded IOBs:                  27  out of    190    14%  
+    IOB Flip Flops:                      16
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 16    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------------------------------+---------------------------------+-------+
+Control Signal                                                           | Buffer(FF name)                 | Load  |
+-------------------------------------------------------------------------+---------------------------------+-------+
+reset                                                                    | IBUF                            | 16    |
+inst[0].D_flipflop_i/Q_bar_and0000(inst[0].D_flipflop_i/Q_bar_and00001:O)| NONE(inst[0].D_flipflop_i/Q_bar)| 8     |
+preset                                                                   | IBUF                            | 8     |
+-------------------------------------------------------------------------+---------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 3.097ns
+   Maximum output required time after clock: 4.283ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              3.097ns (Levels of Logic = 2)
+  Source:            D_inputs<0> (PAD)
+  Destination:       inst[0].D_flipflop_i/Q_bar (FF)
+  Destination Clock: CLK rising
+
+  Data Path: D_inputs<0> to inst[0].D_flipflop_i/Q_bar
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.447  D_inputs_0_IBUF (D_inputs_0_IBUF)
+     INV:I->O              1   0.704   0.420  inst[0].D_flipflop_i/Q_bar_not00011_INV_0 (inst[0].D_flipflop_i/Q_bar_not0001)
+     FDCP:D                    0.308          inst[0].D_flipflop_i/Q_bar
+    ----------------------------------------
+    Total                      3.097ns (2.230ns logic, 0.867ns route)
+                                       (72.0% logic, 28.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              4.283ns (Levels of Logic = 1)
+  Source:            inst[7].D_flipflop_i/Q_bar (FF)
+  Destination:       Q_bar_outputs<7> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: inst[7].D_flipflop_i/Q_bar to Q_bar_outputs<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCP:C->Q             1   0.591   0.420  inst[7].D_flipflop_i/Q_bar (inst[7].D_flipflop_i/Q_bar)
+     OBUF:I->O                 3.272          Q_bar_outputs_7_OBUF (Q_bar_outputs<7>)
+    ----------------------------------------
+    Total                      4.283ns (3.863ns logic, 0.420ns route)
+                                       (90.2% logic, 9.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.10 secs
+ 
+--> 
+
+Total memory usage is 288488 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

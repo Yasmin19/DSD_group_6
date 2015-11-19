@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/edsv3/Desktop/DSD/next_state_logic/nex_state_tb_isim_beh.exe" -prj "C:/Users/edsv3/Desktop/DSD/next_state_logic/nex_state_tb_beh.prj" "work.nex_state_tb" 

@@ -1,0 +1,29 @@
+Command line:
+   module_m_counter_with_asynchronous_reset_test_bench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58007
+
+Wed Nov 18 16:33:07 2015
+
+
+ Elaboration Time: 0.390625 sec
+
+ Current Memory Usage: 1493.19 Meg
+
+ Total Signals          : 167
+ Total Nets             : 62
+ Total Signal Drivers   : 39
+ Total Blocks           : 67
+ Total Primitive Blocks : 30
+ Total Processes        : 29
+ Total Traceable Variables  : 37
+ Total Scalar Nets and Variables : 585
+Total Line Count : 106
+
+ Total Simulation Time: 0.546875 sec
+
+ Current Memory Usage: 863.982 Meg
+
+Wed Nov 18 16:35:14 2015
+

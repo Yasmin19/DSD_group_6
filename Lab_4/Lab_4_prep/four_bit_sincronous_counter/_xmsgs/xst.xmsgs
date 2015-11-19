@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="754" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/four_bit_syncronous_counter.vhd</arg>&quot; line <arg fmt="%d" index="2">59</arg>: Unconnected inout port &apos;<arg fmt="%s" index="3">Qbar_outputs</arg>&apos; of component &apos;<arg fmt="%s" index="4">n_bit_register</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">sig</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1608" delta="new" >Relative priorities of control signals on register &lt;<arg fmt="%s" index="1">Q_bar</arg>&gt; differ from those commonly found in the selected device family. This will result in additional logic around the register.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">NRegister/inst[3].D_flipflop_i/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">four_bit_syncronous_counter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">NRegister/inst[2].D_flipflop_i/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">four_bit_syncronous_counter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">NRegister/inst[1].D_flipflop_i/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">four_bit_syncronous_counter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">NRegister/inst[0].D_flipflop_i/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">four_bit_syncronous_counter</arg>&gt;.
+</msg>
+
+</messages>
+

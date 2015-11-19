@@ -1,0 +1,7 @@
+vhdl work "C:\Users\MicSeltene\Documents\Projects\Digital_Circuit_Design\Lab_4\xor_gate.vhd"
+vhdl work "C:\Users\MicSeltene\Documents\Projects\Digital_Circuit_Design\Lab_4\and_gate.vhd"
+vhdl work "C:\Users\MicSeltene\Documents\Projects\Digital_Circuit_Design\Lab_4\half_adder.vhd"
+vhdl work "C:\Users\MicSeltene\Documents\Projects\Digital_Circuit_Design\Lab_4\D_flipflop.vhd"
+vhdl work "C:\Users\MicSeltene\Documents\Projects\Digital_Circuit_Design\Lab_4\n_bit_register.vhd"
+vhdl work "C:\Users\MicSeltene\Documents\Projects\Digital_Circuit_Design\Lab_4\n_bit_incrementer.vhd"
+vhdl work "C:\Users\MicSeltene\Documents\Projects\Digital_Circuit_Design\Lab_4\n_bit_synchronous_counter_with_enable.vhd"

@@ -1,0 +1,52 @@
+V3 27
+FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/and_gate.vhd 2015/11/02.23:51:26 P.20131013
+EN work/and_gate 1447712166 \
+      FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/and_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/and_gate/and_gate_behavioral 1447712167 \
+      FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/and_gate.vhd \
+      EN work/and_gate 1447712166
+FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/D_flipflop.vhd 2015/11/03.17:23:02 P.20131013
+EN work/D_flipflop 1447712168 \
+      FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/D_flipflop.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/D_flipflop/Behavioral 1447712169 \
+      FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/D_flipflop.vhd \
+      EN work/D_flipflop 1447712168
+FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/half_adder.vhd 2015/11/02.23:51:28 P.20131013
+EN work/half_adder 1447712170 \
+      FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/half_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/half_adder/half_adder_behavioral 1447712171 \
+      FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/half_adder.vhd \
+      EN work/half_adder 1447712170 CP xor_gate CP and_gate
+FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/n_bit_incrementer.vhd 2015/11/16.22:15:58 P.20131013
+EN work/n_bit_incrementer 1447712172 \
+      FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/n_bit_incrementer.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/n_bit_incrementer/Behavioral 1447712173 \
+      FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/n_bit_incrementer.vhd \
+      EN work/n_bit_incrementer 1447712172 CP half_adder
+FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/n_bit_register.vhd 2015/11/16.22:15:58 P.20131013
+EN work/n_bit_register 1447712174 \
+      FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/n_bit_register.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/n_bit_register/Behavioral 1447712175 \
+      FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/n_bit_register.vhd \
+      EN work/n_bit_register 1447712174 CP D_flipflop
+FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/N_bit_sync_counter_with_enable.vhd 2015/11/16.22:15:58 P.20131013
+EN work/N_bit_sync_counter_with_enable 1447712176 \
+      FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/N_bit_sync_counter_with_enable.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/N_bit_sync_counter_with_enable/Behavioral 1447712177 \
+      FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/N_bit_sync_counter_with_enable.vhd \
+      EN work/N_bit_sync_counter_with_enable 1447712176 CP n_bit_incrementer \
+      CP n_bit_register
+FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/xor_gate.vhd 2015/11/02.23:51:28 P.20131013
+EN work/xor_gate 1447712164 \
+      FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/xor_gate.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/xor_gate/Behavioral 1447712165 \
+      FL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/xor_gate.vhd \
+      EN work/xor_gate 1447712164

@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_two_input_mux.xst" -ofn "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_two_input_mux.syr" 
+xst -intstyle ise -ifn "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_two_input_mux.xst" -ofn "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_two_input_mux.syr" 
+xst -intstyle ise -ifn "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_two_input_mux.xst" -ofn "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_two_input_mux.syr" 

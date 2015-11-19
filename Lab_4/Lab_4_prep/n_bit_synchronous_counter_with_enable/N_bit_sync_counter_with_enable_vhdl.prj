@@ -1,0 +1,7 @@
+vhdl work "C:\Users\edsv3\Desktop\DSD\n_bit_synchronous_counter_with_enable\xor_gate.vhd"
+vhdl work "C:\Users\edsv3\Desktop\DSD\n_bit_synchronous_counter_with_enable\and_gate.vhd"
+vhdl work "C:\Users\edsv3\Desktop\DSD\n_bit_synchronous_counter_with_enable\half_adder.vhd"
+vhdl work "C:\Users\edsv3\Desktop\DSD\n_bit_synchronous_counter_with_enable\D_flipflop.vhd"
+vhdl work "C:\Users\edsv3\Desktop\DSD\n_bit_synchronous_counter_with_enable\n_bit_register.vhd"
+vhdl work "C:\Users\edsv3\Desktop\DSD\n_bit_synchronous_counter_with_enable\n_bit_incrementer.vhd"
+vhdl work "C:\Users\edsv3\Desktop\DSD\n_bit_synchronous_counter_with_enable\N_bit_sync_counter_with_enable.vhd"

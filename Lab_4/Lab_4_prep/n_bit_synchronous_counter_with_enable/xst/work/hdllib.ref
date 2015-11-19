@@ -1,0 +1,14 @@
+AR n_bit_incrementer behavioral C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/n_bit_incrementer.vhd sub00/vhpl11 1447712173
+EN d_flipflop NULL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/D_flipflop.vhd sub00/vhpl06 1447712168
+AR xor_gate behavioral C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/xor_gate.vhd sub00/vhpl03 1447712165
+EN half_adder NULL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/half_adder.vhd sub00/vhpl08 1447712170
+AR n_bit_sync_counter_with_enable behavioral C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/N_bit_sync_counter_with_enable.vhd sub00/vhpl01 1447712177
+EN n_bit_register NULL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/n_bit_register.vhd sub00/vhpl12 1447712174
+AR half_adder half_adder_behavioral C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/half_adder.vhd sub00/vhpl09 1447712171
+AR d_flipflop behavioral C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/D_flipflop.vhd sub00/vhpl07 1447712169
+EN n_bit_sync_counter_with_enable NULL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/N_bit_sync_counter_with_enable.vhd sub00/vhpl00 1447712176
+EN xor_gate NULL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/xor_gate.vhd sub00/vhpl02 1447712164
+AR n_bit_register behavioral C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/n_bit_register.vhd sub00/vhpl13 1447712175
+AR and_gate and_gate_behavioral C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/and_gate.vhd sub00/vhpl05 1447712167
+EN n_bit_incrementer NULL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/n_bit_incrementer.vhd sub00/vhpl10 1447712172
+EN and_gate NULL C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/and_gate.vhd sub00/vhpl04 1447712166

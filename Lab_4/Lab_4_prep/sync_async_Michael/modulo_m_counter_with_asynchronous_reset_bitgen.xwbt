@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\MicSeltene\Documents\Projects\Digital_Circuit_Design\Lab_4\modulo_m_counter_with_asynchronous_reset.ncd
+OUTFILE=C:\Users\MicSeltene\Documents\Projects\Digital_Circuit_Design\Lab_4\modulo_m_counter_with_asynchronous_reset.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4ft256
+WORKINGDIR=C:\Users\MicSeltene\Documents\Projects\Digital_Circuit_Design\Lab_4
+LICENSE=WebPack
+USER_INFO=211106372_0_0_676

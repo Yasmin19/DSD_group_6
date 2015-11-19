@@ -1,0 +1,155 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Wed Nov 18 20:25:08 2015
+# Process ID: 424
+# Log file: C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from H:/0/xi/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [H:/0/xi/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [H:/0/xi/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/pa.fromHdl.tcl
+# create_project -name Lab_4 -dir "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/planAhead_run_2" -part xc3s500eft256-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "modulo_m_counter_with_synchronous_reset_constraint.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/modulo_m_counter_with_synchronous_reset_constraint.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {xor_gate.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {and_gate.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {two_input_multiplexer.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {half_adder.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {D_flipflop.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {n_bit_two_input_mux.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {n_bit_register.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {n_bit_incrementer.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {n_bit_synchronous_counter_with_parallel_load.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {eight_bit_comparator.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {modulo_m_counter_with_synchronous_reset.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top modulo_m_counter_with_synchronous_reset $srcset
+# add_files [list {modulo_m_counter_with_synchronous_reset_constraint.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s500eft256-4
+Using Verific elaboration
+Parsing VHDL file "H:/0/xi/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "H:/0/xi/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/xor_gate.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/and_gate.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/two_input_multiplexer.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/half_adder.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/D_flipflop.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_two_input_mux.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_register.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_incrementer.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_synchronous_counter_with_parallel_load.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/eight_bit_comparator.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/modulo_m_counter_with_synchronous_reset.vhd" into library work
+INFO: [Designutils 20-910] Reading macro library H:/0/xi/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [H:/0/xi/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [H:/0/xi/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ft256/Package.xml
+Loading io standards from H:/0/xi/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ft256/SSORules.xml
+Loading list of drcs for the architecture : H:/0/xi/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/modulo_m_counter_with_synchronous_reset_constraint.ucf]
+Finished Parsing UCF File [C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/modulo_m_counter_with_synchronous_reset_constraint.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 545a603e
+open_rtl_design: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 487.574 ; gain = 61.410
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin C11 [get_ports {Q_outputs[0]}]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports {Q_outputs[1]}]
+endgroup
+startgroup
+set_property package_pin B11 [get_ports {Q_outputs[2]}]
+endgroup
+startgroup
+set_property package_pin A12 [get_ports {Q_outputs[3]}]
+endgroup
+startgroup
+set_property package_pin A13 [get_ports {Q_outputs[4]}]
+endgroup
+startgroup
+set_property package_pin B13 [get_ports {Q_outputs[5]}]
+endgroup
+startgroup
+set_property package_pin A14 [get_ports {Q_outputs[6]}]
+endgroup
+startgroup
+set_property package_pin B14 [get_ports {Q_outputs[7]}]
+endgroup
+startgroup
+set_property package_pin C13 [get_ports reset]
+endgroup
+startgroup
+set_property package_pin D12 [get_ports count_enable]
+endgroup
+set_property package_pin "" [get_ports [list  CLK]]
+startgroup
+set_property package_pin J11 [get_ports {M_value[0]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {M_value[1]}]
+endgroup
+startgroup
+set_property package_pin H16 [get_ports {M_value[2]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports {M_value[3]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {M_value[4]}]
+endgroup
+startgroup
+set_property package_pin E14 [get_ports {M_value[5]}]
+endgroup
+startgroup
+set_property package_pin D16 [get_ports {M_value[6]}]
+endgroup
+startgroup
+set_property package_pin B16 [get_ports {M_value[7]}]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+ (See C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4\planAhead_pid424.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed Nov 18 20:35:44 2015...
+INFO: [Common 17-83] Releasing license: PlanAhead

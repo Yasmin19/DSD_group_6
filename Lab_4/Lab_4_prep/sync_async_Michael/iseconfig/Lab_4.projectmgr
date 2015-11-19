@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Lab_4" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/modulo_m_counter_with_asynchronous_reset - Behavioral C:|Users|MicSeltene|Desktop|ec12027-E21501471|Lab_4_prep|sync_async_Michael|modulo_m_counter_with_asynchronous_reset.vhd/syn_count - n_bit_synchronous_counter_with_enable - Behavioral</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_asynchronous_reset - Behavioral C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|modulo_m_counter_with_asynchronous_reset.vhd/counter - n_bit_synchronous_counter_with_enable - Behavioral</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_asynchronous_reset - Behavioral C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|modulo_m_counter_with_asynchronous_reset.vhd/n_bit_synchronous_counter_with_enable - n_bit_synchronous_counter_with_enable - Behavioral</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_asynchronous_reset - Behavioral C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|modulo_m_counter_with_asynchronous_reset.vhd/n_bit_synchronous_counter_with_enable - n_bit_synchronous_counter_with_enable - Behavioral/inc - n_bit_incrementer - Behavioral</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_asynchronous_reset - Behavioral C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|modulo_m_counter_with_asynchronous_reset.vhd/n_bit_synchronous_counter_with_enable - n_bit_synchronous_counter_with_enable - Behavioral/n_bit_incrementer - n_bit_incrementer - Behavioral/A - half_adder - half_adder_behavioral</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_asynchronous_reset - Behavioral C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|modulo_m_counter_with_asynchronous_reset.vhd/syn_count - n_bit_synchronous_counter_with_enable - Behavioral</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_asynchronous_reset - Behavioral C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|modulo_m_counter_with_asynchronous_reset.vhd/syn_count - n_bit_synchronous_counter_with_enable - Behavioral/inc - n_bit_incrementer - Behavioral</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_asynchronous_reset - Behavioral C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|modulo_m_counter_with_asynchronous_reset.vhd/syn_count - n_bit_synchronous_counter_with_enable - Behavioral/reg - n_bit_register - Behavioral</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_synchronous_reset - Behavioral C:|Users|MicSeltene|Desktop|ec12027-E21501471|Lab_4_prep|sync_async_Michael|modulo_m_counter_with_synchronous_reset.vhd/count - n_bit_synchronous_counter_with_parallel_load - Behavioral</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_synchronous_reset - Behavioral C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|modulo_m_counter_with_synchronous_reset.vhd/count - n_bit_synchronous_counter_with_parallel_load - Behavioral</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_synchronous_reset - Behavioral C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|modulo_m_counter_with_synchronous_reset.vhd/count - n_bit_synchronous_counter_with_parallel_load - Behavioral/ins_0 - n_bit_incrementer - Behavioral</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_synchronous_reset - Behavioral C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|modulo_m_counter_with_synchronous_reset.vhd/count - n_bit_synchronous_counter_with_parallel_load - Behavioral/ins_0 - n_bit_incrementer - Behavioral/A - half_adder - half_adder_behavioral</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_synchronous_reset - Behavioral C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|modulo_m_counter_with_synchronous_reset.vhd/count - n_bit_synchronous_counter_with_parallel_load - Behavioral/ins_1 - n_bit_two_input_mux - Behavioral</ClosedNode>
+         <ClosedNode>/n_bit_synchronous_counter_with_enable - Behavioral C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|modulo_m_counter_with_asynchronous_reset.vhd</ClosedNode>
+         <ClosedNode>/nbit_count_enable - Behavioral C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|n_bit_synchronous_counter_with_enable.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>modulo_m_counter_with_synchronous_reset - Behavioral (C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/sync_async_Michael/modulo_m_counter_with_synchronous_reset.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002ce000000020000000000000000000000000200000064ffffffff000000810000000300000002000002ce0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>modulo_m_counter_with_synchronous_reset - Behavioral (C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/sync_async_Michael/modulo_m_counter_with_synchronous_reset.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000003a3000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000002d70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>and_gate.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Generate Programming File</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000197000000010000000100000000000000000000000064ffffffff000000810000000000000001000001970000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Generate Programming File</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/module_m_counter_with_asynchronous_reset_test_bench - behavior C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|module_m_counter_with_asynchronous_reset_test_bench.vhd/uut - modulo_m_counter_with_asynchronous_reset - Behavioral</ClosedNode>
+         <ClosedNode>/module_m_counter_with_asynchronous_reset_test_bench - behavior C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|module_m_counter_with_asynchronous_reset_test_bench.vhd/uut - modulo_m_counter_with_asynchronous_reset - Behavioral/syn_count - n_bit_synchronous_counter_with_enable - Behavioral</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_asynchronous_reset - Behavioral C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|modulo_m_counter_with_asynchronous_reset.vhd</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_synchronous_reset - Behavioral C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|modulo_m_counter_with_synchronous_reset.vhd</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_synchronous_reset_test_bench - behavior C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|modulo_m_counter_with_synchronous_reset_test_bench.vhd/uut - modulo_m_counter_with_synchronous_reset - Behavioral</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_synchronous_reset_test_bench - behavior C:|Users|MicSeltene|Documents|Projects|Digital_Circuit_Design|Lab_4|modulo_m_counter_with_synchronous_reset_test_bench.vhd/uut - modulo_m_counter_with_synchronous_reset - Behavioral/count - n_bit_synchronous_counter_with_parallel_load - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>modulo_m_counter_with_synchronous_reset_test_bench - behavior (C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/modulo_m_counter_with_synchronous_reset_test_bench.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002fb000000020000000000000000000000000200000064ffffffff000000810000000300000002000002fb0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>modulo_m_counter_with_synchronous_reset_test_bench - behavior (C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/modulo_m_counter_with_synchronous_reset_test_bench.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011b000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011b0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000168000000010000000100000000000000000000000064ffffffff000000810000000000000001000001680000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001800000011501000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000197000000010000000100000000000000000000000064ffffffff000000810000000000000001000001970000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

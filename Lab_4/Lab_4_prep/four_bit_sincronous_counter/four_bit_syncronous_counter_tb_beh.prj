@@ -1,0 +1,5 @@
+vhdl work "D_flipflop.vhd"
+vhdl work "n_bit_register.vhd"
+vhdl work "next_state_logic.vhd"
+vhdl work "four_bit_syncronous_counter.vhd"
+vhdl work "four_bit_syncronous_counter_tb.vhd"

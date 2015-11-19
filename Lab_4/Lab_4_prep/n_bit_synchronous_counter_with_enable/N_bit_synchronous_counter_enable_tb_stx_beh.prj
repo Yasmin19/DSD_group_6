@@ -1,0 +1,8 @@
+vhdl isim_temp "xor_gate.vhd"
+vhdl isim_temp "and_gate.vhd"
+vhdl isim_temp "half_adder.vhd"
+vhdl isim_temp "D_flipflop.vhd"
+vhdl isim_temp "n_bit_register.vhd"
+vhdl isim_temp "n_bit_incrementer.vhd"
+vhdl isim_temp "N_bit_sync_counter_with_enable.vhd"
+vhdl isim_temp "N_bit_synchronous_counter_enable_tb.vhd"

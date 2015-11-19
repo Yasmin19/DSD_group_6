@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/four_bit_syncronous_counter.xst" -ofn "C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/four_bit_syncronous_counter.syr" 
+xst -intstyle ise -ifn "C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/four_bit_syncronous_counter.xst" -ofn "C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/four_bit_syncronous_counter.syr" 

@@ -1,0 +1,28 @@
+Command line:
+   n_bit_ripple_counter_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  3521
+
+Sun Nov 15 18:50:27 2015
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 1319.95 Meg
+
+ Total Signals          : 41
+ Total Nets             : 27
+ Total Signal Drivers   : 27
+ Total Blocks           : 21
+ Total Primitive Blocks : 11
+ Total Processes        : 19
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 415
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 376.185 Meg
+
+Sun Nov 15 19:49:53 2015
+

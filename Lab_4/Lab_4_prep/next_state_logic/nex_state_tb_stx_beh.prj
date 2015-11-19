@@ -1,0 +1,2 @@
+vhdl isim_temp "next_state_logic.vhd"
+vhdl isim_temp "nex_state_tb.vhd"

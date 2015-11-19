@@ -1,0 +1,380 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: four_bit_syncronous_counter.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "four_bit_syncronous_counter.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "four_bit_syncronous_counter"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-ft256
+
+---- Source Options
+Top Module Name                    : four_bit_syncronous_counter
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/D_flipflop.vhd" in Library work.
+Architecture behavioral of Entity d_flipflop is up to date.
+Compiling vhdl file "C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/next_state_logic.vhd" in Library work.
+Architecture behavioral of Entity next_state_logic is up to date.
+Compiling vhdl file "C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/n_bit_register.vhd" in Library work.
+Architecture behavioral of Entity n_bit_register is up to date.
+Compiling vhdl file "C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/four_bit_syncronous_counter.vhd" in Library work.
+Entity <four_bit_syncronous_counter> compiled.
+Entity <four_bit_syncronous_counter> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <four_bit_syncronous_counter> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <next_state_logic> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <n_bit_register> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <D_flipflop> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <four_bit_syncronous_counter> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:754 - "C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/four_bit_syncronous_counter.vhd" line 59: Unconnected inout port 'Qbar_outputs' of component 'n_bit_register'.
+Entity <four_bit_syncronous_counter> analyzed. Unit <four_bit_syncronous_counter> generated.
+
+Analyzing Entity <next_state_logic> in library <work> (Architecture <behavioral>).
+Entity <next_state_logic> analyzed. Unit <next_state_logic> generated.
+
+Analyzing generic Entity <n_bit_register> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <n_bit_register> analyzed. Unit <n_bit_register> generated.
+
+Analyzing Entity <D_flipflop> in library <work> (Architecture <behavioral>).
+Entity <D_flipflop> analyzed. Unit <D_flipflop> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <next_state_logic>.
+    Related source file is "C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/next_state_logic.vhd".
+WARNING:Xst:1780 - Signal <sig> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <next_state_logic> synthesized.
+
+
+Synthesizing Unit <D_flipflop>.
+    Related source file is "C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/D_flipflop.vhd".
+INFO:Xst:1608 - Relative priorities of control signals on register <Q_bar> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+    Found 1-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_bar>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <D_flipflop> synthesized.
+
+
+Synthesizing Unit <n_bit_register>.
+    Related source file is "C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/n_bit_register.vhd".
+Unit <n_bit_register> synthesized.
+
+
+Synthesizing Unit <four_bit_syncronous_counter>.
+    Related source file is "C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/four_bit_syncronous_counter.vhd".
+Unit <four_bit_syncronous_counter> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 8
+ 1-bit register                                        : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <NRegister/inst[3].D_flipflop_i/Q_bar> of sequential type is unconnected in block <four_bit_syncronous_counter>.
+WARNING:Xst:2677 - Node <NRegister/inst[2].D_flipflop_i/Q_bar> of sequential type is unconnected in block <four_bit_syncronous_counter>.
+WARNING:Xst:2677 - Node <NRegister/inst[1].D_flipflop_i/Q_bar> of sequential type is unconnected in block <four_bit_syncronous_counter>.
+WARNING:Xst:2677 - Node <NRegister/inst[0].D_flipflop_i/Q_bar> of sequential type is unconnected in block <four_bit_syncronous_counter>.
+
+Optimizing unit <four_bit_syncronous_counter> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block four_bit_syncronous_counter, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : four_bit_syncronous_counter.ngr
+Top Level Output File Name         : four_bit_syncronous_counter
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 6
+
+Cell Usage :
+# BELS                             : 5
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 1
+#      LUT3                        : 1
+#      LUT4                        : 1
+# FlipFlops/Latches                : 4
+#      FDCP                        : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 5
+#      IBUF                        : 1
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500eft256-4 
+
+ Number of Slices:                        2  out of   4656     0%  
+ Number of Slice Flip Flops:              4  out of   9312     0%  
+ Number of 4 input LUTs:                  4  out of   9312     0%  
+ Number of IOs:                           6
+ Number of bonded IOBs:                   6  out of    190     3%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 4     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+---------------------------------------+-------+
+Control Signal                     | Buffer(FF name)                       | Load  |
+-----------------------------------+---------------------------------------+-------+
+N0(XST_GND:G)                      | NONE(NRegister/inst[0].D_flipflop_i/Q)| 4     |
+reset                              | IBUF                                  | 4     |
+-----------------------------------+---------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 2.656ns (Maximum Frequency: 376.506MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 4.496ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.656ns (frequency: 376.506MHz)
+  Total number of paths / destination ports: 10 / 4
+-------------------------------------------------------------------------
+Delay:               2.656ns (Levels of Logic = 1)
+  Source:            NRegister/inst[0].D_flipflop_i/Q (FF)
+  Destination:       NRegister/inst[0].D_flipflop_i/Q (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: NRegister/inst[0].D_flipflop_i/Q to NRegister/inst[0].D_flipflop_i/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCP:C->Q             5   0.591   0.633  NRegister/inst[0].D_flipflop_i/Q (NRegister/inst[0].D_flipflop_i/Q)
+     INV:I->O              1   0.704   0.420  NextState/Output_0_not00001_INV_0 (NextToReg<0>)
+     FDCP:D                    0.308          NRegister/inst[0].D_flipflop_i/Q
+    ----------------------------------------
+    Total                      2.656ns (1.603ns logic, 1.053ns route)
+                                       (60.4% logic, 39.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              4.496ns (Levels of Logic = 1)
+  Source:            NRegister/inst[0].D_flipflop_i/Q (FF)
+  Destination:       Q_outputs<0> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: NRegister/inst[0].D_flipflop_i/Q to Q_outputs<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCP:C->Q             5   0.591   0.633  NRegister/inst[0].D_flipflop_i/Q (NRegister/inst[0].D_flipflop_i/Q)
+     OBUF:I->O                 3.272          Q_outputs_0_OBUF (Q_outputs<0>)
+    ----------------------------------------
+    Total                      4.496ns (3.863ns logic, 0.633ns route)
+                                       (85.9% logic, 14.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.75 secs
+ 
+--> 
+
+Total memory usage is 290212 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,2 @@
+vhdl work "next_state_logic.vhd"
+vhdl work "nex_state_tb.vhd"

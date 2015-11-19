@@ -1,0 +1,4 @@
+vhdl work "C:\Users\edsv3\Desktop\DSD\four_bit_sincronous_counter\D_flipflop.vhd"
+vhdl work "C:\Users\edsv3\Desktop\DSD\four_bit_sincronous_counter\n_bit_register.vhd"
+vhdl work "C:\Users\edsv3\Desktop\DSD\four_bit_sincronous_counter\next_state_logic.vhd"
+vhdl work "C:\Users\edsv3\Desktop\DSD\four_bit_sincronous_counter\four_bit_syncronous_counter.vhd"

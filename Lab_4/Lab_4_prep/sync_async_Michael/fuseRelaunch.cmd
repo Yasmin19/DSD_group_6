@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/modulo_m_counter_with_synchronous_reset_test_bench_isim_beh.exe" -prj "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/modulo_m_counter_with_synchronous_reset_test_bench_beh.prj" "work.modulo_m_counter_with_synchronous_reset_test_bench" 

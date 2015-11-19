@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.xst" -ofn "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.syr" 

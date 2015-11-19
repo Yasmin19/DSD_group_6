@@ -1,0 +1,28 @@
+Command line:
+   four_bit_syncronous_counter_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  6059
+
+Sun Nov 15 20:38:34 2015
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 1320.33 Meg
+
+ Total Signals          : 41
+ Total Nets             : 19
+ Total Signal Drivers   : 11
+ Total Blocks           : 13
+ Total Primitive Blocks : 6
+ Total Processes        : 7
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 385
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 376.562 Meg
+
+Sun Nov 15 20:48:33 2015
+

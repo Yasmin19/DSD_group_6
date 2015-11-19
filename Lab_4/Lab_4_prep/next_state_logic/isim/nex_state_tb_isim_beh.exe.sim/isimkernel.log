@@ -1,0 +1,28 @@
+Command line:
+   nex_state_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  5630
+
+Sun Nov 15 20:18:25 2015
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 1319.84 Meg
+
+ Total Signals          : 5
+ Total Nets             : 12
+ Total Signal Drivers   : 2
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 372
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 847.958 Meg
+
+Sun Nov 15 20:19:46 2015
+

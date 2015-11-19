@@ -1,0 +1,8 @@
+EN d_flipflop NULL C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/D_flipflop.vhd sub00/vhpl00 1447619536
+AR four_bit_syncronous_counter behavioral C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/four_bit_syncronous_counter.vhd sub00/vhpl07 1447619543
+EN n_bit_register NULL C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/n_bit_register.vhd sub00/vhpl04 1447619540
+AR d_flipflop behavioral C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/D_flipflop.vhd sub00/vhpl01 1447619537
+AR next_state_logic behavioral C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/next_state_logic.vhd sub00/vhpl03 1447619539
+AR n_bit_register behavioral C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/n_bit_register.vhd sub00/vhpl05 1447619541
+EN four_bit_syncronous_counter NULL C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/four_bit_syncronous_counter.vhd sub00/vhpl06 1447619542
+EN next_state_logic NULL C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/next_state_logic.vhd sub00/vhpl02 1447619538

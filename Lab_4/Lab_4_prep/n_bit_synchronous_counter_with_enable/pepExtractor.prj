@@ -1,0 +1,7 @@
+work	"D_flipflop.vhd"
+work	"N_bit_sync_counter_with_enable.vhd"
+work	"and_gate.vhd"
+work	"half_adder.vhd"
+work	"n_bit_incrementer.vhd"
+work	"n_bit_register.vhd"
+work	"xor_gate.vhd"

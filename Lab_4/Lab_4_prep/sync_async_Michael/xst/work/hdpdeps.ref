@@ -1,0 +1,105 @@
+V3 54
+FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/and_gate.vhd 2015/11/17.16:46:33 P.20131013
+EN work/and_gate 1447879164 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/and_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/and_gate/and_gate_behavioral 1447879165 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/and_gate.vhd \
+      EN work/and_gate 1447879164
+FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/D_flipflop.vhd 2015/11/17.16:46:45 P.20131013
+EN work/D_flipflop 1447879166 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/D_flipflop.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/D_flipflop/Behavioral 1447879167 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/D_flipflop.vhd \
+      EN work/D_flipflop 1447879166
+FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/eight_bit_comparator.vhd 2015/11/17.16:45:50 P.20131013
+EN work/eight_bit_comparator 1447879178 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/eight_bit_comparator.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/eight_bit_comparator/Behavioral 1447879179 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/eight_bit_comparator.vhd \
+      EN work/eight_bit_comparator 1447879178
+FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/half_adder.vhd 2015/11/17.16:46:16 P.20131013
+EN work/half_adder 1447879170 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/half_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/half_adder/half_adder_behavioral 1447879171 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/half_adder.vhd \
+      EN work/half_adder 1447879170 CP xor_gate CP and_gate
+FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/modulo_m_counter_with_asynchronous_reset.vhd 2015/11/17.19:21:23 P.20131013
+EN work/modulo_m_counter_with_asynchronous_reset 1447879111 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/modulo_m_counter_with_asynchronous_reset.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/modulo_m_counter_with_asynchronous_reset/Behavioral 1447879112 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/modulo_m_counter_with_asynchronous_reset.vhd \
+      EN work/modulo_m_counter_with_asynchronous_reset 1447879111 \
+      CP eight_bit_comparator CP or_gate CP n_bit_synchronous_counter_with_enable
+FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/modulo_m_counter_with_synchronous_reset.vhd 2015/11/18.15:52:08 P.20131013
+EN work/modulo_m_counter_with_synchronous_reset 1447879182 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/modulo_m_counter_with_synchronous_reset.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/modulo_m_counter_with_synchronous_reset/Behavioral 1447879183 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/modulo_m_counter_with_synchronous_reset.vhd \
+      EN work/modulo_m_counter_with_synchronous_reset 1447879182 \
+      CP eight_bit_comparator CP n_bit_synchronous_counter_with_parallel_load
+FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_incrementer.vhd 2015/11/17.16:53:59 P.20131013
+EN work/n_bit_incrementer 1447879172 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_incrementer.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/n_bit_incrementer/Behavioral 1447879173 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_incrementer.vhd \
+      EN work/n_bit_incrementer 1447879172 CP half_adder
+FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_register.vhd 2015/11/17.17:09:22 P.20131013
+EN work/n_bit_register 1447879176 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_register.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/n_bit_register/Behavioral 1447879177 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_register.vhd \
+      EN work/n_bit_register 1447879176 CP D_flipflop
+FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_synchronous_counter_with_enable.vhd 2015/11/18.15:02:29 P.20131013
+EN work/n_bit_synchronous_counter_with_enable 1447879109 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_synchronous_counter_with_enable.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/n_bit_synchronous_counter_with_enable/Behavioral 1447879110 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_synchronous_counter_with_enable.vhd \
+      EN work/n_bit_synchronous_counter_with_enable 1447879109 \
+      CP n_bit_incrementer CP n_bit_register
+FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_synchronous_counter_with_parallel_load.vhd 2015/11/18.16:22:59 P.20131013
+EN work/n_bit_synchronous_counter_with_parallel_load 1447879180 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_synchronous_counter_with_parallel_load.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/n_bit_synchronous_counter_with_parallel_load/Behavioral 1447879181 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_synchronous_counter_with_parallel_load.vhd \
+      EN work/n_bit_synchronous_counter_with_parallel_load 1447879180 \
+      CP n_bit_incrementer CP n_bit_two_input_mux CP n_bit_register
+FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_two_input_mux.vhd 2015/11/18.15:08:40 P.20131013
+EN work/n_bit_two_input_mux 1447879174 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_two_input_mux.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/n_bit_two_input_mux/Behavioral 1447879175 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/n_bit_two_input_mux.vhd \
+      EN work/n_bit_two_input_mux 1447879174 CP two_input_multiplexer
+FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/or_gate.vhd 2015/11/17.16:45:57 P.20131013
+EN work/or_gate 1447879107 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/or_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/or_gate/or_gate_behaviour 1447879108 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/or_gate.vhd \
+      EN work/or_gate 1447879107
+FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/two_input_multiplexer.vhd 2015/11/18.15:08:16 P.20131013
+EN work/two_input_multiplexer 1447879168 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/two_input_multiplexer.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/two_input_multiplexer/Behavioral 1447879169 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/two_input_multiplexer.vhd \
+      EN work/two_input_multiplexer 1447879168
+FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/xor_gate.vhd 2015/11/17.16:46:27 P.20131013
+EN work/xor_gate 1447879162 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/xor_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/xor_gate/xor_gate_behaviour 1447879163 \
+      FL C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/xor_gate.vhd \
+      EN work/xor_gate 1447879162

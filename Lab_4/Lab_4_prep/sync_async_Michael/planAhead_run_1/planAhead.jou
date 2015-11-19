@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Wed Nov 18 16:38:46 2015
+# Process ID: 7372
+# Log file: C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

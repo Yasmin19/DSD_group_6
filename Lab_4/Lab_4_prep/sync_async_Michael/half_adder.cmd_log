@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/half_adder.xst" -ofn "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/half_adder.syr" 
+xst -intstyle ise -ifn "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/half_adder.xst" -ofn "C:/Users/MicSeltene/Documents/Projects/Digital_Circuit_Design/Lab_4/half_adder.syr" 

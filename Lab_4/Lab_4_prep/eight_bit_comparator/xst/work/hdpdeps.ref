@@ -1,0 +1,11 @@
+V3 5
+FL C:/Users/edsv3/Desktop/DSD/eight_bit_comparator/eight_bit_register.vhd 2015/11/17.15:45:47 P.20131013
+AR work/eight_bit_registr/Behavioral 1447774945 \
+      FL C:/Users/edsv3/Desktop/DSD/eight_bit_comparator/eight_bit_register.vhd \
+      EN work/eight_bit_registr 1447774944
+EN work/eight_bit_comparator 1447775151 \
+      FL C:/Users/edsv3/Desktop/DSD/eight_bit_comparator/eight_bit_register.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/eight_bit_comparator/Behavioral 1447775152 \
+      FL C:/Users/edsv3/Desktop/DSD/eight_bit_comparator/eight_bit_register.vhd \
+      EN work/eight_bit_comparator 1447775151

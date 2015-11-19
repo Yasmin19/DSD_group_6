@@ -1,0 +1,12 @@
+EN washer_controller NULL C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.vhd sub00/vhpl10 1447930732
+EN d_flipflop NULL C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/D_flipflop.vhd sub00/vhpl02 1447930722
+EN washer_output_logic NULL C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_output_logic.vhd sub00/vhpl08 1447930730
+AR washer_output_logic behavioral C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_output_logic.vhd sub00/vhpl09 1447930731
+AR washer_controller behavioral C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.vhd sub00/vhpl11 1447930733
+EN n_bit_register NULL C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/n_bit_register.vhd sub00/vhpl06 1447930728
+AR two_input_multiplexer behavioral C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/two_input_multiplexer.vhd sub00/vhpl01 1447930985
+AR d_flipflop behavioral C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/D_flipflop.vhd sub00/vhpl03 1447930723
+AR washer_next_state_logic behavioral C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_next_state_logic.vhd sub00/vhpl05 1447930727
+AR n_bit_register behavioral C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/n_bit_register.vhd sub00/vhpl07 1447930729
+EN two_input_multiplexer NULL C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/two_input_multiplexer.vhd sub00/vhpl00 1447930984
+EN washer_next_state_logic NULL C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_next_state_logic.vhd sub00/vhpl04 1447930726

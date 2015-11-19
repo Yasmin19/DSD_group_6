@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/N_bit_synchronous_counter_enable_tb_isim_beh.exe" -prj "C:/Users/edsv3/Desktop/DSD/n_bit_synchronous_counter_with_enable/N_bit_synchronous_counter_enable_tb_beh.prj" "work.N_bit_synchronous_counter_enable_tb" 

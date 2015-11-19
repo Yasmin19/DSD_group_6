@@ -1,0 +1,8 @@
+vhdl work "xor_gate.vhd"
+vhdl work "and_gate.vhd"
+vhdl work "half_adder.vhd"
+vhdl work "D_flipflop.vhd"
+vhdl work "n_bit_register.vhd"
+vhdl work "n_bit_incrementer.vhd"
+vhdl work "N_bit_sync_counter_with_enable.vhd"
+vhdl work "N_bit_synchronous_counter_enable_tb.vhd"

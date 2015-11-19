@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/edsv3/Desktop/DSD/eight_bit_comparator/eight_bit_comparator.xst" -ofn "C:/Users/edsv3/Desktop/DSD/eight_bit_comparator/eight_bit_comparator.syr" 

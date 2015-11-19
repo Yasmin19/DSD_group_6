@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Nov 18 20:39:54 2015
+
+drc -z modulo_m_counter_with_synchronous_reset.ncd modulo_m_counter_with_synchronous_reset.pcf
+
+DRC detected 0 errors and 0 warnings.

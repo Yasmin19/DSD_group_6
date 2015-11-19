@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/edsv3/Desktop/DSD/n-bit_ripple_counter/n_bit_ripple_counter_tb_isim_beh.exe" -prj "C:/Users/edsv3/Desktop/DSD/n-bit_ripple_counter/n_bit_ripple_counter_tb_beh.prj" "work.n_bit_ripple_counter_tb" 

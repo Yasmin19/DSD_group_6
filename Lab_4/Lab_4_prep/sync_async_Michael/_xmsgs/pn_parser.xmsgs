@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/sync_async_Michael/D_flipflop.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/sync_async_Michael/and_gate.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/sync_async_Michael/eight_bit_comparator.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/sync_async_Michael/half_adder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/sync_async_Michael/modulo_m_counter_with_asynchronous_reset.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/sync_async_Michael/modulo_m_counter_with_synchronous_reset.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/sync_async_Michael/n_bit_incrementer.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/sync_async_Michael/n_bit_register.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/sync_async_Michael/n_bit_synchronous_counter_with_enable.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/sync_async_Michael/n_bit_synchronous_counter_with_parallel_load.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/sync_async_Michael/n_bit_two_input_mux.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/sync_async_Michael/or_gate.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/sync_async_Michael/two_input_multiplexer.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/sync_async_Michael/xor_gate.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

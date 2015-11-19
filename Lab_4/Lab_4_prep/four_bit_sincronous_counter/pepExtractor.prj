@@ -1,0 +1,4 @@
+work	"D_flipflop.vhd"
+work	"four_bit_syncronous_counter.vhd"
+work	"n_bit_register.vhd"
+work	"next_state_logic.vhd"

@@ -1,0 +1,82 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from H:/0/xi/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [H:/0/xi/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [H:/0/xi/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/pa.fromHdl.tcl
+# create_project -name clothes_washer_control_state_mashine -dir "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/planAhead_run_1" -part xc3s500eft256-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "washer_controller.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {or_gate.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {not_gate.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {D_flipflop.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {and_gate.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {washer_output_logic.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {washer_next_state_logic.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {two_input_multiplexer.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {n_bit_register.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {washer_controller.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top washer_controller $srcset
+# add_files [list {washer_controller.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s500eft256-4
+Using Verific elaboration
+Parsing VHDL file "H:/0/xi/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "H:/0/xi/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/or_gate.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/not_gate.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/D_flipflop.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/and_gate.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_output_logic.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_next_state_logic.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/two_input_multiplexer.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/n_bit_register.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.vhd" into library work
+INFO: [Designutils 20-910] Reading macro library H:/0/xi/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [H:/0/xi/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [H:/0/xi/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ft256/Package.xml
+Loading io standards from H:/0/xi/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ft256/SSORules.xml
+Loading list of drcs for the architecture : H:/0/xi/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.ucf]
+Finished Parsing UCF File [C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 2288747b
+open_rtl_design: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 445.023 ; gain = 67.438
+update_compile_order -fileset sim_1
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Nov 19 10:06:10 2015...
+INFO: [Common 17-83] Releasing license: PlanAhead

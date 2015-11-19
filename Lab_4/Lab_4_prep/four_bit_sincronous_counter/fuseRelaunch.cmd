@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/four_bit_syncronous_counter_tb_isim_beh.exe" -prj "C:/Users/edsv3/Desktop/DSD/four_bit_sincronous_counter/four_bit_syncronous_counter_tb_beh.prj" "work.four_bit_syncronous_counter_tb" 
