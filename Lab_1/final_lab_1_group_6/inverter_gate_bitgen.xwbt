@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\MicSeltene\Documents\DSD\final_lab_1_group_7_project\Group_7_Lab1_v1\inverter_gate.ncd
+OUTFILE=C:\Users\MicSeltene\Documents\DSD\final_lab_1_group_7_project\Group_7_Lab1_v1\inverter_gate.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4ft256
+WORKINGDIR=C:\Users\MicSeltene\Documents\DSD\final_lab_1_group_7_project\Group_7_Lab1_v1
+LICENSE=WebPack
+USER_INFO=211106372_0_0_676

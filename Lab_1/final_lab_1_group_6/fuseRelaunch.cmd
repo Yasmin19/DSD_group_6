@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/MicSeltene/Documents/DSD/Group_7_Lab1_v1/two_input_nor_gate_test_bench_isim_beh.exe" -prj "C:/Users/MicSeltene/Documents/DSD/Group_7_Lab1_v1/two_input_nor_gate_test_bench_beh.prj" "work.two_input_nor_gate_test_bench" 
