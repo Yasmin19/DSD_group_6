@@ -1,0 +1,7 @@
+vhdl work "or_gate.vhd"
+vhdl work "not_gate.vhd"
+vhdl work "and_gate.vhd"
+vhdl work "two_input_multiplexer.vhd"
+vhdl work "tri_buff.vhd"
+vhdl work "D_flipflop.vhd"
+vhdl work "register_file_cell.vhd"

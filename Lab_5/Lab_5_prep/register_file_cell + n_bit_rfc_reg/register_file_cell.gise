@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="register_file_cell.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="n_bit_rfc_register.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="n_bit_rfc_register.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="n_bit_rfc_register.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="n_bit_rfc_register.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="n_bit_rfc_register.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="n_bit_rfc_register.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="n_bit_rfc_register.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="n_bit_rfc_register.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="n_bit_rfc_register_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="n_bit_rfc_register_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="n_bit_rfc_register_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="register_file_cell.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="register_file_cell.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="register_file_cell.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="register_file_cell.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="register_file_cell.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="register_file_cell.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="register_file_cell.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="register_file_cell.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="register_file_cell_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="register_file_cell_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="register_file_cell_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1448317329" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1448317329">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448318951" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6315020156336417149" xil_pn:start_ts="1448318951">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448318951" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4500400182785786308" xil_pn:start_ts="1448318951">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448318951" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1448318951">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448318951" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-8466172311302313513" xil_pn:start_ts="1448318951">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448318951" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="5702940744460053484" xil_pn:start_ts="1448318951">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448318951" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="2311677909604284558" xil_pn:start_ts="1448318951">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448319456" xil_pn:in_ck="3013753554196610693" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-6982310446684525202" xil_pn:start_ts="1448319420">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="n_bit_rfc_register.lso"/>
+      <outfile xil_pn:name="n_bit_rfc_register.ngc"/>
+      <outfile xil_pn:name="n_bit_rfc_register.ngr"/>
+      <outfile xil_pn:name="n_bit_rfc_register.prj"/>
+      <outfile xil_pn:name="n_bit_rfc_register.stx"/>
+      <outfile xil_pn:name="n_bit_rfc_register.syr"/>
+      <outfile xil_pn:name="n_bit_rfc_register.xst"/>
+      <outfile xil_pn:name="n_bit_rfc_register_xst.xrpt"/>
+      <outfile xil_pn:name="register_file_cell.ngr"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>
