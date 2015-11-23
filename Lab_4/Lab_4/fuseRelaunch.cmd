@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/four_bit_synch_up_down_counter_tb_isim_beh.exe" -prj "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/four_bit_synch_up_down_counter_tb_beh.prj" "work.four_bit_synch_up_down_counter_tb" 

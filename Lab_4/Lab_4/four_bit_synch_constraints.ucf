@@ -1,0 +1,13 @@
+Net "N_count[3]" LOC="B16"; 
+Net "N_count[2]" LOC="G12";
+Net "N_count[1]" LOC="E14"; 
+Net "N_count[0]" LOC="D16";
+Net "down_up" LOC="B16"; 
+
+Net "CLK" LOC = "A10";
+Net "reset" LOC = "C13";
+
+Net "Q_outputs[3]" LOC="A13"; 
+Net "Q_outputs[2]" LOC="B13"; 
+Net "Q_outputs[1]" LOC="A14"; 
+Net "Q_outputs[0]" LOC="B14";

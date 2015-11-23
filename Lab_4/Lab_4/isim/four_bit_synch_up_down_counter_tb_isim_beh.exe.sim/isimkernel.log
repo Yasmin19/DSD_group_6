@@ -1,0 +1,10 @@
+Command line:
+   four_bit_synch_up_down_counter_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55109
+
+Mon Nov 23 06:17:11 2015
+
+
+ Elaboration Time: 0.046875 sec

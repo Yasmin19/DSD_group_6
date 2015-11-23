@@ -1,0 +1,46 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/four_bit_synch_up_down_counter_tb_isim_beh.exe -prj C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/four_bit_synch_up_down_counter_tb_beh.prj work.four_bit_synch_up_down_counter_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/xor_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/and_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/or_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/half_adder.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/full_adder.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/n_bit_adder.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/four_bit_LAC.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/nbit_xor_control.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/four_bit_lac_adder.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/D_flipflop.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/n_bit_register.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/four_bit_adder_subtractor.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/four_bit_synchronous_up_down_counter.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/four_bit_synch_up_down_counter_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity xor_gate [xor_gate_default]
+Compiling architecture behavioral of entity nbit_xor_control [\nbit_xor_control(4)\]
+Compiling architecture behavioral of entity four_bit_LAC [four_bit_lac_default]
+Compiling architecture and_gate_behavioral of entity and_gate [and_gate_default]
+Compiling architecture half_adder_behavioral of entity half_adder [half_adder_default]
+Compiling architecture or_gate_behaviour of entity or_gate [or_gate_default]
+Compiling architecture full_adder_behavioral of entity full_adder [full_adder_default]
+Compiling architecture n_bit_adder_behavioral of entity n_bit_adder [\n_bit_adder(4)\]
+Compiling architecture four_bit_lac_adder_behavioral of entity four_bit_lac_adder [\four_bit_lac_adder(4)\]
+Compiling architecture four_bit_adder_subtractor_behavioral of entity four_bit_adder_subtractor [\four_bit_adder_subtractor(4)\]
+Compiling architecture behavioral of entity D_flipflop [d_flipflop_default]
+Compiling architecture behavioral of entity n_bit_register [\n_bit_register(4)\]
+Compiling architecture behavioral of entity four_bit_synchronous_up_down_counter [\four_bit_synchronous_up_down_co...]
+Compiling architecture behavior of entity four_bit_synch_up_down_counter_t...
+Time Resolution for simulation is 1ps.
+Waiting for 7 sub-compilation(s) to finish...
+Compiled 32 VHDL Units
+Built simulation executable C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/four_bit_synch_up_down_counter_tb_isim_beh.exe
+Fuse Memory Usage: 36672 KB
+Fuse CPU Usage: 843 ms
