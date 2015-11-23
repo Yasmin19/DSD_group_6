@@ -1,0 +1,29 @@
+Command line:
+   three_to_eight_decoder_tb_vhd_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55003
+
+Mon Nov 23 22:35:31 2015
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 840.212 Meg
+
+ Total Signals          : 8
+ Total Nets             : 24
+ Total Signal Drivers   : 6
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 5
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 525
+Total Line Count : 26
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 682.918 Meg
+
+Mon Nov 23 22:37:05 2015
+

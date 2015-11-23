@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="LAB5.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ROM_Seven_Segement_display_Decoder.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ROM_Seven_Segement_display_Decoder.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ROM_Seven_Segement_display_Decoder.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ROM_Seven_Segement_display_Decoder.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ROM_Seven_Segement_display_Decoder.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ROM_Seven_Segement_display_Decoder.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ROM_Seven_Segement_display_Decoder.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ROM_Seven_Segement_display_Decoder.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ROM_Seven_Segement_display_Decoder_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ROM_Seven_Segement_display_Decoder_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ROM_Seven_Segement_display_Decoder_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ROM_Seven_Segement_display_Decoder_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ROM_Seven_Segement_display_Decoder_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Seven_Segment_display_TestBench_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Seven_Segment_display_TestBench_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Seven_Segment_display_TestBench_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Seven_Segment_display_TestBench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="three_to_eight_decoder_tb_vhd_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="three_to_eight_decoder_tb_vhd_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1448317074" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1448317074">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448319007" xil_pn:in_ck="6308887663891847222" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1448319007">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ROM_Seven_Segement_display_Decoder.vhd"/>
+      <outfile xil_pn:name="Seven_Segment_display_TestBench.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1448318243" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1682557983208941859" xil_pn:start_ts="1448318243">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448318243" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4634831639468591647" xil_pn:start_ts="1448318243">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448317074" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2085582648074383697" xil_pn:start_ts="1448317074">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448319011" xil_pn:in_ck="6308887663891847222" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1448319011">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ROM_Seven_Segement_display_Decoder.vhd"/>
+      <outfile xil_pn:name="Seven_Segment_display_TestBench.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1448319015" xil_pn:in_ck="6308887663891847222" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7041358290889320348" xil_pn:start_ts="1448319011">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Seven_Segment_display_TestBench_beh.prj"/>
+      <outfile xil_pn:name="Seven_Segment_display_TestBench_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1448319015" xil_pn:in_ck="7711479327763722744" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7125684964538087767" xil_pn:start_ts="1448319015">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Seven_Segment_display_TestBench_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1448316914" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1448316914">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448316914" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6649225291042588436" xil_pn:start_ts="1448316914">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448316914" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-2085582648074383697" xil_pn:start_ts="1448316914">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448316914" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1448316914">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448316914" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1734794306109670866" xil_pn:start_ts="1448316914">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448316914" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297157603645" xil_pn:start_ts="1448316914">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448316914" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="8372318511598665145" xil_pn:start_ts="1448316914">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448318999" xil_pn:in_ck="-5196277024660679425" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="8941850083942689472" xil_pn:start_ts="1448318991">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="ROM_Seven_Segement_display_Decoder.lso"/>
+      <outfile xil_pn:name="ROM_Seven_Segement_display_Decoder.ngc"/>
+      <outfile xil_pn:name="ROM_Seven_Segement_display_Decoder.ngr"/>
+      <outfile xil_pn:name="ROM_Seven_Segement_display_Decoder.prj"/>
+      <outfile xil_pn:name="ROM_Seven_Segement_display_Decoder.stx"/>
+      <outfile xil_pn:name="ROM_Seven_Segement_display_Decoder.syr"/>
+      <outfile xil_pn:name="ROM_Seven_Segement_display_Decoder.xst"/>
+      <outfile xil_pn:name="ROM_Seven_Segement_display_Decoder_stx_beh.prj"/>
+      <outfile xil_pn:name="ROM_Seven_Segement_display_Decoder_vhdl.prj"/>
+      <outfile xil_pn:name="ROM_Seven_Segement_display_Decoder_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

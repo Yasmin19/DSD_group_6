@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Hemat/Desktop/DSD LABS/LAB5/ROM_Seven_Segement_display_Decoder.xst" -ofn "C:/Users/Hemat/Desktop/DSD LABS/LAB5/ROM_Seven_Segement_display_Decoder.syr" 
+xst -intstyle ise -ifn "C:/Users/Hemat/Desktop/DSD LABS/LAB5/ROM_Seven_Segement_display_Decoder.xst" -ofn "C:/Users/Hemat/Desktop/DSD LABS/LAB5/ROM_Seven_Segement_display_Decoder.syr" 

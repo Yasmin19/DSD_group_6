@@ -1,0 +1,2 @@
+vhdl isim_temp "ROM_Seven_Segement_display_Decoder.vhd"
+vhdl isim_temp "Seven_Segment_display_TestBench.vhd"
