@@ -1,12 +1,12 @@
 set -tmpdir "xst/projnav.tmp"
 set -xsthdpdir "xst"
 run
--ifn sixteen_x_7_decoder_rom.prj
+-ifn tdm_display_circuit.prj
 -ifmt mixed
--ofn sixteen_x_7_decoder_rom
+-ofn tdm_display_circuit
 -ofmt NGC
 -p xc3s500e-4-ft256
--top sixteen_x_7_decoder_rom
+-top tdm_display_circuit
 -opt_mode Speed
 -opt_level 1
 -iuc NO

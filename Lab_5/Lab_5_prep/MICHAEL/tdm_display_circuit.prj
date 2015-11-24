@@ -1,0 +1,5 @@
+vhdl work "tri_buff.vhd"
+vhdl work "T_flipflop.vhd"
+vhdl work "sixteen_x_7_decoder_rom.vhd"
+vhdl work "nbit_tristate_buffer.vhd"
+vhdl work "tdm_display_circuit.vhd"

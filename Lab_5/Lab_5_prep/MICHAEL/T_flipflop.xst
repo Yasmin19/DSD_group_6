@@ -1,12 +1,12 @@
 set -tmpdir "xst/projnav.tmp"
 set -xsthdpdir "xst"
 run
--ifn sixteen_x_7_decoder_rom.prj
+-ifn T_flipflop.prj
 -ifmt mixed
--ofn sixteen_x_7_decoder_rom
+-ofn T_flipflop
 -ofmt NGC
 -p xc3s500e-4-ft256
--top sixteen_x_7_decoder_rom
+-top T_flipflop
 -opt_mode Speed
 -opt_level 1
 -iuc NO

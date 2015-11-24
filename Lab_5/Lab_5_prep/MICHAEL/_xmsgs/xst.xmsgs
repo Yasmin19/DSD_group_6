@@ -5,5 +5,8 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="error" file="HDLParsers" num="820" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/tdm_display_circuit.vhd</arg>&quot; Line <arg fmt="%d" index="2">68</arg>. Type of actual ports is not compatible with type of ports of <arg fmt="%s" index="3">nbit_tristate_buffer</arg>.
+</msg>
+
 </messages>
 

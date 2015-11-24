@@ -3,16 +3,16 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.09 secs
  
---> Reading design: sixteen_x_7_decoder_rom.prj
+--> Reading design: nbit_tristate_buffer.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -35,17 +35,17 @@ TABLE OF CONTENTS
 *                      Synthesis Options Summary                        *
 =========================================================================
 ---- Source Parameters
-Input File Name                    : "sixteen_x_7_decoder_rom.prj"
+Input File Name                    : "nbit_tristate_buffer.prj"
 Input Format                       : mixed
 Ignore Synthesis Constraint File   : NO
 
 ---- Target Parameters
-Output File Name                   : "sixteen_x_7_decoder_rom"
+Output File Name                   : "nbit_tristate_buffer"
 Output Format                      : NGC
 Target Device                      : xc3s500e-4-ft256
 
 ---- Source Options
-Top Module Name                    : sixteen_x_7_decoder_rom
+Top Module Name                    : nbit_tristate_buffer
 Automatic FSM Extraction           : YES
 FSM Encoding Algorithm             : Auto
 Safe Implementation                : No
@@ -104,20 +104,30 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/sixteen_x_7_decoder_rom.vhd" in Library work.
-Architecture behavioral of Entity sixteen_x_7_decoder_rom is up to date.
+Compiling vhdl file "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/tri_buff.vhd" in Library work.
+Architecture behavioral of Entity tri_buff is up to date.
+Compiling vhdl file "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/nbit_tristate_buffer.vhd" in Library work.
+Entity <nbit_tristate_buffer> compiled.
+Entity <nbit_tristate_buffer> (Architecture <behavioral>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <sixteen_x_7_decoder_rom> in library <work> (architecture <behavioral>).
+Analyzing hierarchy for entity <nbit_tristate_buffer> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <tri_buff> in library <work> (architecture <behavioral>).
 
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <sixteen_x_7_decoder_rom> in library <work> (Architecture <behavioral>).
-Entity <sixteen_x_7_decoder_rom> analyzed. Unit <sixteen_x_7_decoder_rom> generated.
+Analyzing generic Entity <nbit_tristate_buffer> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <nbit_tristate_buffer> analyzed. Unit <nbit_tristate_buffer> generated.
+
+Analyzing Entity <tri_buff> in library <work> (Architecture <behavioral>).
+Entity <tri_buff> analyzed. Unit <tri_buff> generated.
 
 
 =========================================================================
@@ -126,20 +136,25 @@ Entity <sixteen_x_7_decoder_rom> analyzed. Unit <sixteen_x_7_decoder_rom> genera
 
 Performing bidirectional port resolution...
 
-Synthesizing Unit <sixteen_x_7_decoder_rom>.
-    Related source file is "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/sixteen_x_7_decoder_rom.vhd".
-    Found 16x7-bit ROM for signal <delay>.
+Synthesizing Unit <tri_buff>.
+    Related source file is "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/tri_buff.vhd".
+    Found 1-bit tristate buffer for signal <Output>.
     Summary:
-	inferred   1 ROM(s).
-Unit <sixteen_x_7_decoder_rom> synthesized.
+	inferred   1 Tristate(s).
+Unit <tri_buff> synthesized.
+
+
+Synthesizing Unit <nbit_tristate_buffer>.
+    Related source file is "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/nbit_tristate_buffer.vhd".
+Unit <nbit_tristate_buffer> synthesized.
 
 
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
-# ROMs                                                 : 1
- 16x7-bit ROM                                          : 1
+# Tristates                                            : 4
+ 1-bit tristate buffer                                 : 4
 
 =========================================================================
 
@@ -151,21 +166,18 @@ Macro Statistics
 =========================================================================
 Advanced HDL Synthesis Report
 
-Macro Statistics
-# ROMs                                                 : 1
- 16x7-bit ROM                                          : 1
-
+Found no macro
 =========================================================================
 
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
 
-Optimizing unit <sixteen_x_7_decoder_rom> ...
+Optimizing unit <nbit_tristate_buffer> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block sixteen_x_7_decoder_rom, actual ratio is 0.
+Found area constraint ratio of 100 (+ 5) on block nbit_tristate_buffer, actual ratio is 0.
 
 Final Macro Processing ...
 
@@ -190,21 +202,21 @@ Partition Implementation Status
 *                            Final Report                               *
 =========================================================================
 Final Results
-RTL Top Level Output File Name     : sixteen_x_7_decoder_rom.ngr
-Top Level Output File Name         : sixteen_x_7_decoder_rom
+RTL Top Level Output File Name     : nbit_tristate_buffer.ngr
+Top Level Output File Name         : nbit_tristate_buffer
 Output Format                      : NGC
 Optimization Goal                  : Speed
 Keep Hierarchy                     : No
 
 Design Statistics
-# IOs                              : 11
+# IOs                              : 9
 
 Cell Usage :
-# BELS                             : 7
-#      LUT4                        : 7
-# IO Buffers                       : 11
-#      IBUF                        : 4
-#      OBUF                        : 7
+# BELS                             : 1
+#      INV                         : 1
+# IO Buffers                       : 9
+#      IBUF                        : 5
+#      OBUFT                       : 4
 =========================================================================
 
 Device utilization summary:
@@ -212,10 +224,10 @@ Device utilization summary:
 
 Selected Device : 3s500eft256-4 
 
- Number of Slices:                        4  out of   4656     0%  
- Number of 4 input LUTs:                  7  out of   9312     0%  
- Number of IOs:                          11
- Number of bonded IOBs:                  11  out of    190     5%  
+ Number of Slices:                        1  out of   4656     0%  
+ Number of 4 input LUTs:                  1  out of   9312     0%  
+ Number of IOs:                           9
+ Number of bonded IOBs:                   9  out of    190     4%  
 
 ---------------------------
 Partition Resource Summary:
@@ -248,7 +260,7 @@ Speed Grade: -4
    Minimum period: No path found
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: No path found
-   Maximum combinational path delay: 6.497ns
+   Maximum combinational path delay: 6.201ns
 
 Timing Detail:
 --------------
@@ -256,32 +268,32 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 28 / 7
+  Total number of paths / destination ports: 8 / 4
 -------------------------------------------------------------------------
-Delay:               6.497ns (Levels of Logic = 3)
-  Source:            address<0> (PAD)
-  Destination:       data_outputs<6> (PAD)
+Delay:               6.201ns (Levels of Logic = 3)
+  Source:            enable (PAD)
+  Destination:       Data_out<3> (PAD)
 
-  Data Path: address<0> to data_outputs<6>
+  Data Path: enable to Data_out<3>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             7   1.218   0.883  address_0_IBUF (address_0_IBUF)
-     LUT4:I0->O            1   0.704   0.420  Mrom_delay21 (data_outputs_2_OBUF)
-     OBUF:I->O                 3.272          data_outputs_2_OBUF (data_outputs<2>)
+     IBUF:I->O             1   1.218   0.420  enable_IBUF (enable_IBUF)
+     INV:I->O              4   0.704   0.587  inst[0].n_tri_state/enable_inv1_INV_0 (inst[0].n_tri_state/enable_inv)
+     OBUFT:T->O                3.272          Data_out_3_OBUFT (Data_out<3>)
     ----------------------------------------
-    Total                      6.497ns (5.194ns logic, 1.303ns route)
-                                       (79.9% logic, 20.1% route)
+    Total                      6.201ns (5.194ns logic, 1.007ns route)
+                                       (83.8% logic, 16.2% route)
 
 =========================================================================
 
 
 Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 4.77 secs
+Total CPU time to Xst completion: 4.90 secs
  
 --> 
 
-Total memory usage is 288460 kilobytes
+Total memory usage is 304684 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
