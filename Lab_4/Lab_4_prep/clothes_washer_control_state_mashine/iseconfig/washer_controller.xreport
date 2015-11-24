@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-11-19T10:45:35</DateModified>
+  <DateModified>2015-11-24T18:25:44</DateModified>
   <ModuleName>washer_controller</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/iseconfig/washer_controller.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/iseconfig/washer_controller.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine\</ImplementationReportsDirectory>
   <DateInitialized>2015-11-18T22:50:49</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Nov 24 17:20:27 2015
+# Process ID: 6816
+# Log file: C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  CLK]]
+set_property package_pin "" [get_ports [list  CLK]]
+startgroup
+set_property package_pin J11 [get_ports door_open]
+endgroup
+set_property package_pin "" [get_ports [list  door_lock]]
+set_property package_pin "" [get_ports [list  drain]]
+startgroup
+set_property package_pin C11 [get_ports door_lock]
+endgroup
+startgroup
+set_property package_pin J11 [get_ports door_open]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports water_pump]
+endgroup
+startgroup
+set_property package_pin B11 [get_ports soap]
+endgroup
+startgroup
+set_property package_pin A12 [get_ports rotate_drum]
+endgroup
+startgroup
+set_property package_pin A13 [get_ports drain]
+endgroup
+set_property package_pin "" [get_ports [list  reset]]
+startgroup
+set_property package_pin J12 [get_ports spin_dry]
+endgroup
+startgroup
+set_property package_pin H16 [get_ports start_wash]
+endgroup
+startgroup
+set_property package_pin C12 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin C10 [get_ports reset]
+endgroup
+startgroup
+set_property package_pin A12 [get_ports rotate_drum]
+endgroup
+save_constraints

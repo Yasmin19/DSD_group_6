@@ -1,0 +1,2 @@
+vhdl isim_temp "D_flipflop.vhd"
+vhdl isim_temp "n_bit_register.vhd"

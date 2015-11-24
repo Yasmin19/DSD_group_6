@@ -1,0 +1,13 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "door_lock" LOC = C11;
+NET "door_open" LOC = J11;
+NET "water_pump" LOC = D11;
+NET "soap" LOC = B11;
+NET "drain" LOC = A13;
+NET "spin_dry" LOC = J12;
+NET "start_wash" LOC = H16;
+NET "CLK" LOC = C12;
+NET "reset" LOC = C10;
+NET "rotate_drum" LOC = A12;

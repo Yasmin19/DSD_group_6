@@ -27,16 +27,20 @@ entity n_bit_register is
            CLK : in std_logic;
            reset : in std_logic;
            preset : in std_logic;
-           Q_outputs : out std_logic_vector(n-1 downto 0);
-           Q_bar_outputs : out std_logic_vector(n-1 downto 0));
+           Q_outputs : inout std_logic_vector(n-1 downto 0);
+           Q_bar_outputs : inout std_logic_vector(n-1 downto 0));
 end n_bit_register;
 
 -- ARCHITECTURE
 architecture Behavioral of n_bit_register is
 	-- COMPONENT D_flip_flop
 	component D_flipflop is
-		 Port ( D, reset, preset, clk : in  STD_LOGIC;
-				  Q, Q_bar : out  STD_LOGIC);
+		 Port ( D : in  STD_LOGIC;
+           reset : in  STD_LOGIC;
+           preset : in  STD_LOGIC;
+           clk : in  STD_LOGIC;
+           Q : inout  STD_LOGIC;
+           Q_bar : inout  STD_LOGIC);
 	end component;
 	
 begin

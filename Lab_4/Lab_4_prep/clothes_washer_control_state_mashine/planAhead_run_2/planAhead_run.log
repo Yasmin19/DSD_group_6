@@ -1,0 +1,112 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/pa.fromHdl.tcl
+# create_project -name clothes_washer_control_state_mashine -dir "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/planAhead_run_2" -part xc3s500eft256-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "washer_controller_ucf.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller_ucf.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {D_flipflop.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {washer_output_logic.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {washer_next_state_logic.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {two_input_multiplexer.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {n_bit_register.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {washer_controller.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top washer_controller $srcset
+# add_files [list {washer_controller_ucf.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s500eft256-4
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/D_flipflop.vhd" into library work
+Parsing VHDL file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_output_logic.vhd" into library work
+Parsing VHDL file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_next_state_logic.vhd" into library work
+Parsing VHDL file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/two_input_multiplexer.vhd" into library work
+Parsing VHDL file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/n_bit_register.vhd" into library work
+Parsing VHDL file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.vhd" into library work
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ft256/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ft256/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller_ucf.ucf]
+Finished Parsing UCF File [C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller_ucf.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: a4174752
+open_rtl_design: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 552.844 ; gain = 119.262
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  CLK]]
+set_property package_pin "" [get_ports [list  CLK]]
+startgroup
+set_property package_pin J11 [get_ports door_open]
+endgroup
+set_property package_pin "" [get_ports [list  door_lock]]
+set_property package_pin "" [get_ports [list  drain]]
+startgroup
+set_property package_pin C11 [get_ports door_lock]
+endgroup
+startgroup
+set_property package_pin J11 [get_ports door_open]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports water_pump]
+endgroup
+startgroup
+set_property package_pin B11 [get_ports soap]
+endgroup
+startgroup
+set_property package_pin A12 [get_ports rotate_drum]
+endgroup
+startgroup
+set_property package_pin A13 [get_ports drain]
+endgroup
+set_property package_pin "" [get_ports [list  reset]]
+startgroup
+set_property package_pin J12 [get_ports spin_dry]
+endgroup
+startgroup
+set_property package_pin H16 [get_ports start_wash]
+endgroup
+startgroup
+set_property package_pin C12 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin C10 [get_ports reset]
+endgroup
+startgroup
+set_property package_pin A12 [get_ports rotate_drum]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Nov 24 18:08:55 2015...
+INFO: [Common 17-83] Releasing license: PlanAhead

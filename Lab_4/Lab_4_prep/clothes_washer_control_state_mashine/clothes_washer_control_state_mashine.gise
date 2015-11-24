@@ -22,7 +22,18 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="clothes_washer_control_state_mashine.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="n_bit_register_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="two_input_multiplexer.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="two_input_multiplexer.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="two_input_multiplexer.ngc"/>
@@ -33,20 +44,224 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="two_input_multiplexer.xst"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="two_input_multiplexer_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="two_input_multiplexer_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="washer_controller.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="washer_controller.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="washer_controller.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="washer_controller.ncd" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="washer_controller.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="washer_controller.ngd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="washer_controller.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="washer_controller.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="washer_controller.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="washer_controller.pcf" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="washer_controller.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="washer_controller.ptwx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="washer_controller.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="washer_controller.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="washer_controller.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="washer_controller.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="washer_controller.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="washer_controller.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="washer_controller.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="washer_controller_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="washer_controller_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="washer_controller_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="washer_controller_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="washer_controller_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="washer_controller_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="washer_controller_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="washer_controller_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="washer_controller_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="washer_controller_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="washer_controller_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="washer_controller_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="washer_controller_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="washer_controller_summary.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="washer_controller_tb_vhd_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="washer_controller_tb_vhd_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="washer_controller_tb_vhd_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="washer_controller_tb_vhd_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="washer_controller_usage.xml"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="washer_controller_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="washer_controller_xst.xrpt"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1448388636" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1448388636">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448389166" xil_pn:in_ck="-1825017714539814451" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1448389166">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="D_flipflop.vhd"/>
+      <outfile xil_pn:name="n_bit_register.vhd"/>
+      <outfile xil_pn:name="two_input_multiplexer.vhd"/>
+      <outfile xil_pn:name="washer_controller.vhd"/>
+      <outfile xil_pn:name="washer_controller_tb.vhd"/>
+      <outfile xil_pn:name="washer_next_state_logic.vhd"/>
+      <outfile xil_pn:name="washer_output_logic.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1448389103" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="9039814656730956217" xil_pn:start_ts="1448389103">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448389103" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4709352086812677115" xil_pn:start_ts="1448389103">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448388636" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="9193996153693635149" xil_pn:start_ts="1448388636">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448389170" xil_pn:in_ck="-1825017714539814451" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1448389170">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="D_flipflop.vhd"/>
+      <outfile xil_pn:name="n_bit_register.vhd"/>
+      <outfile xil_pn:name="two_input_multiplexer.vhd"/>
+      <outfile xil_pn:name="washer_controller.vhd"/>
+      <outfile xil_pn:name="washer_controller_tb.vhd"/>
+      <outfile xil_pn:name="washer_next_state_logic.vhd"/>
+      <outfile xil_pn:name="washer_output_logic.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1448389179" xil_pn:in_ck="-1825017714539814451" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1485234732333112716" xil_pn:start_ts="1448389170">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="washer_controller_tb_vhd_beh.prj"/>
+      <outfile xil_pn:name="washer_controller_tb_vhd_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1448389550" xil_pn:in_ck="2520789610902084306" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7650611323232161505" xil_pn:start_ts="1448389550">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="washer_controller_tb_vhd_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1448385359" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1448385359">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448385359" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="159551299392751730" xil_pn:start_ts="1448385359">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448385359" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="9193996153693635149" xil_pn:start_ts="1448385359">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448385359" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1448385359">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448385359" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4925740104533814128" xil_pn:start_ts="1448385359">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448385359" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297157603645" xil_pn:start_ts="1448385359">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448385359" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="5471314703874499607" xil_pn:start_ts="1448385359">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448389158" xil_pn:in_ck="-7000259541539733253" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-8871763760488523926" xil_pn:start_ts="1448389151">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="two_input_multiplexer.ngr"/>
+      <outfile xil_pn:name="washer_controller.lso"/>
+      <outfile xil_pn:name="washer_controller.ngc"/>
+      <outfile xil_pn:name="washer_controller.ngr"/>
+      <outfile xil_pn:name="washer_controller.prj"/>
+      <outfile xil_pn:name="washer_controller.stx"/>
+      <outfile xil_pn:name="washer_controller.syr"/>
+      <outfile xil_pn:name="washer_controller.xst"/>
+      <outfile xil_pn:name="washer_controller_beh.prj"/>
+      <outfile xil_pn:name="washer_controller_tb_vhd_beh.prj"/>
+      <outfile xil_pn:name="washer_controller_tb_vhd_stx_beh.prj"/>
+      <outfile xil_pn:name="washer_controller_vhdl.prj"/>
+      <outfile xil_pn:name="washer_controller_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1448385372" xil_pn:in_ck="3813504208245265270" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8210105494149029285" xil_pn:start_ts="1448385372">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1448385378" xil_pn:in_ck="3140069974787338834" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="8892502953991992570" xil_pn:start_ts="1448385372">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="washer_controller.bld"/>
+      <outfile xil_pn:name="washer_controller.ngd"/>
+      <outfile xil_pn:name="washer_controller_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1448385385" xil_pn:in_ck="3721662439157658698" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5412401256540186144" xil_pn:start_ts="1448385378">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="washer_controller.pcf"/>
+      <outfile xil_pn:name="washer_controller_map.map"/>
+      <outfile xil_pn:name="washer_controller_map.mrp"/>
+      <outfile xil_pn:name="washer_controller_map.ncd"/>
+      <outfile xil_pn:name="washer_controller_map.ngm"/>
+      <outfile xil_pn:name="washer_controller_map.xrpt"/>
+      <outfile xil_pn:name="washer_controller_summary.xml"/>
+      <outfile xil_pn:name="washer_controller_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1448385403" xil_pn:in_ck="3546266280109763459" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1448385385">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="washer_controller.ncd"/>
+      <outfile xil_pn:name="washer_controller.pad"/>
+      <outfile xil_pn:name="washer_controller.par"/>
+      <outfile xil_pn:name="washer_controller.ptwx"/>
+      <outfile xil_pn:name="washer_controller.unroutes"/>
+      <outfile xil_pn:name="washer_controller.xpi"/>
+      <outfile xil_pn:name="washer_controller_pad.csv"/>
+      <outfile xil_pn:name="washer_controller_pad.txt"/>
+      <outfile xil_pn:name="washer_controller_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1448385403" xil_pn:in_ck="-8290080346993354938" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1448385399">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="washer_controller.twr"/>
+      <outfile xil_pn:name="washer_controller.twx"/>
+    </transform>
+  </transforms>
 
 </generated_project>

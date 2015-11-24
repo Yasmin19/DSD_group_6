@@ -1,0 +1,29 @@
+Command line:
+   washer_controller_tb_vhd_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58430
+
+Tue Nov 24 18:25:52 2015
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 840.225 Meg
+
+ Total Signals          : 64
+ Total Nets             : 23
+ Total Signal Drivers   : 19
+ Total Blocks           : 16
+ Total Primitive Blocks : 10
+ Total Processes        : 9
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 530
+Total Line Count : 147
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 682.93 Meg
+
+Tue Nov 24 18:26:53 2015
+

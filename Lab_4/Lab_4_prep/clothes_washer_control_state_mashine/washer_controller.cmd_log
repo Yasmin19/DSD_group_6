@@ -1,1 +1,9 @@
 xst -intstyle ise -ifn "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.xst" -ofn "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.xst" -ofn "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-ft256-4 washer_controller.ngc washer_controller.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o washer_controller_map.ncd washer_controller.ngd washer_controller.pcf 
+par -w -intstyle ise -ol high -t 1 washer_controller_map.ncd washer_controller.ncd washer_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml washer_controller.twx washer_controller.ncd -o washer_controller.twr washer_controller.pcf 
+xst -intstyle ise -ifn "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.xst" -ofn "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.xst" -ofn "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.xst" -ofn "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.syr" 

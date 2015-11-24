@@ -104,66 +104,63 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/D_flipflop.vhd" in Library work.
-Entity <D_flipflop> compiled.
-Entity <D_flipflop> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/two_input_multiplexer.vhd" in Library work.
+Compiling vhdl file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/D_flipflop.vhd" in Library work.
+Architecture behavioral of Entity d_flipflop is up to date.
+Compiling vhdl file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/two_input_multiplexer.vhd" in Library work.
 Architecture behavioral of Entity two_input_multiplexer is up to date.
-Compiling vhdl file "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_next_state_logic.vhd" in Library work.
-Entity <washer_next_state_logic> compiled.
-Entity <washer_next_state_logic> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/n_bit_register.vhd" in Library work.
+Compiling vhdl file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_next_state_logic.vhd" in Library work.
+Architecture behavioral of Entity washer_next_state_logic is up to date.
+Compiling vhdl file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/n_bit_register.vhd" in Library work.
 Entity <n_bit_register> compiled.
-Entity <n_bit_register> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_output_logic.vhd" in Library work.
-Entity <washer_output_logic> compiled.
-Entity <washer_output_logic> (Architecture <Behavioral>) compiled.
-Compiling vhdl file "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.vhd" in Library work.
+Entity <n_bit_register> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_output_logic.vhd" in Library work.
+Architecture behavioral of Entity washer_output_logic is up to date.
+Compiling vhdl file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.vhd" in Library work.
 Entity <washer_controller> compiled.
-Entity <washer_controller> (Architecture <Behavioral>) compiled.
+Entity <washer_controller> (Architecture <behavioral>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <washer_controller> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <washer_controller> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <two_input_multiplexer> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <washer_next_state_logic> in library <work> (architecture <Behavioral>) with generics.
+Analyzing hierarchy for entity <washer_next_state_logic> in library <work> (architecture <behavioral>) with generics.
 	n = 3
 
-Analyzing hierarchy for entity <n_bit_register> in library <work> (architecture <Behavioral>) with generics.
+Analyzing hierarchy for entity <n_bit_register> in library <work> (architecture <behavioral>) with generics.
 	n = 3
 
-Analyzing hierarchy for entity <washer_output_logic> in library <work> (architecture <Behavioral>) with generics.
+Analyzing hierarchy for entity <washer_output_logic> in library <work> (architecture <behavioral>) with generics.
 	n = 3
 
-Analyzing hierarchy for entity <D_flipflop> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <D_flipflop> in library <work> (architecture <behavioral>).
 
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <washer_controller> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <washer_controller> in library <work> (Architecture <behavioral>).
 Entity <washer_controller> analyzed. Unit <washer_controller> generated.
 
 Analyzing Entity <two_input_multiplexer> in library <work> (Architecture <behavioral>).
-INFO:Xst:1561 - "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/two_input_multiplexer.vhd" line 38: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/two_input_multiplexer.vhd" line 38: Mux is complete : default of case is discarded
 Entity <two_input_multiplexer> analyzed. Unit <two_input_multiplexer> generated.
 
-Analyzing generic Entity <washer_next_state_logic> in library <work> (Architecture <Behavioral>).
+Analyzing generic Entity <washer_next_state_logic> in library <work> (Architecture <behavioral>).
 	n = 3
-INFO:Xst:1561 - "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_next_state_logic.vhd" line 85: Mux is complete : default of case is discarded
+INFO:Xst:1561 - "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_next_state_logic.vhd" line 85: Mux is complete : default of case is discarded
 Entity <washer_next_state_logic> analyzed. Unit <washer_next_state_logic> generated.
 
-Analyzing generic Entity <n_bit_register> in library <work> (Architecture <Behavioral>).
+Analyzing generic Entity <n_bit_register> in library <work> (Architecture <behavioral>).
 	n = 3
 Entity <n_bit_register> analyzed. Unit <n_bit_register> generated.
 
-Analyzing Entity <D_flipflop> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <D_flipflop> in library <work> (Architecture <behavioral>).
 Entity <D_flipflop> analyzed. Unit <D_flipflop> generated.
 
-Analyzing generic Entity <washer_output_logic> in library <work> (Architecture <Behavioral>).
+Analyzing generic Entity <washer_output_logic> in library <work> (Architecture <behavioral>).
 	n = 3
 Entity <washer_output_logic> analyzed. Unit <washer_output_logic> generated.
 
@@ -175,12 +172,12 @@ Entity <washer_output_logic> analyzed. Unit <washer_output_logic> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <two_input_multiplexer>.
-    Related source file is "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/two_input_multiplexer.vhd".
+    Related source file is "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/two_input_multiplexer.vhd".
 Unit <two_input_multiplexer> synthesized.
 
 
 Synthesizing Unit <washer_next_state_logic>.
-    Related source file is "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_next_state_logic.vhd".
+    Related source file is "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_next_state_logic.vhd".
 WARNING:Xst:737 - Found 3-bit latch for signal <next_state>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
     Found 3-bit 8-to-1 multiplexer for signal <next_state$mux0003>.
@@ -190,7 +187,7 @@ Unit <washer_next_state_logic> synthesized.
 
 
 Synthesizing Unit <washer_output_logic>.
-    Related source file is "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_output_logic.vhd".
+    Related source file is "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_output_logic.vhd".
     Found 8x5-bit ROM for signal <state$rom0000>.
     Summary:
 	inferred   1 ROM(s).
@@ -198,7 +195,7 @@ Unit <washer_output_logic> synthesized.
 
 
 Synthesizing Unit <D_flipflop>.
-    Related source file is "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/D_flipflop.vhd".
+    Related source file is "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/D_flipflop.vhd".
 INFO:Xst:1608 - Relative priorities of control signals on register <Q_bar> differ from those commonly found in the selected device family. This will result in additional logic around the register.
     Found 1-bit register for signal <Q>.
     Found 1-bit register for signal <Q_bar>.
@@ -208,13 +205,12 @@ Unit <D_flipflop> synthesized.
 
 
 Synthesizing Unit <n_bit_register>.
-    Related source file is "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/n_bit_register.vhd".
+    Related source file is "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/n_bit_register.vhd".
 Unit <n_bit_register> synthesized.
 
 
 Synthesizing Unit <washer_controller>.
-    Related source file is "C:/Users/MicSeltene/Desktop/ec12027-E21501471/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.vhd".
-WARNING:Xst:646 - Signal <dummy> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Related source file is "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.vhd".
 Unit <washer_controller> synthesized.
 
 
@@ -446,13 +442,13 @@ Offset:              5.982ns (Levels of Logic = 2)
 
 
 Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 4.76 secs
+Total CPU time to Xst completion: 4.44 secs
  
 --> 
 
-Total memory usage is 302568 kilobytes
+Total memory usage is 304480 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   11 (   0 filtered)
+Number of warnings :   10 (   0 filtered)
 Number of infos    :    4 (   0 filtered)
 

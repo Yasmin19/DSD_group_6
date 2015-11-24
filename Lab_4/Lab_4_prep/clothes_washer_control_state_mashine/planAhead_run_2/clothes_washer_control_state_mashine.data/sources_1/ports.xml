@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Port Id="CLK" Dir="IN"/>
+		<Port Id="spin_dry" Dir="IN"/>
+		<Port Id="start_wash" Dir="IN"/>
+		<Port Id="door_open" Dir="IN"/>
+		<Port Id="reset" Dir="IN"/>
+		<Port Id="door_lock" Dir="OUT"/>
+		<Port Id="water_pump" Dir="OUT"/>
+		<Port Id="soap" Dir="OUT"/>
+		<Port Id="rotate_drum" Dir="OUT"/>
+		<Port Id="drain" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

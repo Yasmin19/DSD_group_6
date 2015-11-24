@@ -1,0 +1,32 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller_tb_vhd_isim_beh.exe -prj C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller_tb_vhd_beh.prj work.washer_controller_tb_vhd 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/D_flipflop.vhd" into library work
+Parsing VHDL file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_output_logic.vhd" into library work
+Parsing VHDL file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_next_state_logic.vhd" into library work
+Parsing VHDL file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/two_input_multiplexer.vhd" into library work
+Parsing VHDL file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/n_bit_register.vhd" into library work
+Parsing VHDL file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller.vhd" into library work
+Parsing VHDL file "C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity two_input_multiplexer [two_input_multiplexer_default]
+Compiling architecture behavioral of entity washer_next_state_logic [\washer_next_state_logic(3)\]
+Compiling architecture behavioral of entity D_flipflop [d_flipflop_default]
+Compiling architecture behavioral of entity n_bit_register [\n_bit_register(3)\]
+Compiling architecture behavioral of entity washer_output_logic [\washer_output_logic(3)\]
+Compiling architecture behavioral of entity washer_controller [washer_controller_default]
+Compiling architecture behavior of entity washer_controller_tb_vhd
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 18 VHDL Units
+Built simulation executable C:/Users/Hemat/Documents/GitHub/DSD_group_6/Lab_4/Lab_4_prep/clothes_washer_control_state_mashine/washer_controller_tb_vhd_isim_beh.exe
+Fuse Memory Usage: 36492 KB
+Fuse CPU Usage: 749 ms

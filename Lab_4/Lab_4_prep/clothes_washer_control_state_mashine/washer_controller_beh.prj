@@ -1,0 +1,6 @@
+vhdl work "D_flipflop.vhd"
+vhdl work "washer_output_logic.vhd"
+vhdl work "washer_next_state_logic.vhd"
+vhdl work "two_input_multiplexer.vhd"
+vhdl work "n_bit_register.vhd"
+vhdl work "washer_controller.vhd"
