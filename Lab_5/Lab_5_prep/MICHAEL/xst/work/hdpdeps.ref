@@ -1,60 +1,83 @@
-V3 31
+V3 42
 FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/and_gate.vhd 2015/11/24.12:32:51 P.20131013
-EN work/and_gate 1448372302 \
+EN work/and_gate 1448379434 \
       FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/and_gate.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/and_gate/and_gate_behavioral 1448372303 \
+AR work/and_gate/and_gate_behavioral 1448379435 \
       FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/and_gate.vhd \
-      EN work/and_gate 1448372302
+      EN work/and_gate 1448379434
 FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/D_flipflop.vhd 2015/11/24.12:32:51 P.20131013
-EN work/D_flipflop 1448372308 \
+EN work/D_flipflop 1448379440 \
       FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/D_flipflop.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/D_flipflop/Behavioral 1448372309 \
+AR work/D_flipflop/Behavioral 1448379441 \
       FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/D_flipflop.vhd \
-      EN work/D_flipflop 1448372308
+      EN work/D_flipflop 1448379440
+FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_n_bit_register_file.vhd 2015/11/24.15:28:07 P.20131013
+EN work/eight_n_bit_register_file 1448378918 \
+      FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_n_bit_register_file.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/eight_n_bit_register_file/Behavioral 1448378919 \
+      FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_n_bit_register_file.vhd \
+      EN work/eight_n_bit_register_file 1448378918 CP three_to_eight_decoder \
+      CP n_bit_rfc_register
 FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/not_gate.vhd 2015/11/24.12:32:51 P.20131013
-EN work/not_gate 1448372300 \
+EN work/not_gate 1448379432 \
       FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/not_gate.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/not_gate/Behavioral 1448372301 \
+AR work/not_gate/Behavioral 1448379433 \
       FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/not_gate.vhd \
-      EN work/not_gate 1448372300
-FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/n_bit_rfc_register.vhd 2015/11/24.13:37:23 P.20131013
-EN work/n_bit_rfc_register 1448372314 \
+      EN work/not_gate 1448379432
+FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/n_bit_rfc_register.vhd 2015/11/24.15:37:07 P.20131013
+EN work/n_bit_rfc_register 1448379446 \
       FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/n_bit_rfc_register.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/n_bit_rfc_register/Behavioral 1448372315 \
+AR work/n_bit_rfc_register/Behavioral 1448379447 \
       FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/n_bit_rfc_register.vhd \
-      EN work/n_bit_rfc_register 1448372314 CP register_file_cell
+      EN work/n_bit_rfc_register 1448379446 CP register_file_cell
 FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/or_gate.vhd 2015/11/24.12:32:51 P.20131013
-EN work/or_gate 1448372304 \
+EN work/or_gate 1448379436 \
       FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/or_gate.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/or_gate/or_gate_behaviour 1448372305 \
+AR work/or_gate/or_gate_behaviour 1448379437 \
       FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/or_gate.vhd \
-      EN work/or_gate 1448372304
-FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/register_file_cell.vhd 2015/11/24.12:32:51 P.20131013
-EN work/register_file_cell 1448372312 \
+      EN work/or_gate 1448379436
+FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/register_file_cell.vhd 2015/11/24.15:07:54 P.20131013
+EN work/register_file_cell 1448379444 \
       FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/register_file_cell.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/register_file_cell/Behavioral 1448372313 \
+AR work/register_file_cell/Behavioral 1448379445 \
       FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/register_file_cell.vhd \
-      EN work/register_file_cell 1448372312 CP two_input_multiplexer CP D_flipflop \
+      EN work/register_file_cell 1448379444 CP two_input_multiplexer CP D_flipflop \
       CP tri_buff
+FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/sixteen_x_7_decoder_rom.vhd 2015/11/24.16:33:14 P.20131013
+EN work/sixteen_x_7_decoder_rom 1448382797 \
+      FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/sixteen_x_7_decoder_rom.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/sixteen_x_7_decoder_rom/Behavioral 1448382798 \
+      FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/sixteen_x_7_decoder_rom.vhd \
+      EN work/sixteen_x_7_decoder_rom 1448382797
+FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/three_to_eight_decoder.vhd 2015/11/24.13:02:35 P.20131013
+EN work/three_to_eight_decoder 1448378914 \
+      FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/three_to_eight_decoder.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/three_to_eight_decoder/with_select_arch 1448378915 \
+      FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/three_to_eight_decoder.vhd \
+      EN work/three_to_eight_decoder 1448378914
 FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/tri_buff.vhd 2015/11/24.12:32:51 P.20131013
-EN work/tri_buff 1448372310 \
+EN work/tri_buff 1448379442 \
       FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/tri_buff.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/tri_buff/Behavioral 1448372311 \
+AR work/tri_buff/Behavioral 1448379443 \
       FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/tri_buff.vhd \
-      EN work/tri_buff 1448372310
+      EN work/tri_buff 1448379442
 FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/two_input_multiplexer.vhd 2015/11/24.12:32:51 P.20131013
-EN work/two_input_multiplexer 1448372306 \
+EN work/two_input_multiplexer 1448379438 \
       FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/two_input_multiplexer.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/two_input_multiplexer/two_input_multiplexer_behavioral 1448372307 \
+AR work/two_input_multiplexer/two_input_multiplexer_behavioral 1448379439 \
       FL C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/two_input_multiplexer.vhd \
-      EN work/two_input_multiplexer 1448372306 CP not_gate CP and_gate CP or_gate
+      EN work/two_input_multiplexer 1448379438 CP not_gate CP and_gate CP or_gate

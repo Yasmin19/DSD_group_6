@@ -21,7 +21,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity n_bit_rfc_register is
-	generic(n: positive := 4);
+	generic(n: positive := 8);
 	Port (Data_in : in  STD_LOGIC_VECTOR(n-1 downto 0);
          REA : in  STD_LOGIC;
 			REB : in  STD_LOGIC;

@@ -24,7 +24,7 @@ entity tdm_display_circuit is
 end tdm_display_circuit;
 
 architecture Behavioral of tdm_display_circuit is
-
+	
 begin
 
 

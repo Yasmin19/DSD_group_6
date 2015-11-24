@@ -63,13 +63,9 @@ signal dummy : std_logic;
 
 begin
 
-
 G1_two_mux: two_input_multiplexer port map (Q, DIN, WE, mux_out);
-
 G2_D_flipflop : D_flipflop port map (mux_out, '0', '0', Clock, Q, dummy);
-
 G3_tri_buff : tri_buff port map (Q, REA, OA);
-
 G4_tri_buff: tri_buff port map (Q, REB, OB);
 
 end Behavioral;
