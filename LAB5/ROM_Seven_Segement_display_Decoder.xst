@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Hemat/Desktop/DSD LABS/LAB5/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Hemat/Desktop/DSD LABS/LAB5/xst"
+elaborate
+-ifn ROM_Seven_Segement_display_Decoder.prj
+-ifmt mixed

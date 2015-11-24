@@ -1,0 +1,29 @@
+Command line:
+   ROM_Seven_Segement_display_Decoder_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54960
+
+Mon Nov 23 22:25:03 2015
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 840.466 Meg
+
+ Total Signals          : 3
+ Total Nets             : 15
+ Total Signal Drivers   : 2
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 375
+Total Line Count : 4
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 840.466 Meg
+
+Mon Nov 23 22:25:13 2015
+
