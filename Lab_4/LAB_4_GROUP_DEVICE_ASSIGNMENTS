@@ -1,0 +1,11 @@
+LAB 4 DEVICES
+
+• An n-bit asynchronous (ripple) counter --Eduardo
+• A 4-bit synchronous counter (using combinational next-state logic) --Eduardo
+• An n-bit incrementer circuit --Eduardo
+• An n-bit synchronous counter with parallel load input --Yasmin
+• A 4-bit synchronous up/down counter --Yasmin
+• An 8-bit Comparator --Eduardo
+• A modulo-m counter with asynchronous reset --Michael
+• A modulo-m counter with synchronous reset --Michael
+• The clothes washer controller sub-components --Hemat
