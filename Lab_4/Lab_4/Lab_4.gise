@@ -22,6 +22,21 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Lab_4.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="N_bit_sync_counter_with_enable.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="N_bit_sync_counter_with_enable.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="N_bit_sync_counter_with_enable.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="N_bit_sync_counter_with_enable.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="N_bit_sync_counter_with_enable.xst"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="N_bit_sync_counter_with_enable_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="WashMashine_controller.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="WashMashine_controller.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="WashMashine_controller.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="WashMashine_controller.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="WashMashine_controller.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="WashMashine_controller.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="WashMashine_controller.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="WashMashine_controller.xst"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="WashMashine_controller_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="four_bit_synch_up_down_counter_tb_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="four_bit_synch_up_down_counter_tb_stx_beh.prj"/>
@@ -37,9 +52,27 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="four_bit_synchronous_up_down_counter_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="four_bit_synchronous_up_down_counter_xst.xrpt"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="half_adder.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="half_adder.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="half_adder.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="half_adder.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="half_adder.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="half_adder.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="half_adder.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="half_adder.xst"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="half_adder_xst.xrpt"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="n_bit_register.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="n_bit_register.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="n_bit_register.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="n_bit_register.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="n_bit_register.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="n_bit_register.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="n_bit_register.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="n_bit_register.xst"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="n_bit_register_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="nbit_synch_counter_parallel_tb_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="nbit_synch_counter_parallel_tb_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="nbit_synch_counter_parallel_tb_isim_beh.wdb"/>
@@ -69,28 +102,11 @@
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="D_flipflop.vhd"/>
-      <outfile xil_pn:name="and_gate.vhd"/>
-      <outfile xil_pn:name="four_bit_LAC.vhd"/>
-      <outfile xil_pn:name="four_bit_adder_subtractor.vhd"/>
-      <outfile xil_pn:name="four_bit_lac_adder.vhd"/>
-      <outfile xil_pn:name="four_bit_synch_up_down_counter_tb.vhd"/>
-      <outfile xil_pn:name="four_bit_synchronous_up_down_counter.vhd"/>
-      <outfile xil_pn:name="full_adder.vhd"/>
-      <outfile xil_pn:name="half_adder.vhd"/>
-      <outfile xil_pn:name="n_bit_adder.vhd"/>
-      <outfile xil_pn:name="n_bit_incrementer.vhd"/>
-      <outfile xil_pn:name="n_bit_register.vhd"/>
-      <outfile xil_pn:name="n_bit_two_input_mux.vhd"/>
-      <outfile xil_pn:name="nbit_synch_counter_parallel_tb.vhd"/>
-      <outfile xil_pn:name="nbit_synchronous_counter_parallel.vhd"/>
-      <outfile xil_pn:name="nbit_xor_control.vhd"/>
-      <outfile xil_pn:name="not_gate.vhd"/>
-      <outfile xil_pn:name="or_gate.vhd"/>
-      <outfile xil_pn:name="two_input_multiplexer.vhd"/>
-      <outfile xil_pn:name="xor_gate.vhd"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1448323585" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3990728033001604209" xil_pn:start_ts="1448323585">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -103,6 +119,7 @@
     <transform xil_pn:end_ts="1448323585" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-5237908556529531780" xil_pn:start_ts="1448323585">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
     <transform xil_pn:end_ts="1448323956" xil_pn:in_ck="-5947263086483493200" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1448323956">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -111,94 +128,74 @@
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="D_flipflop.vhd"/>
-      <outfile xil_pn:name="and_gate.vhd"/>
-      <outfile xil_pn:name="four_bit_LAC.vhd"/>
-      <outfile xil_pn:name="four_bit_adder_subtractor.vhd"/>
-      <outfile xil_pn:name="four_bit_lac_adder.vhd"/>
-      <outfile xil_pn:name="four_bit_synch_up_down_counter_tb.vhd"/>
-      <outfile xil_pn:name="four_bit_synchronous_up_down_counter.vhd"/>
-      <outfile xil_pn:name="full_adder.vhd"/>
-      <outfile xil_pn:name="half_adder.vhd"/>
-      <outfile xil_pn:name="n_bit_adder.vhd"/>
-      <outfile xil_pn:name="n_bit_incrementer.vhd"/>
-      <outfile xil_pn:name="n_bit_register.vhd"/>
-      <outfile xil_pn:name="n_bit_two_input_mux.vhd"/>
-      <outfile xil_pn:name="nbit_synch_counter_parallel_tb.vhd"/>
-      <outfile xil_pn:name="nbit_synchronous_counter_parallel.vhd"/>
-      <outfile xil_pn:name="nbit_xor_control.vhd"/>
-      <outfile xil_pn:name="not_gate.vhd"/>
-      <outfile xil_pn:name="or_gate.vhd"/>
-      <outfile xil_pn:name="two_input_multiplexer.vhd"/>
-      <outfile xil_pn:name="xor_gate.vhd"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1448323961" xil_pn:in_ck="-5947263086483493200" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2416097389287467785" xil_pn:start_ts="1448323956">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="fuse.log"/>
-      <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="nbit_synch_counter_parallel_tb_beh.prj"/>
-      <outfile xil_pn:name="nbit_synch_counter_parallel_tb_isim_beh.exe"/>
-      <outfile xil_pn:name="xilinxsim.ini"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1448323961" xil_pn:in_ck="-3535289694397204932" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3959207781753885807" xil_pn:start_ts="1448323961">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="nbit_synch_counter_parallel_tb_isim_beh.wdb"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1447817882" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1447817882">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1448320566" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6693078293392557051" xil_pn:start_ts="1448320566">
+    <transform xil_pn:end_ts="1448373579" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6889970881443963532" xil_pn:start_ts="1448373579">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1448320566" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5237908556529531780" xil_pn:start_ts="1448320566">
+    <transform xil_pn:end_ts="1448373579" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="2625486638911376149" xil_pn:start_ts="1448373579">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1448320566" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1448320566">
+    <transform xil_pn:end_ts="1448373579" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1448373579">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1448320566" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="7678978285348037839" xil_pn:start_ts="1448320566">
+    <transform xil_pn:end_ts="1448373579" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="7513677543924431560" xil_pn:start_ts="1448373579">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1448320566" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="5702940744460053484" xil_pn:start_ts="1448320566">
+    <transform xil_pn:end_ts="1448373579" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="5702940744460053484" xil_pn:start_ts="1448373579">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1448320566" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1775360848627310086" xil_pn:start_ts="1448320566">
+    <transform xil_pn:end_ts="1448373579" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-7722835369817598241" xil_pn:start_ts="1448373579">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1448320606" xil_pn:in_ck="2686952153581016850" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-126702997974907322" xil_pn:start_ts="1448320566">
+    <transform xil_pn:end_ts="1448373616" xil_pn:in_ck="-3366392318997281450" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="2062766178914303263" xil_pn:start_ts="1448373579">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="WashMashine_controller.lso"/>
+      <outfile xil_pn:name="WashMashine_controller.ngc"/>
+      <outfile xil_pn:name="WashMashine_controller.ngr"/>
+      <outfile xil_pn:name="WashMashine_controller.prj"/>
+      <outfile xil_pn:name="WashMashine_controller.stx"/>
+      <outfile xil_pn:name="WashMashine_controller.syr"/>
+      <outfile xil_pn:name="WashMashine_controller.xst"/>
+      <outfile xil_pn:name="WashMashine_controller_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="nbit_synchronous_counter_parallel.lso"/>
-      <outfile xil_pn:name="nbit_synchronous_counter_parallel.ngc"/>
-      <outfile xil_pn:name="nbit_synchronous_counter_parallel.ngr"/>
-      <outfile xil_pn:name="nbit_synchronous_counter_parallel.prj"/>
-      <outfile xil_pn:name="nbit_synchronous_counter_parallel.stx"/>
-      <outfile xil_pn:name="nbit_synchronous_counter_parallel.syr"/>
-      <outfile xil_pn:name="nbit_synchronous_counter_parallel.xst"/>
-      <outfile xil_pn:name="nbit_synchronous_counter_parallel_xst.xrpt"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>

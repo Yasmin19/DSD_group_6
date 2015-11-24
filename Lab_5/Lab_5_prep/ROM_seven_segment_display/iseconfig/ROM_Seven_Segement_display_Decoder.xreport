@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-11-23T17:58:14</DateModified>
+  <DateModified>2015-11-24T12:50:05</DateModified>
   <ModuleName>ROM_Seven_Segement_display_Decoder</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Hemat/Desktop/DSD LABS/LAB5/iseconfig/ROM_Seven_Segement_display_Decoder.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Hemat/Desktop/DSD LABS/LAB5</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/ROM_seven_segment_display/iseconfig/ROM_Seven_Segement_display_Decoder.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/ROM_seven_segment_display\</ImplementationReportsDirectory>
   <DateInitialized>2015-11-23T17:58:14</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

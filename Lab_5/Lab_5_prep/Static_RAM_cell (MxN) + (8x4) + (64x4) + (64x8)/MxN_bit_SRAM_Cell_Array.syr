@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.45 secs
+Total CPU time to Xst completion: 0.22 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.45 secs
+Total CPU time to Xst completion: 0.23 secs
  
 --> Reading design: MxN_bit_SRAM_Cell_Array.prj
 
@@ -104,13 +104,13 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/d_latch.vhd" in Library work.
+Compiling vhdl file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/d_latch.vhd" in Library work.
 Architecture behavioral of Entity d_latch is up to date.
-Compiling vhdl file "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/tri_buff.vhd" in Library work.
+Compiling vhdl file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/tri_buff.vhd" in Library work.
 Architecture behavioral of Entity tri_buff is up to date.
-Compiling vhdl file "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/SRAM_Cell.vhd" in Library work.
+Compiling vhdl file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/SRAM_Cell.vhd" in Library work.
 Architecture behavioral of Entity sram_cell is up to date.
-Compiling vhdl file "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/MxN_bit_SRAM_Cell_Array.vhd" in Library work.
+Compiling vhdl file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/MxN_bit_SRAM_Cell_Array.vhd" in Library work.
 Architecture behavioral of Entity mxn_bit_sram_cell_array is up to date.
 
 =========================================================================
@@ -152,13 +152,13 @@ Entity <tri_buff> analyzed. Unit <tri_buff> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <D_latch>.
-    Related source file is "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/d_latch.vhd".
+    Related source file is "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/d_latch.vhd".
 WARNING:Xst:737 - Found 1-bit latch for signal <Q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 Unit <D_latch> synthesized.
 
 
 Synthesizing Unit <tri_buff>.
-    Related source file is "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/tri_buff.vhd".
+    Related source file is "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/tri_buff.vhd".
     Found 1-bit tristate buffer for signal <Output>.
     Summary:
 	inferred   1 Tristate(s).
@@ -166,12 +166,12 @@ Unit <tri_buff> synthesized.
 
 
 Synthesizing Unit <SRAM_Cell>.
-    Related source file is "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/SRAM_Cell.vhd".
+    Related source file is "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/SRAM_Cell.vhd".
 Unit <SRAM_Cell> synthesized.
 
 
 Synthesizing Unit <MxN_bit_SRAM_Cell_Array>.
-    Related source file is "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/MxN_bit_SRAM_Cell_Array.vhd".
+    Related source file is "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/MxN_bit_SRAM_Cell_Array.vhd".
 Unit <MxN_bit_SRAM_Cell_Array> synthesized.
 
 
@@ -497,12 +497,12 @@ Delay:               9.297ns (Levels of Logic = 5)
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 5.94 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.16 secs
  
 --> 
 
-Total memory usage is 307412 kilobytes
+Total memory usage is 306348 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    2 (   0 filtered)

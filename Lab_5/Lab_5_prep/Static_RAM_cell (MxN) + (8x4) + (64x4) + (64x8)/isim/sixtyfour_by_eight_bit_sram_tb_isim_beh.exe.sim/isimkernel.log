@@ -1,0 +1,29 @@
+Command line:
+   sixtyfour_by_eight_bit_sram_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59755
+
+Tue Nov 24 13:27:05 2015
+
+
+ Elaboration Time: 0.15625 sec
+
+ Current Memory Usage: 870.49 Meg
+
+ Total Signals          : 6702
+ Total Nets             : 1520
+ Total Signal Drivers   : 1708
+ Total Blocks           : 2393
+ Total Primitive Blocks : 1109
+ Total Processes        : 1706
+ Total Traceable Variables  : 780
+ Total Scalar Nets and Variables : 2668
+Total Line Count : 5458
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 870.49 Meg
+
+Tue Nov 24 13:27:09 2015
+

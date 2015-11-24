@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-11-23T22:54:14</DateModified>
+  <DateModified>2015-11-24T13:22:22</DateModified>
   <ModuleName>n_bit_rfc_register</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell/iseconfig/n_bit_rfc_register.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/iseconfig/n_bit_rfc_register.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg\</ImplementationReportsDirectory>
   <DateInitialized>2015-11-23T22:54:14</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

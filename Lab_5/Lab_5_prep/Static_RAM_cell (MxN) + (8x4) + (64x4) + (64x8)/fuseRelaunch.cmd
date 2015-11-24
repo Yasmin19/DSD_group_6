@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "H:/Documents/Lab_4_prep/Lab4_edu/serial_64x4_SRAM_tb_isim_beh.exe" -prj "H:/Documents/Lab_4_prep/Lab4_edu/serial_64x4_SRAM_tb_beh.prj" "work.serial_64x4_SRAM_tb" 
+-intstyle "ise" -incremental -o "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/sixtyfour_by_eight_bit_sram_tb_isim_beh.exe" -prj "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/sixtyfour_by_eight_bit_sram_tb_beh.prj" "work.sixtyfour_by_eight_bit_sram_tb" 

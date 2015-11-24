@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.12 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Reading design: n_bit_rfc_register.prj
 
@@ -105,28 +105,28 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell\or_gate.vhd" into library work
+Parsing VHDL file "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\or_gate.vhd" into library work
 Parsing entity <or_gate>.
 Parsing architecture <or_gate_behaviour> of entity <or_gate>.
-Parsing VHDL file "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell\not_gate.vhd" into library work
+Parsing VHDL file "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\not_gate.vhd" into library work
 Parsing entity <not_gate>.
 Parsing architecture <Behavioral> of entity <not_gate>.
-Parsing VHDL file "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell\and_gate.vhd" into library work
+Parsing VHDL file "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\and_gate.vhd" into library work
 Parsing entity <and_gate>.
 Parsing architecture <and_gate_behavioral> of entity <and_gate>.
-Parsing VHDL file "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell\two_input_multiplexer.vhd" into library work
+Parsing VHDL file "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\two_input_multiplexer.vhd" into library work
 Parsing entity <two_input_multiplexer>.
 Parsing architecture <two_input_multiplexer_behavioral> of entity <two_input_multiplexer>.
-Parsing VHDL file "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell\tri_buff.vhd" into library work
+Parsing VHDL file "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\tri_buff.vhd" into library work
 Parsing entity <tri_buff>.
 Parsing architecture <Behavioral> of entity <tri_buff>.
-Parsing VHDL file "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell\D_flipflop.vhd" into library work
+Parsing VHDL file "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\D_flipflop.vhd" into library work
 Parsing entity <D_flipflop>.
 Parsing architecture <Behavioral> of entity <d_flipflop>.
-Parsing VHDL file "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell\register_file_cell.vhd" into library work
+Parsing VHDL file "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\register_file_cell.vhd" into library work
 Parsing entity <register_file_cell>.
 Parsing architecture <Behavioral> of entity <register_file_cell>.
-Parsing VHDL file "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell\n_bit_rfc_register.vhd" into library work
+Parsing VHDL file "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\n_bit_rfc_register.vhd" into library work
 Parsing entity <n_bit_rfc_register>.
 Parsing architecture <Behavioral> of entity <n_bit_rfc_register>.
 
@@ -155,45 +155,46 @@ Elaborating entity <tri_buff> (architecture <Behavioral>) from library <work>.
 =========================================================================
 
 Synthesizing Unit <n_bit_rfc_register>.
-    Related source file is "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell\n_bit_rfc_register.vhd".
+    Related source file is "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\n_bit_rfc_register.vhd".
         n = 4
+WARNING:Xst:647 - Input <Data_in<2:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
 	no macro.
 Unit <n_bit_rfc_register> synthesized.
 
 Synthesizing Unit <register_file_cell>.
-    Related source file is "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell\register_file_cell.vhd".
-INFO:Xst:3210 - "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell\register_file_cell.vhd" line 69: Output port <Q_bar> of the instance <G2_D_flipflop> is unconnected or connected to loadless signal.
+    Related source file is "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\register_file_cell.vhd".
+INFO:Xst:3210 - "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\register_file_cell.vhd" line 69: Output port <Q_bar> of the instance <G2_D_flipflop> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <register_file_cell> synthesized.
 
 Synthesizing Unit <two_input_multiplexer>.
-    Related source file is "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell\two_input_multiplexer.vhd".
+    Related source file is "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\two_input_multiplexer.vhd".
     Summary:
 	no macro.
 Unit <two_input_multiplexer> synthesized.
 
 Synthesizing Unit <not_gate>.
-    Related source file is "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell\not_gate.vhd".
+    Related source file is "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\not_gate.vhd".
     Summary:
 	no macro.
 Unit <not_gate> synthesized.
 
 Synthesizing Unit <and_gate>.
-    Related source file is "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell\and_gate.vhd".
+    Related source file is "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\and_gate.vhd".
     Summary:
 	no macro.
 Unit <and_gate> synthesized.
 
 Synthesizing Unit <or_gate>.
-    Related source file is "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell\or_gate.vhd".
+    Related source file is "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\or_gate.vhd".
     Summary:
 	no macro.
 Unit <or_gate> synthesized.
 
 Synthesizing Unit <D_flipflop>.
-    Related source file is "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell\D_flipflop.vhd".
+    Related source file is "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\D_flipflop.vhd".
     Found 1-bit register for signal <Q>.
     Found 1-bit register for signal <Q_bar>.
     Summary:
@@ -201,7 +202,7 @@ Synthesizing Unit <D_flipflop>.
 Unit <D_flipflop> synthesized.
 
 Synthesizing Unit <tri_buff>.
-    Related source file is "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell\tri_buff.vhd".
+    Related source file is "C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\tri_buff.vhd".
     Found 1-bit tristate buffer for signal <Output> created at line 59
     Summary:
 	inferred   1 Tristate(s).
@@ -211,10 +212,10 @@ Unit <tri_buff> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
-# Registers                                            : 8
- 1-bit register                                        : 8
-# Tristates                                            : 8
- 1-bit tristate buffer                                 : 8
+# Registers                                            : 2
+ 1-bit register                                        : 2
+# Tristates                                            : 2
+ 1-bit tristate buffer                                 : 2
 
 =========================================================================
 
@@ -230,18 +231,15 @@ Loading device for application Rf_Device from file '7a100t.nph' in environment C
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# Registers                                            : 8
- Flip-Flops                                            : 8
+# Registers                                            : 2
+ Flip-Flops                                            : 2
 
 =========================================================================
 
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:2677 - Node <inst[3].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <n_bit_rfc_register>.
-WARNING:Xst:2677 - Node <inst[2].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <n_bit_rfc_register>.
-WARNING:Xst:2677 - Node <inst[1].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <n_bit_rfc_register>.
-WARNING:Xst:2677 - Node <inst[0].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <n_bit_rfc_register>.
+WARNING:Xst:2677 - Node <G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <n_bit_rfc_register>.
 
 Optimizing unit <n_bit_rfc_register> ...
 
@@ -255,8 +253,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 4
- Flip-Flops                                            : 4
+# Registers                                            : 1
+ Flip-Flops                                            : 1
 
 =========================================================================
 
@@ -279,16 +277,16 @@ Top Level Output File Name         : n_bit_rfc_register.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 6
+# BELS                             : 3
 #      INV                         : 2
-#      LUT3                        : 4
-# FlipFlops/Latches                : 4
-#      FD                          : 4
+#      LUT3                        : 1
+# FlipFlops/Latches                : 1
+#      FD                          : 1
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
-# IO Buffers                       : 15
-#      IBUF                        : 7
-#      OBUFT                       : 8
+# IO Buffers                       : 6
+#      IBUF                        : 4
+#      OBUFT                       : 2
 
 Device utilization summary:
 ---------------------------
@@ -297,20 +295,20 @@ Selected Device : xa7a100tcsg324-2i
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:               4  out of  126800     0%  
- Number of Slice LUTs:                    6  out of  63400     0%  
-    Number used as Logic:                 6  out of  63400     0%  
+ Number of Slice Registers:               1  out of  126800     0%  
+ Number of Slice LUTs:                    3  out of  63400     0%  
+    Number used as Logic:                 3  out of  63400     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:     10
-   Number with an unused Flip Flop:       6  out of     10    60%  
-   Number with an unused LUT:             4  out of     10    40%  
-   Number of fully used LUT-FF pairs:     0  out of     10     0%  
+ Number of LUT Flip Flop pairs used:      4
+   Number with an unused Flip Flop:       3  out of      4    75%  
+   Number with an unused LUT:             1  out of      4    25%  
+   Number of fully used LUT-FF pairs:     0  out of      4     0%  
    Number of unique control sets:         1
 
 IO Utilization: 
  Number of IOs:                          16
- Number of bonded IOBs:                  16  out of    210     7%  
+ Number of bonded IOBs:                   7  out of    210     3%  
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
@@ -336,7 +334,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-Clock                              | BUFGP                  | 4     |
+Clock                              | BUFGP                  | 1     |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -348,9 +346,9 @@ Timing Summary:
 Speed Grade: -2
 
    Minimum period: 0.833ns (Maximum Frequency: 1200.408MHz)
-   Minimum input arrival time before clock: 0.694ns
+   Minimum input arrival time before clock: 0.677ns
    Maximum output required time after clock: 0.712ns
-   Maximum combinational path delay: 0.809ns
+   Maximum combinational path delay: 0.792ns
 
 Timing Details:
 ---------------
@@ -359,59 +357,59 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Clock'
   Clock period: 0.833ns (frequency: 1200.408MHz)
-  Total number of paths / destination ports: 4 / 4
+  Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
 Delay:               0.833ns (Levels of Logic = 1)
-  Source:            inst[3].G_RFC_i/G2_D_flipflop/Q (FF)
-  Destination:       inst[3].G_RFC_i/G2_D_flipflop/Q (FF)
+  Source:            G_RFC_i/G2_D_flipflop/Q (FF)
+  Destination:       G_RFC_i/G2_D_flipflop/Q (FF)
   Source Clock:      Clock rising
   Destination Clock: Clock rising
 
-  Data Path: inst[3].G_RFC_i/G2_D_flipflop/Q to inst[3].G_RFC_i/G2_D_flipflop/Q
+  Data Path: G_RFC_i/G2_D_flipflop/Q to G_RFC_i/G2_D_flipflop/Q
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               3   0.361   0.367  inst[3].G_RFC_i/G2_D_flipflop/Q (inst[3].G_RFC_i/G2_D_flipflop/Q)
-     LUT3:I2->O            1   0.097   0.000  inst[3].G_RFC_i/G1_two_mux/Gate4/f1 (inst[3].G_RFC_i/mux_out)
-     FD:D                      0.008          inst[3].G_RFC_i/G2_D_flipflop/Q
+     FD:C->Q               3   0.361   0.367  G_RFC_i/G2_D_flipflop/Q (G_RFC_i/G2_D_flipflop/Q)
+     LUT3:I2->O            1   0.097   0.000  G_RFC_i/G1_two_mux/Gate4/f1 (G_RFC_i/mux_out)
+     FD:D                      0.008          G_RFC_i/G2_D_flipflop/Q
     ----------------------------------------
     Total                      0.833ns (0.466ns logic, 0.367ns route)
                                        (55.9% logic, 44.1% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock'
-  Total number of paths / destination ports: 8 / 4
+  Total number of paths / destination ports: 2 / 1
 -------------------------------------------------------------------------
-Offset:              0.694ns (Levels of Logic = 2)
+Offset:              0.677ns (Levels of Logic = 2)
   Source:            WE (PAD)
-  Destination:       inst[3].G_RFC_i/G2_D_flipflop/Q (FF)
+  Destination:       G_RFC_i/G2_D_flipflop/Q (FF)
   Destination Clock: Clock rising
 
-  Data Path: WE to inst[3].G_RFC_i/G2_D_flipflop/Q
+  Data Path: WE to G_RFC_i/G2_D_flipflop/Q
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             4   0.001   0.588  WE_IBUF (WE_IBUF)
-     LUT3:I0->O            1   0.097   0.000  inst[0].G_RFC_i/G1_two_mux/Gate4/f1 (inst[0].G_RFC_i/mux_out)
-     FD:D                      0.008          inst[0].G_RFC_i/G2_D_flipflop/Q
+     IBUF:I->O             1   0.001   0.571  WE_IBUF (WE_IBUF)
+     LUT3:I0->O            1   0.097   0.000  G_RFC_i/G1_two_mux/Gate4/f1 (G_RFC_i/mux_out)
+     FD:D                      0.008          G_RFC_i/G2_D_flipflop/Q
     ----------------------------------------
-    Total                      0.694ns (0.106ns logic, 0.588ns route)
-                                       (15.3% logic, 84.7% route)
+    Total                      0.677ns (0.106ns logic, 0.571ns route)
+                                       (15.7% logic, 84.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Clock'
-  Total number of paths / destination ports: 8 / 8
+  Total number of paths / destination ports: 2 / 2
 -------------------------------------------------------------------------
 Offset:              0.712ns (Levels of Logic = 1)
-  Source:            inst[3].G_RFC_i/G2_D_flipflop/Q (FF)
+  Source:            G_RFC_i/G2_D_flipflop/Q (FF)
   Destination:       OA<3> (PAD)
   Source Clock:      Clock rising
 
-  Data Path: inst[3].G_RFC_i/G2_D_flipflop/Q to OA<3>
+  Data Path: G_RFC_i/G2_D_flipflop/Q to OA<3>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               3   0.361   0.351  inst[3].G_RFC_i/G2_D_flipflop/Q (inst[3].G_RFC_i/G2_D_flipflop/Q)
+     FD:C->Q               3   0.361   0.351  G_RFC_i/G2_D_flipflop/Q (G_RFC_i/G2_D_flipflop/Q)
      OBUFT:I->O                0.000          OA_3_OBUFT (OA<3>)
     ----------------------------------------
     Total                      0.712ns (0.361ns logic, 0.351ns route)
@@ -419,9 +417,9 @@ Offset:              0.712ns (Levels of Logic = 1)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 8 / 8
+  Total number of paths / destination ports: 2 / 2
 -------------------------------------------------------------------------
-Delay:               0.809ns (Levels of Logic = 3)
+Delay:               0.792ns (Levels of Logic = 3)
   Source:            REA (PAD)
   Destination:       OA<3> (PAD)
 
@@ -430,11 +428,11 @@ Delay:               0.809ns (Levels of Logic = 3)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      IBUF:I->O             1   0.001   0.339  REA_IBUF (REA_IBUF)
-     INV:I->O              4   0.113   0.356  inst[0].G_RFC_i/G3_tri_buff/enable_inv1_INV_0 (inst[0].G_RFC_i/G3_tri_buff/enable_inv)
+     INV:I->O              1   0.113   0.339  G_RFC_i/G3_tri_buff/enable_inv1_INV_0 (G_RFC_i/G3_tri_buff/enable_inv)
      OBUFT:T->O                0.000          OA_3_OBUFT (OA<3>)
     ----------------------------------------
-    Total                      0.809ns (0.114ns logic, 0.695ns route)
-                                       (14.1% logic, 85.9% route)
+    Total                      0.792ns (0.114ns logic, 0.678ns route)
+                                       (14.4% logic, 85.6% route)
 
 =========================================================================
 
@@ -452,14 +450,14 @@ Clock          |    0.833|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 34.00 secs
-Total CPU time to Xst completion: 33.71 secs
+Total REAL time to Xst completion: 38.00 secs
+Total CPU time to Xst completion: 37.51 secs
  
 --> 
 
-Total memory usage is 817516 kilobytes
+Total memory usage is 869916 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    5 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
 Number of infos    :    1 (   0 filtered)
 
