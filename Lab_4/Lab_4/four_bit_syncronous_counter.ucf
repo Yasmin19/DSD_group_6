@@ -1,0 +1,9 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = A10;
+NET "Q_outputs[3]" LOC = J11;
+NET "Q_outputs[2]" LOC = J12;
+NET "Q_outputs[1]" LOC = H16;
+NET "Q_outputs[0]" LOC = H13;
+NET "reset" LOC = C13;

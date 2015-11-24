@@ -1,0 +1,11 @@
+
+NET "Input[3]" LOC = H13;
+NET "Input[2]" LOC = H16;
+NET "Input[0]" LOC = J12;
+NET "Input[1]" LOC = J11;
+
+NET "Output" LOC = C11;
+NET "Output" LOC = D11;
+NET "Output" LOC = B11;
+NET "Output" LOC = A12;
+
