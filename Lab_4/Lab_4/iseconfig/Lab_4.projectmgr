@@ -78,30 +78,32 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>View RTL Schematic</SelectedItem>
-      </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
-      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000016f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000016f0000000100000000</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>View RTL Schematic</CurrentItem>
-   </ItemView>
-   <SourceProcessView>000000ff000000000000000200000127000000bb01000000050100000002</SourceProcessView>
-   <CurrentView>Implementation</CurrentView>
-   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
-      <ClosedNodes>
-         <ClosedNodesVersion>2</ClosedNodesVersion>
-         <ClosedNode>/four_bit_synch_up_down_counter_tb - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|four_bit_synch_up_down_counter_tb.vhd/uut - four_bit_synchronous_up_down_counter - Behavioral</ClosedNode>
-         <ClosedNode>/nbit_synchronous_counter_parallel - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|nbit_synchronous_counter_parallel.vhd</ClosedNode>
-      </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem>four_bit_synch_up_down_counter_tb - behavior (C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/four_bit_synch_up_down_counter_tb.vhd)</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000285000000020000000000000000000000000200000064ffffffff000000810000000300000002000002850000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e1000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e10000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>four_bit_synch_up_down_counter_tb - behavior (C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/four_bit_synch_up_down_counter_tb.vhd)</CurrentItem>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff000000000000000200000127000000bb01000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/four_bit_synch_up_down_counter_tb - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|four_bit_synch_up_down_counter_tb.vhd</ClosedNode>
+         <ClosedNode>/four_bit_synch_up_down_counter_tb - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|four_bit_synch_up_down_counter_tb.vhd/uut - four_bit_synchronous_up_down_counter - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_synch_counter_parallel_tb - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|nbit_synch_counter_parallel_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_synchronous_counter_parallel - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|nbit_synchronous_counter_parallel.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>nbit_synch_counter_parallel_tb - behavior (C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/nbit_synch_counter_parallel_tb.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000221000000020000000000000000000000000200000064ffffffff000000810000000300000002000002210000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>nbit_synch_counter_parallel_tb - behavior (C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/nbit_synch_counter_parallel_tb.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -122,12 +124,26 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000149000000010000000100000000000000000000000064ffffffff000000810000000000000001000001490000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f2000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f20000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f2000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
    </ItemView>
 </Project>
