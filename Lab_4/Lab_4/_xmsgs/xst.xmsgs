@@ -5,25 +5,41 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Yasmin\Documents\QM Work\Year 3\Digital Systems Design\Lab_4\nbit_synchronous_counter_parallel.vhd</arg>&quot; line <arg fmt="%d" index="2">70</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">G1_nbit_incrementer</arg>&gt; of block &lt;<arg fmt="%s" index="4">n_bit_incrementer</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">nbit_synchronous_counter_parallel</arg>&gt;. Underlying logic will be removed.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_4\Lab_4\nbit_synchronous_counter_parallel.vhd</arg>&quot; line <arg fmt="%s" index="2">70</arg>: Output port &lt;<arg fmt="%s" index="3">C_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">G1_nbit_incrementer</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Yasmin\Documents\QM Work\Year 3\Digital Systems Design\Lab_4\nbit_synchronous_counter_parallel.vhd</arg>&quot; line <arg fmt="%d" index="2">72</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">G2_nbit_two_mux</arg>&gt; of block &lt;<arg fmt="%s" index="4">n_bit_two_input_mux</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">nbit_synchronous_counter_parallel</arg>&gt;. Underlying logic will be removed.
-</msg>
-
-<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Yasmin\Documents\QM Work\Year 3\Digital Systems Design\Lab_4\nbit_synchronous_counter_parallel.vhd</arg>&quot; line <arg fmt="%d" index="2">74</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">G3_nbit_register</arg>&gt; of block &lt;<arg fmt="%s" index="4">n_bit_register</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">nbit_synchronous_counter_parallel</arg>&gt;. Underlying logic will be removed.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Yasmin\Documents\QM Work\Year 3\Digital Systems Design\Lab_4\nbit_synchronous_counter_parallel.vhd</arg>&quot; line <arg fmt="%s" index="2">70</arg>: Output port &lt;<arg fmt="%s" index="3">C_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">G1_nbit_incrementer</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Yasmin\Documents\QM Work\Year 3\Digital Systems Design\Lab_4\nbit_synchronous_counter_parallel.vhd</arg>&quot; line <arg fmt="%s" index="2">74</arg>: Output port &lt;<arg fmt="%s" index="3">Q_outputs</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">G3_nbit_register</arg>&gt; is unconnected or connected to loadless signal.
-</msg>
-
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Yasmin\Documents\QM Work\Year 3\Digital Systems Design\Lab_4\nbit_synchronous_counter_parallel.vhd</arg>&quot; line <arg fmt="%s" index="2">74</arg>: Output port &lt;<arg fmt="%s" index="3">Q_bar_outputs</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">G3_nbit_register</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_4\Lab_4\nbit_synchronous_counter_parallel.vhd</arg>&quot; line <arg fmt="%s" index="2">74</arg>: Output port &lt;<arg fmt="%s" index="3">Q_bar_outputs</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">G3_nbit_register</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="0" delta="new" >The specified part-type was not generated at build time. XST is loading the full part-type and will therefore consume more CPU and memory.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">G2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">inst[7].Half_adder_i</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">G3_nbit_register/inst[7].D_flipflop_i/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nbit_synchronous_counter_parallel</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">G3_nbit_register/inst[6].D_flipflop_i/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nbit_synchronous_counter_parallel</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">G3_nbit_register/inst[5].D_flipflop_i/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nbit_synchronous_counter_parallel</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">G3_nbit_register/inst[4].D_flipflop_i/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nbit_synchronous_counter_parallel</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">G3_nbit_register/inst[3].D_flipflop_i/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nbit_synchronous_counter_parallel</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">G3_nbit_register/inst[2].D_flipflop_i/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nbit_synchronous_counter_parallel</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">G3_nbit_register/inst[1].D_flipflop_i/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nbit_synchronous_counter_parallel</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">G3_nbit_register/inst[0].D_flipflop_i/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">nbit_synchronous_counter_parallel</arg>&gt;.
 </msg>
 
 </messages>

@@ -1,0 +1,29 @@
+Command line:
+   nbit_synch_counter_parallel_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54994
+
+Tue Nov 24 00:12:43 2015
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 841.327 Meg
+
+ Total Signals          : 303
+ Total Nets             : 79
+ Total Signal Drivers   : 78
+ Total Blocks           : 104
+ Total Primitive Blocks : 59
+ Total Processes        : 67
+ Total Traceable Variables  : 38
+ Total Scalar Nets and Variables : 485
+Total Line Count : 118
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 369.443 Meg
+
+Tue Nov 24 00:16:00 2015
+

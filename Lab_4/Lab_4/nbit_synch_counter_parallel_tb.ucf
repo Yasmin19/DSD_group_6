@@ -1,0 +1,23 @@
+Net "D_inputs[7]" LOC="B16"; 
+Net "D_inputs[6]" LOC="D16";
+Net "D_inputs[5]" LOC="E14"; 
+Net "D_inputs[4]" LOC="G12";
+Net "D_inputs[3]" LOC="H13";
+Net "D_inputs[2]" LOC="H16";
+Net "D_inputs[1]" LOC="J12";
+Net "D_inputs[0]" LOC="J11";
+
+Net "count_enable" LOC="D12"; 
+Net "load_count" = "C12";
+
+Net "CLK" LOC = "A10";
+Net "reset" LOC = "C13";
+
+Net "Q_outputs[7]" LOC="B14"; 
+Net "Q_outputs[6]" LOC="A14"; 
+Net "Q_outputs[5]" LOC="B13"; 
+Net "Q_outputs[4]" LOC="A13";
+Net "Q_outputs[3]" LOC="A12";
+Net "Q_outputs[2]" LOC="B11";
+Net "Q_outputs[1]" LOC="D11";
+Net "Q_outputs[0]" LOC="C11";

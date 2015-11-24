@@ -71,7 +71,7 @@ G1_nbit_incrementer: n_bit_incrementer port map (Q_outputs, count_enable, n_bit_
 
 G2_nbit_two_mux: n_bit_two_input_mux port map (n_bit_inc_out, D_inputs, load_count, n_bit_two_mux_out);
 
-G3_nbit_register: n_bit_register port map (n_bit_two_mux_out, CLK, reset, '0');
+G3_nbit_register: n_bit_register port map (n_bit_two_mux_out, CLK, reset, '0', Q_outputs);
 
 
 end Behavioral;

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-11-23T05:24:38</DateModified>
-  <ModuleName>four_bit_synchronous_up_down_counter</ModuleName>
+  <DateModified>2015-11-23T23:20:14</DateModified>
+  <ModuleName>nbit_synchronous_counter_parallel</ModuleName>
   <SummaryTimeStamp>2015-11-18T23:19:31</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/iseconfig/nbit_synchronous_counter_parallel.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4\</ImplementationReportsDirectory>
