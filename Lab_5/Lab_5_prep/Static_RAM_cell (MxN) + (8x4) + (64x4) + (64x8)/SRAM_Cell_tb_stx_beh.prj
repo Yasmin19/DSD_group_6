@@ -1,0 +1,4 @@
+vhdl isim_temp "tri_buff.vhd"
+vhdl isim_temp "d_latch.vhd"
+vhdl isim_temp "SRAM_Cell.vhd"
+vhdl isim_temp "SRAM_Cell_tb.vhd"

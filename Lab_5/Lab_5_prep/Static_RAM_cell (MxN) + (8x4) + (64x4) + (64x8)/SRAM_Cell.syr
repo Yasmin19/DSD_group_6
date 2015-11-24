@@ -1,0 +1,366 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Reading design: SRAM_Cell.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "SRAM_Cell.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "SRAM_Cell"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-ft256
+
+---- Source Options
+Top Module Name                    : SRAM_Cell
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/d_latch.vhd" in Library work.
+Architecture behavioral of Entity d_latch is up to date.
+Compiling vhdl file "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/tri_buff.vhd" in Library work.
+Architecture behavioral of Entity tri_buff is up to date.
+Compiling vhdl file "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/SRAM_Cell.vhd" in Library work.
+Architecture behavioral of Entity sram_cell is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <SRAM_Cell> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <D_latch> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <tri_buff> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <SRAM_Cell> in library <work> (Architecture <behavioral>).
+Entity <SRAM_Cell> analyzed. Unit <SRAM_Cell> generated.
+
+Analyzing Entity <D_latch> in library <work> (Architecture <behavioral>).
+Entity <D_latch> analyzed. Unit <D_latch> generated.
+
+Analyzing Entity <tri_buff> in library <work> (Architecture <behavioral>).
+Entity <tri_buff> analyzed. Unit <tri_buff> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <D_latch>.
+    Related source file is "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/d_latch.vhd".
+WARNING:Xst:737 - Found 1-bit latch for signal <Q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+Unit <D_latch> synthesized.
+
+
+Synthesizing Unit <tri_buff>.
+    Related source file is "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/tri_buff.vhd".
+    Found 1-bit tristate buffer for signal <Output>.
+    Summary:
+	inferred   1 Tristate(s).
+Unit <tri_buff> synthesized.
+
+
+Synthesizing Unit <SRAM_Cell>.
+    Related source file is "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/SRAM_Cell.vhd".
+Unit <SRAM_Cell> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 1
+ 1-bit latch                                           : 1
+# Tristates                                            : 1
+ 1-bit tristate buffer                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 1
+ 1-bit latch                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <SRAM_Cell> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block SRAM_Cell, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : SRAM_Cell.ngr
+Top Level Output File Name         : SRAM_Cell
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 4
+
+Cell Usage :
+# BELS                             : 2
+#      INV                         : 1
+#      LUT2                        : 1
+# FlipFlops/Latches                : 1
+#      LD                          : 1
+# IO Buffers                       : 4
+#      IBUF                        : 3
+#      OBUFT                       : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500eft256-4 
+
+ Number of Slices:                        1  out of   4656     0%  
+ Number of 4 input LUTs:                  2  out of   9312     0%  
+ Number of IOs:                           4
+ Number of bonded IOBs:                   4  out of    190     2%  
+    IOB Flip Flops:                       1
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CellAndBuff(CellAndBuff1:O)        | NONE(*)(Latch1/Q)      | 1     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 1.946ns
+   Maximum output required time after clock: 4.368ns
+   Maximum combinational path delay: 6.061ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CellAndBuff'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.946ns (Levels of Logic = 1)
+  Source:            Data_in (PAD)
+  Destination:       Latch1/Q (LATCH)
+  Destination Clock: CellAndBuff falling
+
+  Data Path: Data_in to Latch1/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  Data_in_IBUF (Data_in_IBUF)
+     LD:D                      0.308          Latch1/Q
+    ----------------------------------------
+    Total                      1.946ns (1.526ns logic, 0.420ns route)
+                                       (78.4% logic, 21.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CellAndBuff'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.368ns (Levels of Logic = 1)
+  Source:            Latch1/Q (LATCH)
+  Destination:       Data_out (PAD)
+  Source Clock:      CellAndBuff falling
+
+  Data Path: Latch1/Q to Data_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.676   0.420  Latch1/Q (Latch1/Q)
+     OBUFT:I->O                3.272          Data_out_OBUFT (Data_out)
+    ----------------------------------------
+    Total                      4.368ns (3.948ns logic, 0.420ns route)
+                                       (90.4% logic, 9.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               6.061ns (Levels of Logic = 3)
+  Source:            Cell_select (PAD)
+  Destination:       Data_out (PAD)
+
+  Data Path: Cell_select to Data_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.447  Cell_select_IBUF (Cell_select_IBUF)
+     INV:I->O              1   0.704   0.420  Buff/enable_inv1_INV_0 (Buff/enable_inv)
+     OBUFT:T->O                3.272          Data_out_OBUFT (Data_out)
+    ----------------------------------------
+    Total                      6.061ns (5.194ns logic, 0.867ns route)
+                                       (85.7% logic, 14.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.93 secs
+ 
+--> 
+
+Total memory usage is 307404 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

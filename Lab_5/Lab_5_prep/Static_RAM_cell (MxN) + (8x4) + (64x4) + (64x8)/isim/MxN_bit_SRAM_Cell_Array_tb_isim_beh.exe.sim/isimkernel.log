@@ -1,0 +1,28 @@
+Command line:
+   MxN_bit_SRAM_Cell_Array_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  15825
+
+Mon Nov 23 16:59:07 2015
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 1320.36 Meg
+
+ Total Signals          : 200
+ Total Nets             : 45
+ Total Signal Drivers   : 51
+ Total Blocks           : 73
+ Total Primitive Blocks : 35
+ Total Processes        : 49
+ Total Traceable Variables  : 32
+ Total Scalar Nets and Variables : 445
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 1320.36 Meg
+
+Mon Nov 23 16:59:14 2015
+

@@ -1,0 +1,5 @@
+vhdl work "tri_buff.vhd"
+vhdl work "d_latch.vhd"
+vhdl work "SRAM_Cell.vhd"
+vhdl work "MxN_bit_SRAM_Cell_Array.vhd"
+vhdl work "MxN_bit_SRAM_Cell_Array_tb.vhd"

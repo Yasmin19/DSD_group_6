@@ -1,0 +1,8 @@
+work	"MxN_bit_SRAM_Cell_Array.vhd"
+work	"SRAM_Cell.vhd"
+work	"Serial_64x4_SRAM.vhd"
+work	"d_latch.vhd"
+work	"eight_by_four_sram.vhd"
+work	"nbit_tristate_buffer.vhd"
+work	"three_to_eight_decoder.vhd"
+work	"tri_buff.vhd"

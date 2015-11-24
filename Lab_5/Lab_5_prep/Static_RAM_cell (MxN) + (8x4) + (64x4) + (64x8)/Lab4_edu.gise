@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Lab4_edu.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="MxN_bit_SRAM_Cell_Array.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="MxN_bit_SRAM_Cell_Array.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="MxN_bit_SRAM_Cell_Array.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="MxN_bit_SRAM_Cell_Array.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MxN_bit_SRAM_Cell_Array.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="MxN_bit_SRAM_Cell_Array.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="MxN_bit_SRAM_Cell_Array.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="MxN_bit_SRAM_Cell_Array.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="MxN_bit_SRAM_Cell_Array_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="MxN_bit_SRAM_Cell_Array_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MxN_bit_SRAM_Cell_Array_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="MxN_bit_SRAM_Cell_Array_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="MxN_bit_SRAM_Cell_Array_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MxN_bit_SRAM_Cell_Array_tb_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MxN_bit_SRAM_Cell_Array_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="MxN_bit_SRAM_Cell_Array_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="SRAM_Cell.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="SRAM_Cell.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="SRAM_Cell.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="SRAM_Cell.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SRAM_Cell.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="SRAM_Cell.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="SRAM_Cell.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="SRAM_Cell.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="SRAM_Cell_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="SRAM_Cell_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SRAM_Cell_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SRAM_Cell_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="SRAM_Cell_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SRAM_Cell_tb_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SRAM_Cell_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SRAM_Cell_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="eight_by_four_sram_tb_vhd_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="serial_64x4_SRAM_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="serial_64x4_SRAM_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="serial_64x4_SRAM_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="serial_64x4_SRAM_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="sixtyfour_by_eight_bit_static_ram.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="sixtyfour_by_eight_bit_static_ram.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="sixtyfour_by_eight_bit_static_ram.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="sixtyfour_by_eight_bit_static_ram.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sixtyfour_by_eight_bit_static_ram.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="sixtyfour_by_eight_bit_static_ram.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="sixtyfour_by_eight_bit_static_ram.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="sixtyfour_by_eight_bit_static_ram.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="sixtyfour_by_eight_bit_static_ram_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="sixtyfour_by_eight_bit_static_ram_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sixtyfour_by_eight_bit_static_ram_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="sixtyfour_by_eight_bit_static_ram_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1448275184" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1448275184">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448306018" xil_pn:in_ck="-2746285236531748941" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1448306018">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="MxN_bit_SRAM_Cell_Array.vhd"/>
+      <outfile xil_pn:name="MxN_bit_SRAM_Cell_Array_tb.vhd"/>
+      <outfile xil_pn:name="SRAM_Cell.vhd"/>
+      <outfile xil_pn:name="Serial_64x4_SRAM.vhd"/>
+      <outfile xil_pn:name="d_latch.vhd"/>
+      <outfile xil_pn:name="eight_by_four_sram.vhd"/>
+      <outfile xil_pn:name="eight_by_four_sram_tb.vhd"/>
+      <outfile xil_pn:name="nbit_tristate_buffer.vhd"/>
+      <outfile xil_pn:name="serial_64x4_SRAM_tb.vhd"/>
+      <outfile xil_pn:name="three_to_eight_decoder.vhd"/>
+      <outfile xil_pn:name="tri_buff.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1448306018" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="6525103264171736562" xil_pn:start_ts="1448306018">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448306018" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1144806640148556684" xil_pn:start_ts="1448306018">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448277271" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8095775290796718400" xil_pn:start_ts="1448277271">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1448306018" xil_pn:in_ck="-2746285236531748941" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1448306018">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="MxN_bit_SRAM_Cell_Array.vhd"/>
+      <outfile xil_pn:name="MxN_bit_SRAM_Cell_Array_tb.vhd"/>
+      <outfile xil_pn:name="SRAM_Cell.vhd"/>
+      <outfile xil_pn:name="Serial_64x4_SRAM.vhd"/>
+      <outfile xil_pn:name="d_latch.vhd"/>
+      <outfile xil_pn:name="eight_by_four_sram.vhd"/>
+      <outfile xil_pn:name="eight_by_four_sram_tb.vhd"/>
+      <outfile xil_pn:name="nbit_tristate_buffer.vhd"/>
+      <outfile xil_pn:name="serial_64x4_SRAM_tb.vhd"/>
+      <outfile xil_pn:name="three_to_eight_decoder.vhd"/>
+      <outfile xil_pn:name="tri_buff.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1448306022" xil_pn:in_ck="-2746285236531748941" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7460574155299175622" xil_pn:start_ts="1448306018">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="serial_64x4_SRAM_tb_beh.prj"/>
+      <outfile xil_pn:name="serial_64x4_SRAM_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1448306023" xil_pn:in_ck="325577194056726270" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4392890107371448883" xil_pn:start_ts="1448306022">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="serial_64x4_SRAM_tb_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1448273579" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1448273578">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448333310" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="9086644940829942800" xil_pn:start_ts="1448333310">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448333310" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3232154250107246379" xil_pn:start_ts="1448333310">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448333310" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1448333310">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448333310" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1670823609219121934" xil_pn:start_ts="1448333310">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448333310" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297157603645" xil_pn:start_ts="1448333310">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448333310" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-6512800057986659083" xil_pn:start_ts="1448333310">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448333577" xil_pn:in_ck="7454094110749411872" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="3632273438877656968" xil_pn:start_ts="1448333563">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="MxN_bit_SRAM_Cell_Array.ngr"/>
+      <outfile xil_pn:name="SRAM_Cell.ngr"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="sixtyfour_by_eight_bit_static_ram.lso"/>
+      <outfile xil_pn:name="sixtyfour_by_eight_bit_static_ram.ngc"/>
+      <outfile xil_pn:name="sixtyfour_by_eight_bit_static_ram.ngr"/>
+      <outfile xil_pn:name="sixtyfour_by_eight_bit_static_ram.prj"/>
+      <outfile xil_pn:name="sixtyfour_by_eight_bit_static_ram.stx"/>
+      <outfile xil_pn:name="sixtyfour_by_eight_bit_static_ram.syr"/>
+      <outfile xil_pn:name="sixtyfour_by_eight_bit_static_ram.xst"/>
+      <outfile xil_pn:name="sixtyfour_by_eight_bit_static_ram_vhdl.prj"/>
+      <outfile xil_pn:name="sixtyfour_by_eight_bit_static_ram_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

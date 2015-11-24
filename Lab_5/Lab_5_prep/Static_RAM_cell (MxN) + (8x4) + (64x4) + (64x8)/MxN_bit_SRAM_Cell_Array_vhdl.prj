@@ -1,0 +1,4 @@
+vhdl work "\\homes.student.eecs.qmul.ac.uk\edsv3\Documents\Lab_4_prep\Lab4_edu\tri_buff.vhd"
+vhdl work "\\homes.student.eecs.qmul.ac.uk\edsv3\Documents\Lab_4_prep\Lab4_edu\d_latch.vhd"
+vhdl work "\\homes.student.eecs.qmul.ac.uk\edsv3\Documents\Lab_4_prep\Lab4_edu\SRAM_Cell.vhd"
+vhdl work "\\homes.student.eecs.qmul.ac.uk\edsv3\Documents\Lab_4_prep\Lab4_edu\MxN_bit_SRAM_Cell_Array.vhd"

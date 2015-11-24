@@ -1,0 +1,510 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.45 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.45 secs
+ 
+--> Reading design: MxN_bit_SRAM_Cell_Array.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MxN_bit_SRAM_Cell_Array.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MxN_bit_SRAM_Cell_Array"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-ft256
+
+---- Source Options
+Top Module Name                    : MxN_bit_SRAM_Cell_Array
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/d_latch.vhd" in Library work.
+Architecture behavioral of Entity d_latch is up to date.
+Compiling vhdl file "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/tri_buff.vhd" in Library work.
+Architecture behavioral of Entity tri_buff is up to date.
+Compiling vhdl file "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/SRAM_Cell.vhd" in Library work.
+Architecture behavioral of Entity sram_cell is up to date.
+Compiling vhdl file "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/MxN_bit_SRAM_Cell_Array.vhd" in Library work.
+Architecture behavioral of Entity mxn_bit_sram_cell_array is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <MxN_bit_SRAM_Cell_Array> in library <work> (architecture <behavioral>) with generics.
+	m = 4
+	n = 4
+
+Analyzing hierarchy for entity <SRAM_Cell> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <D_latch> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <tri_buff> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <MxN_bit_SRAM_Cell_Array> in library <work> (Architecture <behavioral>).
+	m = 4
+	n = 4
+Entity <MxN_bit_SRAM_Cell_Array> analyzed. Unit <MxN_bit_SRAM_Cell_Array> generated.
+
+Analyzing Entity <SRAM_Cell> in library <work> (Architecture <behavioral>).
+Entity <SRAM_Cell> analyzed. Unit <SRAM_Cell> generated.
+
+Analyzing Entity <D_latch> in library <work> (Architecture <behavioral>).
+Entity <D_latch> analyzed. Unit <D_latch> generated.
+
+Analyzing Entity <tri_buff> in library <work> (Architecture <behavioral>).
+Entity <tri_buff> analyzed. Unit <tri_buff> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <D_latch>.
+    Related source file is "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/d_latch.vhd".
+WARNING:Xst:737 - Found 1-bit latch for signal <Q>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+Unit <D_latch> synthesized.
+
+
+Synthesizing Unit <tri_buff>.
+    Related source file is "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/tri_buff.vhd".
+    Found 1-bit tristate buffer for signal <Output>.
+    Summary:
+	inferred   1 Tristate(s).
+Unit <tri_buff> synthesized.
+
+
+Synthesizing Unit <SRAM_Cell>.
+    Related source file is "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/SRAM_Cell.vhd".
+Unit <SRAM_Cell> synthesized.
+
+
+Synthesizing Unit <MxN_bit_SRAM_Cell_Array>.
+    Related source file is "//homes.student.eecs.qmul.ac.uk/edsv3/Documents/Lab_4_prep/Lab4_edu/MxN_bit_SRAM_Cell_Array.vhd".
+Unit <MxN_bit_SRAM_Cell_Array> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 16
+ 1-bit latch                                           : 16
+# Tristates                                            : 16
+ 1-bit tristate buffer                                 : 16
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 16
+ 1-bit latch                                           : 16
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2040 - Unit MxN_bit_SRAM_Cell_Array: 4 multi-source signals are replaced by logic (pull-up yes): Data_out<0>_MLTSRCEDGE, Data_out<1>_MLTSRCEDGE, Data_out<2>_MLTSRCEDGE, Data_out<3>_MLTSRCEDGE.
+
+Optimizing unit <MxN_bit_SRAM_Cell_Array> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block MxN_bit_SRAM_Cell_Array, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : MxN_bit_SRAM_Cell_Array.ngr
+Top Level Output File Name         : MxN_bit_SRAM_Cell_Array
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 13
+
+Cell Usage :
+# BELS                             : 17
+#      LUT2                        : 4
+#      LUT3                        : 4
+#      LUT4                        : 9
+# FlipFlops/Latches                : 16
+#      LD                          : 16
+# IO Buffers                       : 13
+#      IBUF                        : 9
+#      OBUFT                       : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500eft256-4 
+
+ Number of Slices:                       10  out of   4656     0%  
+ Number of Slice Flip Flops:             16  out of   9312     0%  
+ Number of 4 input LUTs:                 17  out of   9312     0%  
+ Number of IOs:                          13
+ Number of bonded IOBs:                  13  out of    190     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------------------------------------------------+-------------------------------------------+-------+
+Clock Signal                                                                 | Clock buffer(FF name)                     | Load  |
+-----------------------------------------------------------------------------+-------------------------------------------+-------+
+Lines[0].Columns[0].SRAM/CellAndBuff(Lines[0].Columns[0].SRAM/CellAndBuff1:O)| NONE(*)(Lines[0].Columns[0].SRAM/Latch1/Q)| 4     |
+Lines[1].Columns[0].SRAM/CellAndBuff(Lines[1].Columns[0].SRAM/CellAndBuff1:O)| NONE(*)(Lines[1].Columns[0].SRAM/Latch1/Q)| 4     |
+Lines[2].Columns[0].SRAM/CellAndBuff(Lines[2].Columns[0].SRAM/CellAndBuff1:O)| NONE(*)(Lines[2].Columns[0].SRAM/Latch1/Q)| 4     |
+Lines[3].Columns[0].SRAM/CellAndBuff(Lines[3].Columns[0].SRAM/CellAndBuff1:O)| NONE(*)(Lines[3].Columns[0].SRAM/Latch1/Q)| 4     |
+-----------------------------------------------------------------------------+-------------------------------------------+-------+
+(*) These 4 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 2.113ns
+   Maximum output required time after clock: 6.966ns
+   Maximum combinational path delay: 9.297ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Lines[0].Columns[0].SRAM/CellAndBuff'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              2.113ns (Levels of Logic = 1)
+  Source:            Data_in<0> (PAD)
+  Destination:       Lines[0].Columns[0].SRAM/Latch1/Q (LATCH)
+  Destination Clock: Lines[0].Columns[0].SRAM/CellAndBuff falling
+
+  Data Path: Data_in<0> to Lines[0].Columns[0].SRAM/Latch1/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.587  Data_in_0_IBUF (Data_in_0_IBUF)
+     LD:D                      0.308          Lines[0].Columns[0].SRAM/Latch1/Q
+    ----------------------------------------
+    Total                      2.113ns (1.526ns logic, 0.587ns route)
+                                       (72.2% logic, 27.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Lines[1].Columns[0].SRAM/CellAndBuff'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              2.113ns (Levels of Logic = 1)
+  Source:            Data_in<0> (PAD)
+  Destination:       Lines[1].Columns[0].SRAM/Latch1/Q (LATCH)
+  Destination Clock: Lines[1].Columns[0].SRAM/CellAndBuff falling
+
+  Data Path: Data_in<0> to Lines[1].Columns[0].SRAM/Latch1/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.587  Data_in_0_IBUF (Data_in_0_IBUF)
+     LD:D                      0.308          Lines[1].Columns[0].SRAM/Latch1/Q
+    ----------------------------------------
+    Total                      2.113ns (1.526ns logic, 0.587ns route)
+                                       (72.2% logic, 27.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Lines[2].Columns[0].SRAM/CellAndBuff'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              2.113ns (Levels of Logic = 1)
+  Source:            Data_in<0> (PAD)
+  Destination:       Lines[2].Columns[0].SRAM/Latch1/Q (LATCH)
+  Destination Clock: Lines[2].Columns[0].SRAM/CellAndBuff falling
+
+  Data Path: Data_in<0> to Lines[2].Columns[0].SRAM/Latch1/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.587  Data_in_0_IBUF (Data_in_0_IBUF)
+     LD:D                      0.308          Lines[2].Columns[0].SRAM/Latch1/Q
+    ----------------------------------------
+    Total                      2.113ns (1.526ns logic, 0.587ns route)
+                                       (72.2% logic, 27.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Lines[3].Columns[0].SRAM/CellAndBuff'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              2.113ns (Levels of Logic = 1)
+  Source:            Data_in<0> (PAD)
+  Destination:       Lines[3].Columns[0].SRAM/Latch1/Q (LATCH)
+  Destination Clock: Lines[3].Columns[0].SRAM/CellAndBuff falling
+
+  Data Path: Data_in<0> to Lines[3].Columns[0].SRAM/Latch1/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.587  Data_in_0_IBUF (Data_in_0_IBUF)
+     LD:D                      0.308          Lines[3].Columns[0].SRAM/Latch1/Q
+    ----------------------------------------
+    Total                      2.113ns (1.526ns logic, 0.587ns route)
+                                       (72.2% logic, 27.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Lines[2].Columns[0].SRAM/CellAndBuff'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              6.966ns (Levels of Logic = 3)
+  Source:            Lines[2].Columns[3].SRAM/Latch1/Q (LATCH)
+  Destination:       Data_out<3> (PAD)
+  Source Clock:      Lines[2].Columns[0].SRAM/CellAndBuff falling
+
+  Data Path: Lines[2].Columns[3].SRAM/Latch1/Q to Data_out<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.676   0.595  Lines[2].Columns[3].SRAM/Latch1/Q (Lines[2].Columns[3].SRAM/Latch1/Q)
+     LUT4:I0->O            1   0.704   0.595  Data_out<3>_MLTSRCEDGELogicTrst12 (Data_out<3>_MLTSRCEDGELogicTrst12)
+     LUT4:I0->O            1   0.704   0.420  Data_out<3>_MLTSRCEDGELogicTrst15 (Data_out<3>_MLTSRCEDGE)
+     OBUFT:I->O                3.272          Data_out_3_OBUFT (Data_out<3>)
+    ----------------------------------------
+    Total                      6.966ns (5.356ns logic, 1.610ns route)
+                                       (76.9% logic, 23.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Lines[0].Columns[0].SRAM/CellAndBuff'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              6.826ns (Levels of Logic = 3)
+  Source:            Lines[0].Columns[3].SRAM/Latch1/Q (LATCH)
+  Destination:       Data_out<3> (PAD)
+  Source Clock:      Lines[0].Columns[0].SRAM/CellAndBuff falling
+
+  Data Path: Lines[0].Columns[3].SRAM/Latch1/Q to Data_out<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.676   0.455  Lines[0].Columns[3].SRAM/Latch1/Q (Lines[0].Columns[3].SRAM/Latch1/Q)
+     LUT4:I2->O            1   0.704   0.595  Data_out<3>_MLTSRCEDGELogicTrst12 (Data_out<3>_MLTSRCEDGELogicTrst12)
+     LUT4:I0->O            1   0.704   0.420  Data_out<3>_MLTSRCEDGELogicTrst15 (Data_out<3>_MLTSRCEDGE)
+     OBUFT:I->O                3.272          Data_out_3_OBUFT (Data_out<3>)
+    ----------------------------------------
+    Total                      6.826ns (5.356ns logic, 1.470ns route)
+                                       (78.5% logic, 21.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Lines[3].Columns[0].SRAM/CellAndBuff'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              6.774ns (Levels of Logic = 3)
+  Source:            Lines[3].Columns[3].SRAM/Latch1/Q (LATCH)
+  Destination:       Data_out<3> (PAD)
+  Source Clock:      Lines[3].Columns[0].SRAM/CellAndBuff falling
+
+  Data Path: Lines[3].Columns[3].SRAM/Latch1/Q to Data_out<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.676   0.499  Lines[3].Columns[3].SRAM/Latch1/Q (Lines[3].Columns[3].SRAM/Latch1/Q)
+     LUT3:I1->O            1   0.704   0.499  Data_out<3>_MLTSRCEDGELogicTrst15_SW0 (N11)
+     LUT4:I1->O            1   0.704   0.420  Data_out<3>_MLTSRCEDGELogicTrst15 (Data_out<3>_MLTSRCEDGE)
+     OBUFT:I->O                3.272          Data_out_3_OBUFT (Data_out<3>)
+    ----------------------------------------
+    Total                      6.774ns (5.356ns logic, 1.418ns route)
+                                       (79.1% logic, 20.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Lines[1].Columns[0].SRAM/CellAndBuff'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              5.527ns (Levels of Logic = 2)
+  Source:            Lines[1].Columns[3].SRAM/Latch1/Q (LATCH)
+  Destination:       Data_out<3> (PAD)
+  Source Clock:      Lines[1].Columns[0].SRAM/CellAndBuff falling
+
+  Data Path: Lines[1].Columns[3].SRAM/Latch1/Q to Data_out<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.676   0.455  Lines[1].Columns[3].SRAM/Latch1/Q (Lines[1].Columns[3].SRAM/Latch1/Q)
+     LUT4:I2->O            1   0.704   0.420  Data_out<3>_MLTSRCEDGELogicTrst15 (Data_out<3>_MLTSRCEDGE)
+     OBUFT:I->O                3.272          Data_out_3_OBUFT (Data_out<3>)
+    ----------------------------------------
+    Total                      5.527ns (4.652ns logic, 0.875ns route)
+                                       (84.2% logic, 15.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 48 / 4
+-------------------------------------------------------------------------
+Delay:               9.297ns (Levels of Logic = 5)
+  Source:            Select_lines<3> (PAD)
+  Destination:       Data_out<3> (PAD)
+
+  Data Path: Select_lines<3> to Data_out<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   1.218   0.844  Select_lines_3_IBUF (Select_lines_3_IBUF)
+     LUT4:I0->O            8   0.704   0.932  Data_out<0>_MLTSRCEDGELogicTrst11 (N01)
+     LUT3:I0->O            1   0.704   0.499  Data_out<3>_MLTSRCEDGELogicTrst15_SW0 (N11)
+     LUT4:I1->O            1   0.704   0.420  Data_out<3>_MLTSRCEDGELogicTrst15 (Data_out<3>_MLTSRCEDGE)
+     OBUFT:I->O                3.272          Data_out_3_OBUFT (Data_out<3>)
+    ----------------------------------------
+    Total                      9.297ns (6.602ns logic, 2.695ns route)
+                                       (71.0% logic, 29.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.94 secs
+ 
+--> 
+
+Total memory usage is 307412 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

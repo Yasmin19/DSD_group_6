@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "H:/Documents/Lab_4_prep/Lab4_edu/serial_64x4_SRAM_tb_isim_beh.exe" -prj "H:/Documents/Lab_4_prep/Lab4_edu/serial_64x4_SRAM_tb_beh.prj" "work.serial_64x4_SRAM_tb" 

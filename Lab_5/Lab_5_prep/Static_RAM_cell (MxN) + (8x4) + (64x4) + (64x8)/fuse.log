@@ -1,0 +1,35 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o H:/Documents/Lab_4_prep/Lab4_edu/serial_64x4_SRAM_tb_isim_beh.exe -prj H:/Documents/Lab_4_prep/Lab4_edu/serial_64x4_SRAM_tb_beh.prj work.serial_64x4_SRAM_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "H:/Documents/Lab_4_prep/Lab4_edu/tri_buff.vhd" into library work
+Parsing VHDL file "H:/Documents/Lab_4_prep/Lab4_edu/d_latch.vhd" into library work
+Parsing VHDL file "H:/Documents/Lab_4_prep/Lab4_edu/SRAM_Cell.vhd" into library work
+Parsing VHDL file "H:/Documents/Lab_4_prep/Lab4_edu/three_to_eight_decoder.vhd" into library work
+Parsing VHDL file "H:/Documents/Lab_4_prep/Lab4_edu/nbit_tristate_buffer.vhd" into library work
+Parsing VHDL file "H:/Documents/Lab_4_prep/Lab4_edu/MxN_bit_SRAM_Cell_Array.vhd" into library work
+Parsing VHDL file "H:/Documents/Lab_4_prep/Lab4_edu/eight_by_four_sram.vhd" into library work
+Parsing VHDL file "H:/Documents/Lab_4_prep/Lab4_edu/Serial_64x4_SRAM.vhd" into library work
+Parsing VHDL file "H:/Documents/Lab_4_prep/Lab4_edu/serial_64x4_SRAM_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture with_select_arch of entity three_to_eight_decoder [three_to_eight_decoder_default]
+Compiling architecture behavioral of entity D_latch [d_latch_default]
+Compiling architecture behavioral of entity tri_buff [tri_buff_default]
+Compiling architecture behavioral of entity SRAM_Cell [sram_cell_default]
+Compiling architecture behavioral of entity MxN_bit_SRAM_Cell_Array [\MxN_bit_SRAM_Cell_Array(8,4)\]
+Compiling architecture behavioral of entity nbit_tristate_buffer [\nbit_tristate_buffer(4)\]
+Compiling architecture behavioral of entity eight_by_four_sram [eight_by_four_sram_default]
+Compiling architecture behavioral of entity Serial_64x4_SRAM [\Serial_64x4_SRAM(8)\]
+Compiling architecture behavior of entity serial_64x4_sram_tb
+Time Resolution for simulation is 1ps.
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\serial_64x4_SRAM_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 21 VHDL Units
+Built simulation executable H:/Documents/Lab_4_prep/Lab4_edu/serial_64x4_SRAM_tb_isim_beh.exe
+Fuse Memory Usage: 34188 KB
+Fuse CPU Usage: 530 ms

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "H:/Documents/Lab_4_prep/Lab4_edu/MxN_bit_SRAM_Cell_Array.xst" -ofn "H:/Documents/Lab_4_prep/Lab4_edu/MxN_bit_SRAM_Cell_Array.syr" 
+xst -intstyle ise -ifn "H:/Documents/Lab_4_prep/Lab4_edu/MxN_bit_SRAM_Cell_Array.xst" -ofn "H:/Documents/Lab_4_prep/Lab4_edu/MxN_bit_SRAM_Cell_Array.syr" 
+xst -intstyle ise -ifn "H:/Documents/Lab_4_prep/Lab4_edu/MxN_bit_SRAM_Cell_Array.xst" -ofn "H:/Documents/Lab_4_prep/Lab4_edu/MxN_bit_SRAM_Cell_Array.syr" 
+xst -intstyle ise -ifn "H:/Documents/Lab_4_prep/Lab4_edu/MxN_bit_SRAM_Cell_Array.xst" -ofn "H:/Documents/Lab_4_prep/Lab4_edu/MxN_bit_SRAM_Cell_Array.syr" 
+xst -intstyle ise -ifn "H:/Documents/Lab_4_prep/Lab4_edu/MxN_bit_SRAM_Cell_Array.xst" -ofn "H:/Documents/Lab_4_prep/Lab4_edu/MxN_bit_SRAM_Cell_Array.syr" 

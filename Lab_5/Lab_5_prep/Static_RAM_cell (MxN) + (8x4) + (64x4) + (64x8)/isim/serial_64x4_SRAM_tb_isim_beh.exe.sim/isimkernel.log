@@ -1,0 +1,28 @@
+Command line:
+   serial_64x4_SRAM_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  18723
+
+Mon Nov 23 19:13:45 2015
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 1332.96 Meg
+
+ Total Signals          : 3350
+ Total Nets             : 760
+ Total Signal Drivers   : 856
+ Total Blocks           : 1198
+ Total Primitive Blocks : 556
+ Total Processes        : 853
+ Total Traceable Variables  : 395
+ Total Scalar Nets and Variables : 1523
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 389.194 Meg
+
+Mon Nov 23 19:28:08 2015
+
