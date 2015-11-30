@@ -119,6 +119,8 @@
     <transform xil_pn:end_ts="1448384716" xil_pn:in_ck="1134052067193884450" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="6379977708211606377" xil_pn:start_ts="1448384713">
       <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="T_flipflop.ngr"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="nbit_tristate_buffer.ngr"/>
