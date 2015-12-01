@@ -7,7 +7,10 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/N_bit_sync_counter_with_enable - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|N_bit_sync_counter_with_enable.vhd</ClosedNode>
+         <ClosedNode>/N_bit_sync_counter_with_enable - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|N_bit_sync_counter_with_enable.vhd/NIncrementer - n_bit_incrementer - Behavioral/Half_adder_i - half_adder - half_adder_behavioral</ClosedNode>
          <ClosedNode>/four_bit_adder_subtractor - four_bit_adder_subtractor_behavioral C:|Users|Yasmin|Documents|QM Work|Year 3|Digital Systems Design|Lab_4|four_bit_adder_subtractor.vhd</ClosedNode>
+         <ClosedNode>/four_bit_synchronous_up_down_counter - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|four_bit_synchronous_up_down_counter.vhd</ClosedNode>
          <ClosedNode>/four_bit_synchronous_up_down_counter - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|four_bit_synchronous_up_down_counter.vhd/G1_adder_sub - four_bit_adder_subtractor - four_bit_adder_subtractor_behavioral</ClosedNode>
          <ClosedNode>/four_bit_synchronous_up_down_counter - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|four_bit_synchronous_up_down_counter.vhd/G2_nbit_reg - n_bit_register - Behavioral</ClosedNode>
          <ClosedNode>/four_bit_synchronous_up_down_counter - Behavioral C:|Users|Yasmin|Documents|QM Work|Year 3|Digital Systems Design|Lab_4|four_bit_synchronous_up_down_counter.vhd</ClosedNode>
@@ -16,6 +19,12 @@
          <ClosedNode>/four_bit_synchronous_up_down_counter - Behavioral C:|Users|Yasmin|Documents|QM Work|Year 3|Digital Systems Design|Lab_4|four_bit_synchronous_up_down_counter.vhd/G1_adder_sub - four_bit_adder_subtractor - four_bit_adder_subtractor_behavioral/G2 - four_bit_lac_adder - four_bit_lac_adder_behavioral/G2 - n_bit_adder - n_bit_adder_behavioral/G2 - full_adder - full_adder_behavioral</ClosedNode>
          <ClosedNode>/four_bit_synchronous_up_down_counter - Behavioral C:|Users|Yasmin|Documents|QM Work|Year 3|Digital Systems Design|Lab_4|four_bit_synchronous_up_down_counter.vhd/G1_adder_sub - four_bit_adder_subtractor - four_bit_adder_subtractor_behavioral/G2 - four_bit_lac_adder - four_bit_lac_adder_behavioral/G2 - n_bit_adder - n_bit_adder_behavioral/G2 - full_adder - full_adder_behavioral/X1 - half_adder - half_adder_behavioral</ClosedNode>
          <ClosedNode>/four_bit_synchronous_up_down_counter - Behavioral C:|Users|Yasmin|Documents|QM Work|Year 3|Digital Systems Design|Lab_4|four_bit_synchronous_up_down_counter.vhd/G2_nbit_reg - n_bit_register - Behavioral</ClosedNode>
+         <ClosedNode>/four_bit_syncronous_counter - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|four_bit_syncronous_counter.vhd</ClosedNode>
+         <ClosedNode>/module_m_counter_with_asynchronous_reset_test_bench - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|module_m_counter_with_asynchronous_reset_test_bench.vhd/uut - modulo_m_counter_with_asynchronous_reset - Behavioral</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_synchronous_reset_test_bench - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|modulo_m_counter_with_synchronous_reset_test_bench.vhd</ClosedNode>
+         <ClosedNode>/n_bit_ripple_counter - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|n-bit_ripple_counter.vhd</ClosedNode>
+         <ClosedNode>/nbit_count_enable - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|nbit_count_enable.vhd</ClosedNode>
+         <ClosedNode>/nbit_synchronous_counter_parallel - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|nbit_synchronous_counter_parallel.vhd</ClosedNode>
          <ClosedNode>/nbit_synchronous_counter_parallel - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|nbit_synchronous_counter_parallel.vhd/G1_nbit_incrementer - n_bit_incrementer - Behavioral</ClosedNode>
          <ClosedNode>/nbit_synchronous_counter_parallel - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|nbit_synchronous_counter_parallel.vhd/G2_nbit_two_mux - n_bit_two_input_mux - Behavioral</ClosedNode>
          <ClosedNode>/nbit_synchronous_counter_parallel - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|nbit_synchronous_counter_parallel.vhd/G3_nbit_register - n_bit_register - Behavioral</ClosedNode>
@@ -23,15 +32,16 @@
          <ClosedNode>/nbit_synchronous_counter_parallel - Behavioral C:|Users|Yasmin|Documents|QM Work|Year 3|Digital Systems Design|Lab_4|nbit_synchronous_counter_parallel.vhd/G1_nbit_incrementer - n_bit_incrementer - Behavioral/Half_adder_i - half_adder - half_adder_behavioral</ClosedNode>
          <ClosedNode>/nbit_synchronous_counter_parallel - Behavioral C:|Users|Yasmin|Documents|QM Work|Year 3|Digital Systems Design|Lab_4|nbit_synchronous_counter_parallel.vhd/G2_nbit_two_mux - n_bit_two_input_mux - Behavioral</ClosedNode>
          <ClosedNode>/nbit_synchronous_counter_parallel - Behavioral C:|Users|Yasmin|Documents|QM Work|Year 3|Digital Systems Design|Lab_4|nbit_synchronous_counter_parallel.vhd/G3_nbit_register - n_bit_register - Behavioral</ClosedNode>
+         <ClosedNode>/washer_controller - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|washer_controller.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>nbit_synchronous_counter_parallel - Behavioral (C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/nbit_synchronous_counter_parallel.vhd)</SelectedItem>
+         <SelectedItem>WashMashine_controller - Behavioral (C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/WashMashine_controller.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002aa000000020000000000000000000000000200000064ffffffff000000810000000300000002000002aa0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002fb000000020000000000000000000000000200000064ffffffff000000810000000300000002000002fb0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>nbit_synchronous_counter_parallel - Behavioral (C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/nbit_synchronous_counter_parallel.vhd)</CurrentItem>
+      <CurrentItem>WashMashine_controller - Behavioral (C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/WashMashine_controller.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -43,7 +53,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000149000000010000000100000000000000000000000064ffffffff000000810000000000000001000001490000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001fc000000010000000100000000000000000000000064ffffffff000000810000000000000001000001fc0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem/>
    </ItemView>
@@ -51,12 +61,14 @@
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
-      <SelectedItems/>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <SelectedItems>
+         <SelectedItem>T_flipflop.vhd</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >21</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002d2000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d00000001000000000000002100000001000000000000005d0000000100000000000002170000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000001eb000000040101000100000000000000000000000064ffffffff000000810000000000000004000000fe00000001000000000000002100000001000000000000005d00000001000000000000006f0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>and_gate.vhd</CurrentItem>
+      <CurrentItem>T_flipflop.vhd</CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>
@@ -75,6 +87,7 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
          <ClosedNode>Configure Target Device</ClosedNode>
          <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
@@ -82,28 +95,36 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e1000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e10000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001eb000000010000000100000000000000000000000064ffffffff000000810000000000000001000001eb0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
-   <SourceProcessView>000000ff000000000000000200000127000000bb01000000050100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <SourceProcessView>000000ff00000000000000020000015d000000c301000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/N_bit_synchronous_counter_enable_tb - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|N_bit_synchronous_counter_enable_tb.vhd</ClosedNode>
+         <ClosedNode>/eight_bit_comparator_tb - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|eight_bit_comparator_tb.vhd</ClosedNode>
          <ClosedNode>/four_bit_synch_up_down_counter_tb - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|four_bit_synch_up_down_counter_tb.vhd</ClosedNode>
          <ClosedNode>/four_bit_synch_up_down_counter_tb - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|four_bit_synch_up_down_counter_tb.vhd/uut - four_bit_synchronous_up_down_counter - Behavioral</ClosedNode>
-         <ClosedNode>/nbit_synch_counter_parallel_tb - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|nbit_synch_counter_parallel_tb.vhd</ClosedNode>
+         <ClosedNode>/four_bit_syncronous_counter_tb - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|four_bit_syncronous_counter_tb.vhd</ClosedNode>
+         <ClosedNode>/module_m_counter_with_asynchronous_reset_test_bench - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|module_m_counter_with_asynchronous_reset_test_bench.vhd</ClosedNode>
+         <ClosedNode>/modulo_m_counter_with_synchronous_reset_test_bench - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|modulo_m_counter_with_synchronous_reset_test_bench.vhd</ClosedNode>
+         <ClosedNode>/n_bit_incrementer_tb - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|n_bit_incrementer_tb.vhd</ClosedNode>
+         <ClosedNode>/n_bit_registe_tb - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|n_bit_registe_tb.vhd</ClosedNode>
+         <ClosedNode>/n_bit_ripple_counter_tb - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|n_bit_ripple_counter_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_synch_counter_parallel_tb - behavior C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|nbit_synch_counter_parallel_tb.vhd/uut - nbit_synchronous_counter_parallel - Behavioral/G3_nbit_register - n_bit_register - Behavioral</ClosedNode>
          <ClosedNode>/nbit_synchronous_counter_parallel - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_4|Lab_4|nbit_synchronous_counter_parallel.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>nbit_synch_counter_parallel_tb - behavior (C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/nbit_synch_counter_parallel_tb.vhd)</SelectedItem>
+         <SelectedItem>Unassigned User Library Modules</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000221000000020000000000000000000000000200000064ffffffff000000810000000300000002000002210000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002fb000000020000000000000000000000000200000064ffffffff000000810000000300000002000002fb0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>nbit_synch_counter_parallel_tb - behavior (C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/nbit_synch_counter_parallel_tb.vhd)</CurrentItem>
+      <CurrentItem>Unassigned User Library Modules</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -115,7 +136,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000149000000010000000100000000000000000000000064ffffffff000000810000000000000001000001490000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001fc000000010000000100000000000000000000000064ffffffff000000810000000000000001000001fc0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem/>
    </ItemView>
@@ -124,13 +145,13 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f2000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f20000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001fc000000010000000100000000000000000000000064ffffffff000000810000000000000001000001fc0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
       <ClosedNodes>
@@ -138,12 +159,12 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f2000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f20000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
 </Project>

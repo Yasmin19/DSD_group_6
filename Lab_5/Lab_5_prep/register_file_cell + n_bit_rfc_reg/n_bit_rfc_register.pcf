@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Nov 25 14:43:19 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "REA" LOCATE = SITE "H13" LEVEL 1;
+COMP "REB" LOCATE = SITE "H16" LEVEL 1;
+COMP "WE" LOCATE = SITE "J12" LEVEL 1;
+COMP "Data_in<0>" LOCATE = SITE "G12" LEVEL 1;
+COMP "Data_in<1>" LOCATE = SITE "E14" LEVEL 1;
+COMP "Data_in<2>" LOCATE = SITE "D16" LEVEL 1;
+COMP "Data_in<3>" LOCATE = SITE "B16" LEVEL 1;
+COMP "Clock" LOCATE = SITE "A10" LEVEL 1;
+COMP "OA<0>" LOCATE = SITE "B14" LEVEL 1;
+COMP "OA<1>" LOCATE = SITE "A14" LEVEL 1;
+COMP "OA<2>" LOCATE = SITE "B13" LEVEL 1;
+COMP "OA<3>" LOCATE = SITE "A13" LEVEL 1;
+COMP "OB<0>" LOCATE = SITE "A12" LEVEL 1;
+COMP "OB<1>" LOCATE = SITE "B11" LEVEL 1;
+COMP "OB<2>" LOCATE = SITE "D11" LEVEL 1;
+COMP "OB<3>" LOCATE = SITE "C11" LEVEL 1;
+NET "Clock_BUFGP/IBUFG" BEL "Clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

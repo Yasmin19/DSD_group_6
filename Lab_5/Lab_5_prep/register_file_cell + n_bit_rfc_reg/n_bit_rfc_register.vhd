@@ -47,14 +47,12 @@ begin
 
 --FOR LOOP
 --create an instance of a for loop called "inst"
---inst : for 4 in n-1 downto 0 generate
+inst : for i in n-1 downto 0 generate
 
 	--generate n instances of the device "two_input_multiplexer"
-	--G_RFC_i : register_file_cell port map (Data_in(i), REA, REB, WE, Clock, OA(i), OB(i)); 
+	G_RFC_i : register_file_cell port map (Data_in(i), REA, REB, WE, Clock, OA(i), OB(i)); 
 	
-	G_RFC_i : register_file_cell port map (Data_in(3), REA, REB, WE, Clock, OA(3), OB(3)); 
-	
---end generate;
+end generate;
 
 end Behavioral;
 

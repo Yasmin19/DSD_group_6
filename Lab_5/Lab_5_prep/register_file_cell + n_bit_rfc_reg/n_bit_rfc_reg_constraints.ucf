@@ -1,0 +1,20 @@
+Net "WE" LOC="J12"; 
+
+Net "REB" LOC="H16"; 
+Net "REA" LOC="H13";
+ 
+Net "Data_in[0]" LOC="G12"; 
+Net "Data_in[1]" LOC="E14"; 
+Net "Data_in[2]" LOC="D16"; 
+Net "Data_in[3]" LOC="B16"; 
+
+Net "Clock" LOC = "A10";
+
+Net "OB[3]" LOC="C11"; 
+Net "OB[2]" LOC="D11"; 
+Net "OB[1]" LOC="B11"; 
+Net "OB[0]" LOC="A12";
+Net "OA[3]" LOC="A13"; 
+Net "OA[2]" LOC="B13"; 
+Net "OA[1]" LOC="A14"; 
+Net "OA[0]" LOC="B14"; 

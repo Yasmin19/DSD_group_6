@@ -7,12 +7,12 @@ EN eight_by_four_sram NULL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/L
 AR serial_64x4_sram behavioral "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/Serial_64x4_SRAM.vhd" sub00/vhpl16 1448333581
 AR eight_by_four_sram behavioral "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/eight_by_four_sram.vhd" sub00/vhpl14 1448333579
 EN sixtyfour_by_eight_bit_static_ram NULL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/sixtyfour_by_eight_bit_static_ram.vhd" sub00/vhpl08 1448333582
-AR nbit_tristate_buffer behavioral "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/nbit_tristate_buffer.vhd" sub00/vhpl12 1448333577
+AR nbit_tristate_buffer behavioral "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/nbit_tristate_buffer.vhd" sub00/vhpl12 1448379652
 EN three_to_eight_decoder NULL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/three_to_eight_decoder.vhd" sub00/vhpl09 1448333572
 AR sram_cell behavioral "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/SRAM_Cell.vhd" sub00/vhpl01 1448371652
 EN d_latch NULL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/d_latch.vhd" sub00/vhpl02 1448371647
-EN tri_buff NULL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/tri_buff.vhd" sub00/vhpl04 1448371649
+EN tri_buff NULL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/tri_buff.vhd" sub00/vhpl04 1448379649
 EN mxn_bit_sram_cell_array NULL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/MxN_bit_SRAM_Cell_Array.vhd" sub00/vhpl06 1448371653
 AR three_to_eight_decoder with_select_arch "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/three_to_eight_decoder.vhd" sub00/vhpl10 1448333573
-AR tri_buff behavioral "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/tri_buff.vhd" sub00/vhpl05 1448371650
-EN nbit_tristate_buffer NULL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/nbit_tristate_buffer.vhd" sub00/vhpl11 1448333576
+AR tri_buff behavioral "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/tri_buff.vhd" sub00/vhpl05 1448379650
+EN nbit_tristate_buffer NULL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/nbit_tristate_buffer.vhd" sub00/vhpl11 1448379651

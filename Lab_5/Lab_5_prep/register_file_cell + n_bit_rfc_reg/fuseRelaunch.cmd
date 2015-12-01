@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/n_bit_rfc_reg_tb_isim_beh.exe" -prj "C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/n_bit_rfc_reg_tb_beh.prj" "work.n_bit_rfc_reg_tb" 

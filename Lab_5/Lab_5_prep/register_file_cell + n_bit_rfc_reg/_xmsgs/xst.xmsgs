@@ -5,16 +5,19 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">Data_in&lt;2:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">dummy</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\register_file_cell.vhd</arg>&quot; line <arg fmt="%s" index="2">69</arg>: Output port &lt;<arg fmt="%s" index="3">Q_bar</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">G2_D_flipflop</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">inst[0].G_RFC_i/G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">n_bit_rfc_register</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="0" delta="new" >The specified part-type was not generated at build time. XST is loading the full part-type and will therefore consume more CPU and memory.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">inst[1].G_RFC_i/G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">n_bit_rfc_register</arg>&gt;.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">G_RFC_i/G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">n_bit_rfc_register</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">inst[2].G_RFC_i/G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">n_bit_rfc_register</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">inst[3].G_RFC_i/G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">n_bit_rfc_register</arg>&gt;.
 </msg>
 
 </messages>

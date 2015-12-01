@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-11-24T02:48:23</DateModified>
-  <ModuleName>sixtyfour_by_eight_bit_static_ram</ModuleName>
+  <DateModified>2015-11-24T15:40:45</DateModified>
+  <ModuleName>nbit_tristate_buffer</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/iseconfig/MxN_bit_SRAM_Cell_Array.xreport</SavedFilePath>
   <ImplementationReportsDirectory>C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)\</ImplementationReportsDirectory>
-  <DateInitialized>2015-11-24T02:48:23</DateInitialized>
+  <DateInitialized>2015-11-24T15:40:45</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

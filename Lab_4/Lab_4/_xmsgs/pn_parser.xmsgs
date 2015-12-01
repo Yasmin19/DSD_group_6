@@ -8,7 +8,109 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/D_flipflop.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/N_bit_sync_counter_with_enable.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/T_flipflop.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/WashMashine_controller.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/and_gate.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/eight_bit_comparator.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/four_bit_LAC.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/four_bit_adder_subtractor.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/four_bit_lac_adder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/four_bit_synchronous_up_down_counter.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/four_bit_syncronous_counter.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/full_adder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/half_adder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/module_m_counter_with_asynchronous_reset_test_bench.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/modulo_m_counter_with_asynchronous_reset.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/modulo_m_counter_with_synchronous_reset.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/modulo_m_counter_with_synchronous_reset_test_bench.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/n-bit_ripple_counter.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/n_bit_adder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/n_bit_incrementer.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/n_bit_register.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/n_bit_synchronous_counter_with_enable.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/n_bit_synchronous_counter_with_parallel_load.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/n_bit_two_input_mux.vhd&quot; into library work</arg>
+</msg>
+
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/nbit_count_enable.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/nbit_synchronous_counter_parallel.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/nbit_xor_control.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/next_state_logic.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/not_gate.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/or_gate.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/two_input_multiplexer.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/washer_controller.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/washer_next_state_logic.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/washer_output_logic.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_4/Lab_4/xor_gate.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

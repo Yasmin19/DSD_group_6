@@ -11,13 +11,13 @@
          <ClosedNode>/n_bit_rfc_register - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_5|Lab_5_prep|register_file_cell|n_bit_rfc_register.vhd/G_RFC_i - register_file_cell - Behavioral</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>n_bit_rfc_register - Behavioral (C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/n_bit_rfc_register.vhd)</SelectedItem>
+         <SelectedItem>n_bit_rfc_register - Behavioral (E:/register_file_cell + n_bit_rfc_reg/n_bit_rfc_register.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000197000000020000000000000000000000000200000064ffffffff000000810000000300000002000001970000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000282000000020000000000000000000000000200000064ffffffff000000810000000300000002000002820000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>n_bit_rfc_register - Behavioral (C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/n_bit_rfc_register.vhd)</CurrentItem>
+      <CurrentItem>n_bit_rfc_register - Behavioral (E:/register_file_cell + n_bit_rfc_reg/n_bit_rfc_register.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -40,7 +40,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002e3000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d00000001000000000000002100000001000000000000005d0000000100000000000002280000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000003a3000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d00000001000000000000002100000001000000000000005d0000000100000000000002e80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>and_gate.vhd</CurrentItem>
    </ItemView>
@@ -70,7 +70,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000b8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000b80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Design Summary/Reports</CurrentItem>
    </ItemView>

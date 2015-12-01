@@ -1,0 +1,7 @@
+work	"D_flipflop.vhd"
+work	"and_gate.vhd"
+work	"not_gate.vhd"
+work	"or_gate.vhd"
+work	"register_file_cell.vhd"
+work	"tri_buff.vhd"
+work	"two_input_multiplexer.vhd"

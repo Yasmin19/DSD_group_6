@@ -27,12 +27,12 @@ AR work/MxN_bit_SRAM_Cell_Array/Behavioral 1448371654 \
       FL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/MxN_bit_SRAM_Cell_Array.vhd" \
       EN work/MxN_bit_SRAM_Cell_Array 1448371653 CP SRAM_Cell
 FL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/nbit_tristate_buffer.vhd" 2015/11/24.02:21:10 P.20131013
-EN work/nbit_tristate_buffer 1448333576 \
+EN work/nbit_tristate_buffer 1448379651 \
       FL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/nbit_tristate_buffer.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/nbit_tristate_buffer/Behavioral 1448333577 \
+AR work/nbit_tristate_buffer/Behavioral 1448379652 \
       FL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/nbit_tristate_buffer.vhd" \
-      EN work/nbit_tristate_buffer 1448333576 CP tri_buff
+      EN work/nbit_tristate_buffer 1448379651 CP tri_buff
 FL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/Serial_64x4_SRAM.vhd" 2015/11/24.02:21:10 P.20131013
 EN work/Serial_64x4_SRAM 1448333580 \
       FL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/Serial_64x4_SRAM.vhd" \
@@ -64,10 +64,10 @@ AR work/three_to_eight_decoder/with_select_arch 1448333573 \
       FL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/three_to_eight_decoder.vhd" \
       EN work/three_to_eight_decoder 1448333572
 FL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/tri_buff.vhd" 2015/11/24.02:21:11 P.20131013
-EN work/tri_buff 1448371649 \
+EN work/tri_buff 1448379649 \
       FL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/tri_buff.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
       PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/tri_buff/Behavioral 1448371650 \
+AR work/tri_buff/Behavioral 1448379650 \
       FL "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/tri_buff.vhd" \
-      EN work/tri_buff 1448371649
+      EN work/tri_buff 1448379649

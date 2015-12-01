@@ -8,18 +8,16 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/MxN_bit_SRAM_Cell_Array - Behavioral H:|Documents|Lab_4_prep|Lab4_edu|MxN_bit_SRAM_Cell_Array.vhd</ClosedNode>
-         <ClosedNode>/sixtyfour_by_eight_bit_static_ram - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_5|Lab_5_prep|Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)|sixtyfour_by_eight_bit_static_ram.vhd/G1_64x4_SRAM - Serial_64x4_SRAM - Behavioral/SRAM - eight_by_four_sram - Behavioral/ramarray - MxN_bit_SRAM_Cell_Array - Behavioral/SRAM - SRAM_Cell - Behavioral</ClosedNode>
-         <ClosedNode>/sixtyfour_by_eight_bit_static_ram - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_5|Lab_5_prep|Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)|sixtyfour_by_eight_bit_static_ram.vhd/G1_64x4_SRAM - Serial_64x4_SRAM - Behavioral/SRAM - eight_by_four_sram - Behavioral/tribuff - nbit_tristate_buffer - Behavioral</ClosedNode>
          <ClosedNode>/sixtyfour_by_eight_bit_static_ram - Behavioral C:|Users|Yasmin|Documents|GitHub|DSD_group_6|Lab_5|Lab_5_prep|Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)|sixtyfour_by_eight_bit_static_ram.vhd/G2_64X4_SRAM - Serial_64x4_SRAM - Behavioral</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>ramarray - MxN_bit_SRAM_Cell_Array - Behavioral (C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/MxN_bit_SRAM_Cell_Array.vhd)</SelectedItem>
+         <SelectedItem>tribuff - nbit_tristate_buffer - Behavioral (C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/nbit_tristate_buffer.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000244000000020000000000000000000000000200000064ffffffff000000810000000300000002000002440000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000234000000020000000000000000000000000200000064ffffffff000000810000000300000002000002340000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>ramarray - MxN_bit_SRAM_Cell_Array - Behavioral (C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/MxN_bit_SRAM_Cell_Array.vhd)</CurrentItem>
+      <CurrentItem>tribuff - nbit_tristate_buffer - Behavioral (C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/Static_RAM_cell (MxN) + (8x4) + (64x4) + (64x8)/nbit_tristate_buffer.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -30,13 +28,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>View RTL Schematic</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000b8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000b80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001fc000000010000000100000000000000000000000064ffffffff000000810000000000000001000001fc0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>View RTL Schematic</CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -113,7 +111,7 @@
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
-   <SourceProcessView>000000ff0000000000000002000000ee000000f401000000050100000002</SourceProcessView>
+   <SourceProcessView>000000ff0000000000000002000001190000010701000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
