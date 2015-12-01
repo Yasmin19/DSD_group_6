@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
--- Company: 
--- Engineer:
+-- Company: Queen Mary University	
+-- Engineer: Yasmin Sahraoui
 --
 -- Create Date:   14:26:01 11/25/2015
 -- Design Name:   
@@ -17,20 +17,11 @@
 -- Revision:
 -- Revision 0.01 - File Created
 -- Additional Comments:
---
--- Notes: 
--- This testbench has been automatically generated using types std_logic and
--- std_logic_vector for the ports of the unit under test.  Xilinx recommends
--- that these types always be used for the top-level I/O of a design in order
--- to guarantee that the testbench will bind correctly to the post-implementation 
--- simulation model.
+
 --------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
- 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---USE ieee.numeric_std.ALL;
+
  
 ENTITY register_file_cell_tb IS
 END register_file_cell_tb;
@@ -66,6 +57,9 @@ ARCHITECTURE behavior OF register_file_cell_tb IS
  
 BEGIN
  
+  -- SET THE CLOCK PERIOD:
+	Clock <= not Clock after 50 ns; -- define clock period 100ns
+	
 	-- Instantiate the Unit Under Test (UUT)
    uut: register_file_cell PORT MAP (
           DIN => DIN,
@@ -77,21 +71,34 @@ BEGIN
           OB => OB
         );
 		  
-	-- SET THE CLOCK PERIOD:
-	Clock <= not Clock after 50 ns; -- define clock period 100ns
-	
+
 	   -- Stimulus process
    stim_proc: process
    begin		
-      -- hold reset state for 100 ns.
 	
-      wait for 100 ns;	
-		--TEST 1
+		--TEST 1 (Write data and output to OA)
 			DIN <= '1';
-			REA <='1';
 			WE <= '1';
+			REA <= '1'; --enable OA
+			wait for 100 ns;
 			
-      -- insert stimulus here 
+		--TEST 2 (Write data and output to OB)
+			DIN <= '1';
+			WE <= '1';
+			REA <= '0'; --disable OA
+			REB <= '1'; --enable OB
+			wait for 100 ns;
+			
+		--TEST 3 (Wrtie data and output to both OA and OB)
+			DIN <= '1';
+			WE <= '1';
+			REA <= '1';
+			REB <= '1';
+			wait for 100 ns;
+			
+		--TEST 4 (Disable write, previous data should be outputted)
+			DIN <= '0'; --even if we change data, it will not affect output
+			WE <= '0';
 
       wait;
    end process;

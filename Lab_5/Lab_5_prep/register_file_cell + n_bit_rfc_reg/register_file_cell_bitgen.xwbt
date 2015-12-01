@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\register_file_cell.ncd
+OUTFILE=C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg\register_file_cell.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4ft256
+WORKINGDIR=C:\Users\Yasmin\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\register_file_cell + n_bit_rfc_reg
+LICENSE=WebPack
+USER_INFO=211105254_0_0_775

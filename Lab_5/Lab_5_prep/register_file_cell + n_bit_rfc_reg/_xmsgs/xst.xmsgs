@@ -5,19 +5,52 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/register_file_cell</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/register_file_cell.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/register_file_cell.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/register_file_cell/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/register_file_cell.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/register_file_cell.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/D_flipflop</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/D_flipflop.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/D_flipflop.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/D_flipflop/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/D_flipflop.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/D_flipflop.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/tri_buff</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/tri_buff.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/tri_buff.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/tri_buff/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/tri_buff.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/tri_buff.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/two_input_multiplexer</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/two_input_multiplexer.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/two_input_multiplexer.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/two_input_multiplexer/two_input_multiplexer_behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/two_input_multiplexer.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/two_input_multiplexer.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/and_gate</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/and_gate.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/and_gate.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/and_gate/and_gate_behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/and_gate.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/and_gate.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/not_gate</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/not_gate.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/not_gate.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/not_gate/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/not_gate.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/not_gate.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/or_gate</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/or_gate.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/or_gate.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/or_gate/or_gate_behaviour</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/or_gate.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/or_gate.vhd</arg>&quot;.
+</msg>
+
 <msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">dummy</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">inst[0].G_RFC_i/G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">n_bit_rfc_register</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">inst[1].G_RFC_i/G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">n_bit_rfc_register</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">inst[2].G_RFC_i/G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">n_bit_rfc_register</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">inst[3].G_RFC_i/G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">n_bit_rfc_register</arg>&gt;.
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">register_file_cell</arg>&gt;.
 </msg>
 
 </messages>

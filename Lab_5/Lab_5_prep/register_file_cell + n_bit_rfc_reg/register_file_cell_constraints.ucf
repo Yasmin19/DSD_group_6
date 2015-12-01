@@ -1,0 +1,11 @@
+Net "WE" LOC="J12"; 
+
+Net "REB" LOC="H16"; 
+Net "REA" LOC="H13";
+ 
+Net "DIN" LOC="G12"; 
+
+Net "Clock" LOC = "A10";
+
+Net "OB" LOC="A12";
+Net "OA" LOC="A13"; 

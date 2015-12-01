@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Dec 01 13:41:32 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "OA" LOCATE = SITE "A13" LEVEL 1;
+COMP "OB" LOCATE = SITE "A12" LEVEL 1;
+COMP "REA" LOCATE = SITE "H13" LEVEL 1;
+COMP "REB" LOCATE = SITE "H16" LEVEL 1;
+COMP "WE" LOCATE = SITE "J12" LEVEL 1;
+COMP "Clock" LOCATE = SITE "A10" LEVEL 1;
+COMP "DIN" LOCATE = SITE "G12" LEVEL 1;
+NET "Clock_BUFGP/IBUFG" BEL "Clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

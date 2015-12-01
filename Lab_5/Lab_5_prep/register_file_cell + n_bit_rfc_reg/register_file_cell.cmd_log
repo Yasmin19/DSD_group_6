@@ -1,3 +1,10 @@
 xst -intstyle ise -ifn "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell/register_file_cell.xst" -ofn "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell/register_file_cell.syr" 
 xst -intstyle ise -ifn "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell/register_file_cell.xst" -ofn "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell/register_file_cell.syr" 
 xst -intstyle ise -ifn "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell/register_file_cell.xst" -ofn "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell/register_file_cell.syr" 
+xst -intstyle ise -ifn "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/register_file_cell.xst" -ofn "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/register_file_cell.syr" 
+netgen -intstyle ise -ar Structure -tm register_file_cell -w -dir netgen/synthesis -ofmt vhdl -sim register_file_cell.ngc register_file_cell_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc register_file_cell_constraints.ucf -p xc3s500e-ft256-4 "register_file_cell.ngc" register_file_cell.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o register_file_cell_map.ncd register_file_cell.ngd register_file_cell.pcf 
+par -w -intstyle ise -ol high -t 1 register_file_cell_map.ncd register_file_cell.ncd register_file_cell.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml register_file_cell.twx register_file_cell.ncd -o register_file_cell.twr register_file_cell.pcf -ucf register_file_cell_constraints.ucf 
+bitgen -intstyle ise -f register_file_cell.ut register_file_cell.ncd 

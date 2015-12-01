@@ -1,10 +1,10 @@
 Command line:
    register_file_cell_tb_isim_beh.exe
      -simmode  gui
-     -simrunnum  0
-     -socket  4563
+     -simrunnum  1
+     -socket  65232
 
-Wed Nov 25 14:34:29 2015
+Tue Dec 01 13:36:16 2015
 
 
  Elaboration Time: 0.03125 sec

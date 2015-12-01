@@ -1,17 +1,16 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/n_bit_rfc_reg_tb_isim_beh.exe -prj C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/n_bit_rfc_reg_tb_beh.prj work.n_bit_rfc_reg_tb 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/register_file_cell_tb_isim_beh.exe -prj C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/register_file_cell_tb_beh.prj work.register_file_cell_tb 
 ISim P.20131013 (signature 0x7708f090)
-Number of CPUs detected in this system: 8
-Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/or_gate.vhd" into library work
-Parsing VHDL file "C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/not_gate.vhd" into library work
-Parsing VHDL file "C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/and_gate.vhd" into library work
-Parsing VHDL file "C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/two_input_multiplexer.vhd" into library work
-Parsing VHDL file "C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/tri_buff.vhd" into library work
-Parsing VHDL file "C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/D_flipflop.vhd" into library work
-Parsing VHDL file "C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/register_file_cell.vhd" into library work
-Parsing VHDL file "C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/n_bit_rfc_register.vhd" into library work
-Parsing VHDL file "C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/n_bit_rfc_reg_tb.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/or_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/not_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/and_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/two_input_multiplexer.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/tri_buff.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/D_flipflop.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/register_file_cell.vhd" into library work
+Parsing VHDL file "C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/register_file_cell_tb.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
@@ -25,11 +24,10 @@ Compiling architecture two_input_multiplexer_behavioral of entity two_input_mult
 Compiling architecture behavioral of entity D_flipflop [d_flipflop_default]
 Compiling architecture behavioral of entity tri_buff [tri_buff_default]
 Compiling architecture behavioral of entity register_file_cell [register_file_cell_default]
-Compiling architecture behavioral of entity n_bit_rfc_register [\n_bit_rfc_register(4)\]
-Compiling architecture behavior of entity n_bit_rfc_reg_tb
+Compiling architecture behavior of entity register_file_cell_tb
 Time Resolution for simulation is 1ps.
-WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\n_bit_rfc_reg_tb_isim_beh.exe.sim\libPortability.dll".
-Compiled 21 VHDL Units
-Built simulation executable C:/Users/hs304/Desktop/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/n_bit_rfc_reg_tb_isim_beh.exe
-Fuse Memory Usage: 33616 KB
-Fuse CPU Usage: 405 ms
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 19 VHDL Units
+Built simulation executable C:/Users/Yasmin/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/register_file_cell + n_bit_rfc_reg/register_file_cell_tb_isim_beh.exe
+Fuse Memory Usage: 33516 KB
+Fuse CPU Usage: 702 ms
