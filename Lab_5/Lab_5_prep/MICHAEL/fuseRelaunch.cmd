@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/tdm_display_circuit_test_bench_isim_beh.exe" -prj "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/tdm_display_circuit_test_bench_beh.prj" "work.tdm_display_circuit_test_bench" 

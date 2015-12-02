@@ -5,8 +5,34 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLParsers" num="820" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/tdm_display_circuit.vhd</arg>&quot; Line <arg fmt="%d" index="2">68</arg>. Type of actual ports is not compatible with type of ports of <arg fmt="%s" index="3">nbit_tristate_buffer</arg>.
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">dummy</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 </msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">inst[0].G_RFC_i/G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">n_bit_rfc_register</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">inst[1].G_RFC_i/G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">n_bit_rfc_register</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">inst[2].G_RFC_i/G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">n_bit_rfc_register</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">inst[3].G_RFC_i/G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">n_bit_rfc_register</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">inst[4].G_RFC_i/G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">n_bit_rfc_register</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">inst[5].G_RFC_i/G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">n_bit_rfc_register</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">inst[6].G_RFC_i/G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">n_bit_rfc_register</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">inst[7].G_RFC_i/G2_D_flipflop/Q_bar</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">n_bit_rfc_register</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2040" delta="new" >Unit <arg fmt="%s" index="1">eight_n_bit_register_file</arg>: <arg fmt="%d" index="2">16</arg> multi-source signals are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
 
 </messages>
 

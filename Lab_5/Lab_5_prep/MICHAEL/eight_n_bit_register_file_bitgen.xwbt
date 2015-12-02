@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\MicSeltene\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\MICHAEL\eight_n_bit_register_file.ncd
+OUTFILE=C:\Users\MicSeltene\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\MICHAEL\eight_n_bit_register_file.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4ft256
+WORKINGDIR=C:\Users\MicSeltene\Documents\GitHub\DSD_group_6\Lab_5\Lab_5_prep\MICHAEL
+LICENSE=WebPack
+USER_INFO=211106372_0_0_676

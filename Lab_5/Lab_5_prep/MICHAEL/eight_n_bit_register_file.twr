@@ -1,0 +1,167 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+H:\0\xi\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml eight_n_bit_register_file.twx eight_n_bit_register_file.ncd
+-o eight_n_bit_register_file.twr eight_n_bit_register_file.pcf -ucf
+eight_bit_n_bit_register_file_constraint.ucf
+
+Design file:              eight_n_bit_register_file.ncd
+Physical constraint file: eight_n_bit_register_file.pcf
+Device,package,speed:     xc3s500e,ft256,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock Clock
+----------------+------------+------------+------------------+--------+
+                |Max Setup to|Max Hold to |                  | Clock  |
+Source          | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+----------------+------------+------------+------------------+--------+
+Data_in<0>      |    1.732(R)|    0.962(R)|Clock_BUFGP       |   0.000|
+Data_in<1>      |    0.766(R)|    1.444(R)|Clock_BUFGP       |   0.000|
+Data_in<2>      |    1.777(R)|    0.653(R)|Clock_BUFGP       |   0.000|
+Data_in<3>      |    0.877(R)|    0.808(R)|Clock_BUFGP       |   0.000|
+Data_in<4>      |    0.942(R)|    1.133(R)|Clock_BUFGP       |   0.000|
+Data_in<5>      |    0.808(R)|    1.243(R)|Clock_BUFGP       |   0.000|
+Data_in<6>      |    0.293(R)|    1.458(R)|Clock_BUFGP       |   0.000|
+Data_in<7>      |    0.585(R)|    1.446(R)|Clock_BUFGP       |   0.000|
+WE              |    5.677(R)|   -0.286(R)|Clock_BUFGP       |   0.000|
+Write_Address<0>|    4.845(R)|    0.224(R)|Clock_BUFGP       |   0.000|
+Write_Address<1>|    5.718(R)|   -0.504(R)|Clock_BUFGP       |   0.000|
+Write_Address<2>|    4.872(R)|    0.076(R)|Clock_BUFGP       |   0.000|
+----------------+------------+------------+------------------+--------+
+
+Clock Clock to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+OutA<0>     |   10.300(R)|Clock_BUFGP       |   0.000|
+OutA<1>     |   10.700(R)|Clock_BUFGP       |   0.000|
+OutA<2>     |   10.459(R)|Clock_BUFGP       |   0.000|
+OutA<3>     |   10.547(R)|Clock_BUFGP       |   0.000|
+OutA<4>     |   11.108(R)|Clock_BUFGP       |   0.000|
+OutA<5>     |   10.893(R)|Clock_BUFGP       |   0.000|
+OutA<6>     |   10.598(R)|Clock_BUFGP       |   0.000|
+OutA<7>     |   10.841(R)|Clock_BUFGP       |   0.000|
+OutB<0>     |   10.374(R)|Clock_BUFGP       |   0.000|
+OutB<1>     |   10.318(R)|Clock_BUFGP       |   0.000|
+OutB<2>     |   10.420(R)|Clock_BUFGP       |   0.000|
+OutB<3>     |   11.268(R)|Clock_BUFGP       |   0.000|
+OutB<4>     |   10.555(R)|Clock_BUFGP       |   0.000|
+OutB<5>     |   10.017(R)|Clock_BUFGP       |   0.000|
+OutB<6>     |   10.793(R)|Clock_BUFGP       |   0.000|
+OutB<7>     |   10.730(R)|Clock_BUFGP       |   0.000|
+------------+------------+------------------+--------+
+
+Pad to Pad
+-----------------+---------------+---------+
+Source Pad       |Destination Pad|  Delay  |
+-----------------+---------------+---------+
+REA              |OutA<0>        |    7.386|
+REA              |OutA<1>        |    6.941|
+REA              |OutA<2>        |    7.890|
+REA              |OutA<3>        |    8.249|
+REA              |OutA<4>        |    9.065|
+REA              |OutA<5>        |    9.557|
+REA              |OutA<6>        |    9.305|
+REA              |OutA<7>        |    8.591|
+REB              |OutB<0>        |    7.508|
+REB              |OutB<1>        |    8.372|
+REB              |OutB<2>        |    7.281|
+REB              |OutB<3>        |   10.318|
+REB              |OutB<4>        |    9.281|
+REB              |OutB<5>        |   10.629|
+REB              |OutB<6>        |   10.956|
+REB              |OutB<7>        |   10.828|
+Read_Address_A<0>|OutA<0>        |    6.859|
+Read_Address_A<0>|OutA<1>        |    7.723|
+Read_Address_A<0>|OutA<2>        |    7.249|
+Read_Address_A<0>|OutA<3>        |    8.343|
+Read_Address_A<0>|OutA<4>        |    8.811|
+Read_Address_A<0>|OutA<5>        |    8.740|
+Read_Address_A<0>|OutA<6>        |    8.313|
+Read_Address_A<0>|OutA<7>        |    8.539|
+Read_Address_A<1>|OutA<0>        |    7.411|
+Read_Address_A<1>|OutA<1>        |    7.719|
+Read_Address_A<1>|OutA<2>        |    7.057|
+Read_Address_A<1>|OutA<3>        |    8.773|
+Read_Address_A<1>|OutA<4>        |    8.848|
+Read_Address_A<1>|OutA<5>        |    8.771|
+Read_Address_A<1>|OutA<6>        |    8.796|
+Read_Address_A<1>|OutA<7>        |    8.758|
+Read_Address_A<2>|OutA<0>        |    8.779|
+Read_Address_A<2>|OutA<1>        |    9.569|
+Read_Address_A<2>|OutA<2>        |    9.044|
+Read_Address_A<2>|OutA<3>        |   10.227|
+Read_Address_A<2>|OutA<4>        |   10.331|
+Read_Address_A<2>|OutA<5>        |   10.641|
+Read_Address_A<2>|OutA<6>        |   10.197|
+Read_Address_A<2>|OutA<7>        |   10.691|
+Read_Address_B<0>|OutB<0>        |    7.715|
+Read_Address_B<0>|OutB<1>        |    7.182|
+Read_Address_B<0>|OutB<2>        |    6.941|
+Read_Address_B<0>|OutB<3>        |    8.007|
+Read_Address_B<0>|OutB<4>        |    7.728|
+Read_Address_B<0>|OutB<5>        |    7.840|
+Read_Address_B<0>|OutB<6>        |    8.123|
+Read_Address_B<0>|OutB<7>        |    8.133|
+Read_Address_B<1>|OutB<0>        |    6.813|
+Read_Address_B<1>|OutB<1>        |    7.329|
+Read_Address_B<1>|OutB<2>        |    6.940|
+Read_Address_B<1>|OutB<3>        |    9.452|
+Read_Address_B<1>|OutB<4>        |    8.344|
+Read_Address_B<1>|OutB<5>        |    8.735|
+Read_Address_B<1>|OutB<6>        |    9.354|
+Read_Address_B<1>|OutB<7>        |    9.679|
+Read_Address_B<2>|OutB<0>        |    9.414|
+Read_Address_B<2>|OutB<1>        |    8.853|
+Read_Address_B<2>|OutB<2>        |    8.846|
+Read_Address_B<2>|OutB<3>        |    9.836|
+Read_Address_B<2>|OutB<4>        |    8.443|
+Read_Address_B<2>|OutB<5>        |    8.236|
+Read_Address_B<2>|OutB<6>        |    8.930|
+Read_Address_B<2>|OutB<7>        |    8.898|
+-----------------+---------------+---------+
+
+
+Analysis completed Wed Dec 02 15:28:32 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 178 MB
+
+
+

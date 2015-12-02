@@ -1,0 +1,140 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+H:\0\xi\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml tdm_display_circuit.twx tdm_display_circuit.ncd -o
+tdm_display_circuit.twr tdm_display_circuit.pcf
+
+Design file:              tdm_display_circuit.ncd
+Physical constraint file: tdm_display_circuit.pcf
+Device,package,speed:     xc3s500e,ft256,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clock to Pad
+-------------+------------+------------------+--------+
+             | clk (edge) |                  | Clock  |
+Destination  |   to PAD   |Internal Clock(s) | Phase  |
+-------------+------------+------------------+--------+
+Anode_outs<0>|   13.040(R)|clock_BUFGP       |   0.000|
+Anode_outs<1>|   13.176(R)|clock_BUFGP       |   0.000|
+Anode_outs<2>|   11.573(R)|clock_BUFGP       |   0.000|
+Anode_outs<3>|   13.058(R)|clock_BUFGP       |   0.000|
+Anode_outs<4>|   12.180(R)|clock_BUFGP       |   0.000|
+Anode_outs<5>|   12.040(R)|clock_BUFGP       |   0.000|
+Anode_outs<6>|   12.402(R)|clock_BUFGP       |   0.000|
+Cathod_A     |    8.103(R)|clock_BUFGP       |   0.000|
+Cathod_B     |    8.006(R)|clock_BUFGP       |   0.000|
+-------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    1.458|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+InA<0>         |Anode_outs<0>  |    9.288|
+InA<0>         |Anode_outs<1>  |    9.424|
+InA<0>         |Anode_outs<2>  |    7.821|
+InA<0>         |Anode_outs<3>  |    9.306|
+InA<0>         |Anode_outs<4>  |    8.428|
+InA<0>         |Anode_outs<5>  |    8.288|
+InA<0>         |Anode_outs<6>  |    8.650|
+InA<1>         |Anode_outs<0>  |    8.190|
+InA<1>         |Anode_outs<1>  |    8.490|
+InA<1>         |Anode_outs<2>  |    7.100|
+InA<1>         |Anode_outs<3>  |    8.183|
+InA<1>         |Anode_outs<4>  |    7.707|
+InA<1>         |Anode_outs<5>  |    7.749|
+InA<1>         |Anode_outs<6>  |    7.709|
+InA<2>         |Anode_outs<0>  |    7.982|
+InA<2>         |Anode_outs<1>  |    8.227|
+InA<2>         |Anode_outs<2>  |    7.057|
+InA<2>         |Anode_outs<3>  |    8.040|
+InA<2>         |Anode_outs<4>  |    7.664|
+InA<2>         |Anode_outs<5>  |    7.477|
+InA<2>         |Anode_outs<6>  |    7.511|
+InA<3>         |Anode_outs<0>  |    8.228|
+InA<3>         |Anode_outs<1>  |    8.321|
+InA<3>         |Anode_outs<2>  |    7.106|
+InA<3>         |Anode_outs<3>  |    8.281|
+InA<3>         |Anode_outs<4>  |    7.713|
+InA<3>         |Anode_outs<5>  |    7.700|
+InA<3>         |Anode_outs<6>  |    7.578|
+InB<0>         |Anode_outs<0>  |    9.272|
+InB<0>         |Anode_outs<1>  |    9.408|
+InB<0>         |Anode_outs<2>  |    7.805|
+InB<0>         |Anode_outs<3>  |    9.290|
+InB<0>         |Anode_outs<4>  |    8.412|
+InB<0>         |Anode_outs<5>  |    8.272|
+InB<0>         |Anode_outs<6>  |    8.634|
+InB<1>         |Anode_outs<0>  |    8.203|
+InB<1>         |Anode_outs<1>  |    8.503|
+InB<1>         |Anode_outs<2>  |    7.113|
+InB<1>         |Anode_outs<3>  |    8.196|
+InB<1>         |Anode_outs<4>  |    7.720|
+InB<1>         |Anode_outs<5>  |    7.762|
+InB<1>         |Anode_outs<6>  |    7.722|
+InB<2>         |Anode_outs<0>  |    7.910|
+InB<2>         |Anode_outs<1>  |    8.155|
+InB<2>         |Anode_outs<2>  |    6.985|
+InB<2>         |Anode_outs<3>  |    7.968|
+InB<2>         |Anode_outs<4>  |    7.592|
+InB<2>         |Anode_outs<5>  |    7.405|
+InB<2>         |Anode_outs<6>  |    7.439|
+InB<3>         |Anode_outs<0>  |    7.993|
+InB<3>         |Anode_outs<1>  |    8.086|
+InB<3>         |Anode_outs<2>  |    6.871|
+InB<3>         |Anode_outs<3>  |    8.046|
+InB<3>         |Anode_outs<4>  |    7.478|
+InB<3>         |Anode_outs<5>  |    7.465|
+InB<3>         |Anode_outs<6>  |    7.343|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Dec 02 15:27:03 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 179 MB
+
+
+

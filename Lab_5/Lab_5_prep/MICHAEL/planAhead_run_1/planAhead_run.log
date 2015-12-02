@@ -1,0 +1,86 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from H:/0/xi/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [H:/0/xi/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [H:/0/xi/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/pa.fromHdl.tcl
+# create_project -name MICHAEL -dir "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/planAhead_run_2" -part xc3s500eft256-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "eight_bit_n_bit_register_file_constraint.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_bit_n_bit_register_file_constraint.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {or_gate.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {not_gate.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {and_gate.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {two_input_multiplexer.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {tri_buff.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {D_flipflop.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {register_file_cell.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {three_to_eight_decoder.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {n_bit_rfc_register.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {eight_n_bit_register_file.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top eight_n_bit_register_file $srcset
+# add_files [list {eight_bit_n_bit_register_file_constraint.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s500eft256-4
+Using Verific elaboration
+Parsing VHDL file "H:/0/xi/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "H:/0/xi/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/or_gate.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/not_gate.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/and_gate.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/two_input_multiplexer.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/tri_buff.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/D_flipflop.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/register_file_cell.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/three_to_eight_decoder.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/n_bit_rfc_register.vhd" into library work
+Parsing VHDL file "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_n_bit_register_file.vhd" into library work
+INFO: [Designutils 20-910] Reading macro library H:/0/xi/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [H:/0/xi/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [H:/0/xi/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ft256/Package.xml
+Loading io standards from H:/0/xi/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ft256/SSORules.xml
+Loading list of drcs for the architecture : H:/0/xi/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library H:/0/xi/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_bit_n_bit_register_file_constraint.ucf]
+Finished Parsing UCF File [C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_bit_n_bit_register_file_constraint.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: c26fffbd
+open_rtl_design: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 445.805 ; gain = 62.871
+update_compile_order -fileset sim_1
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed Dec 02 14:52:52 2015...
+INFO: [Common 17-83] Releasing license: PlanAhead

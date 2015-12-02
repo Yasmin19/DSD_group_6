@@ -8,7 +8,46 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/D_flipflop.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/T_flipflop.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/and_gate.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_n_bit_register_file.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/n_bit_rfc_register.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/nbit_tristate_buffer.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/not_gate.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/or_gate.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/register_file_cell.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/sixteen_x_7_decoder_rom.vhd&quot; into library work</arg>
+</msg>
+
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/tdm_display_circuit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/three_to_eight_decoder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/tri_buff.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/two_input_multiplexer.vhd&quot; into library work</arg>
 </msg>
 
 </messages>
