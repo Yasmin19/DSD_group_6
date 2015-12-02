@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.32 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.32 secs
  
 --> Reading design: tdm_display_circuit.prj
 
@@ -113,13 +113,306 @@ Architecture behavioral of Entity nbit_tristate_buffer is up to date.
 Compiling vhdl file "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/sixteen_x_7_decoder_rom.vhd" in Library work.
 Architecture behavioral of Entity sixteen_x_7_decoder_rom is up to date.
 Compiling vhdl file "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/tdm_display_circuit.vhd" in Library work.
-Entity <tdm_display_circuit> compiled.
-ERROR:HDLParsers:820 - "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/tdm_display_circuit.vhd" Line 68. Type of actual ports is not compatible with type of ports of nbit_tristate_buffer.
+Architecture behavioral of Entity tdm_display_circuit is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <tdm_display_circuit> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <T_flipflop> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <nbit_tristate_buffer> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <sixteen_x_7_decoder_rom> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <tri_buff> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <tdm_display_circuit> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <tdm_display_circuit> analyzed. Unit <tdm_display_circuit> generated.
+
+Analyzing Entity <T_flipflop> in library <work> (Architecture <behavioral>).
+Entity <T_flipflop> analyzed. Unit <T_flipflop> generated.
+
+Analyzing generic Entity <nbit_tristate_buffer> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <nbit_tristate_buffer> analyzed. Unit <nbit_tristate_buffer> generated.
+
+Analyzing Entity <tri_buff> in library <work> (Architecture <behavioral>).
+Entity <tri_buff> analyzed. Unit <tri_buff> generated.
+
+Analyzing Entity <sixteen_x_7_decoder_rom> in library <work> (Architecture <behavioral>).
+Entity <sixteen_x_7_decoder_rom> analyzed. Unit <sixteen_x_7_decoder_rom> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <T_flipflop>.
+    Related source file is "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/T_flipflop.vhd".
+    Found 1-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_bar>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <T_flipflop> synthesized.
+
+
+Synthesizing Unit <sixteen_x_7_decoder_rom>.
+    Related source file is "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/sixteen_x_7_decoder_rom.vhd".
+    Found 16x7-bit ROM for signal <delay>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <sixteen_x_7_decoder_rom> synthesized.
+
+
+Synthesizing Unit <tri_buff>.
+    Related source file is "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/tri_buff.vhd".
+    Found 1-bit tristate buffer for signal <Output>.
+    Summary:
+	inferred   1 Tristate(s).
+Unit <tri_buff> synthesized.
+
+
+Synthesizing Unit <nbit_tristate_buffer>.
+    Related source file is "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/nbit_tristate_buffer.vhd".
+Unit <nbit_tristate_buffer> synthesized.
+
+
+Synthesizing Unit <tdm_display_circuit>.
+    Related source file is "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/tdm_display_circuit.vhd".
+Unit <tdm_display_circuit> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Registers                                            : 2
+ 1-bit register                                        : 2
+# Tristates                                            : 8
+ 1-bit tristate buffer                                 : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2040 - Unit tdm_display_circuit: 4 multi-source signals are replaced by logic (pull-up yes): buffer_TO_decoder<0>, buffer_TO_decoder<1>, buffer_TO_decoder<2>, buffer_TO_decoder<3>.
+
+Optimizing unit <tdm_display_circuit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block tdm_display_circuit, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : tdm_display_circuit.ngr
+Top Level Output File Name         : tdm_display_circuit
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 19
+
+Cell Usage :
+# BELS                             : 13
+#      INV                         : 2
+#      LUT4                        : 11
+# FlipFlops/Latches                : 2
+#      FDC                         : 1
+#      FDP                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 18
+#      IBUF                        : 9
+#      OBUF                        : 9
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500eft256-4 
+
+ Number of Slices:                        6  out of   4656     0%  
+ Number of Slice Flip Flops:              2  out of   9312     0%  
+ Number of 4 input LUTs:                 13  out of   9312     0%  
+ Number of IOs:                          19
+ Number of bonded IOBs:                  19  out of    190    10%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 2     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 2     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 2.692ns (Maximum Frequency: 371.471MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.418ns
+   Maximum combinational path delay: 7.656ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 2.692ns (frequency: 371.471MHz)
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               2.692ns (Levels of Logic = 1)
+  Source:            inst_0/Q_bar (FF)
+  Destination:       inst_0/Q_bar (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: inst_0/Q_bar to inst_0/Q_bar
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              6   0.591   0.669  inst_0/Q_bar (inst_0/Q_bar)
+     INV:I->O              1   0.704   0.420  inst_0/Q_bar_not00011_INV_0 (inst_0/Q_bar_not0001)
+     FDP:D                     0.308          inst_0/Q_bar
+    ----------------------------------------
+    Total                      2.692ns (1.603ns logic, 1.089ns route)
+                                       (59.5% logic, 40.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 58 / 9
+-------------------------------------------------------------------------
+Offset:              7.418ns (Levels of Logic = 3)
+  Source:            inst_0/Q (FF)
+  Destination:       Anode_outs<6> (PAD)
+  Source Clock:      clock rising
+
+  Data Path: inst_0/Q to Anode_outs<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              6   0.591   0.844  inst_0/Q (inst_0/Q)
+     LUT4:I0->O            7   0.704   0.883  buffer_TO_decoder<0>LogicTrst1 (buffer_TO_decoder<0>)
+     LUT4:I0->O            1   0.704   0.420  inst_3/Mrom_delay21 (Anode_outs_2_OBUF)
+     OBUF:I->O                 3.272          Anode_outs_2_OBUF (Anode_outs<2>)
+    ----------------------------------------
+    Total                      7.418ns (5.271ns logic, 2.147ns route)
+                                       (71.1% logic, 28.9% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 56 / 7
+-------------------------------------------------------------------------
+Delay:               7.656ns (Levels of Logic = 4)
+  Source:            InB<0> (PAD)
+  Destination:       Anode_outs<6> (PAD)
+
+  Data Path: InB<0> to Anode_outs<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.455  InB_0_IBUF (InB_0_IBUF)
+     LUT4:I2->O            7   0.704   0.883  buffer_TO_decoder<0>LogicTrst1 (buffer_TO_decoder<0>)
+     LUT4:I0->O            1   0.704   0.420  inst_3/Mrom_delay21 (Anode_outs_2_OBUF)
+     OBUF:I->O                 3.272          Anode_outs_2_OBUF (Anode_outs<2>)
+    ----------------------------------------
+    Total                      7.656ns (5.898ns logic, 1.758ns route)
+                                       (77.0% logic, 23.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.14 secs
+ 
 --> 
 
-Total memory usage is 286256 kilobytes
+Total memory usage is 308960 kilobytes
 
-Number of errors   :    1 (   0 filtered)
-Number of warnings :    0 (   0 filtered)
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

@@ -5,7 +5,7 @@
 -- Create Date:    13:59:49 10/15/2015 
 -- Design Name:    two_input_multiplexer
 -- Module Name:    two_input_multiplexer_behavioral
--- Project Name:  Lab 1
+-- Project Name:  Lab 5
 -- Target Device: XCR3064xl-6pc44
 -- Tool versions: Xilinx ISE	   7.104i and ModelSim XE III 6.0a starter 
 -- Description:   two input multiplexer

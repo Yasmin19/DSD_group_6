@@ -1,0 +1,29 @@
+Command line:
+   tdm_display_circuit_test_bench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50751
+
+Wed Dec 02 15:24:25 2015
+
+
+ Elaboration Time: 0.34375 sec
+
+ Current Memory Usage: 1338.34 Meg
+
+ Total Signals          : 55
+ Total Nets             : 36
+ Total Signal Drivers   : 19
+ Total Blocks           : 25
+ Total Primitive Blocks : 13
+ Total Processes        : 16
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 426
+Total Line Count : 59
+
+ Total Simulation Time: 0.96875 sec
+
+ Current Memory Usage: 866.456 Meg
+
+Wed Dec 02 15:25:40 2015
+

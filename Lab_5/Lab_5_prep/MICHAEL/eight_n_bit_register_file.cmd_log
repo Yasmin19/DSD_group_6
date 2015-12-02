@@ -27,3 +27,11 @@ xst -intstyle ise -ifn "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/L
 xst -intstyle ise -ifn "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_n_bit_register_file.xst" -ofn "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_n_bit_register_file.syr" 
 xst -intstyle ise -ifn "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_n_bit_register_file.xst" -ofn "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_n_bit_register_file.syr" 
 xst -intstyle ise -ifn "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_n_bit_register_file.xst" -ofn "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_n_bit_register_file.syr" 
+xst -intstyle ise -ifn "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_n_bit_register_file.xst" -ofn "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_n_bit_register_file.syr" 
+xst -intstyle ise -ifn "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_n_bit_register_file.xst" -ofn "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_n_bit_register_file.syr" 
+xst -intstyle ise -ifn "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_n_bit_register_file.xst" -ofn "C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/eight_n_bit_register_file.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc eight_bit_n_bit_register_file_constraint.ucf -p xc3s500e-ft256-4 eight_n_bit_register_file.ngc eight_n_bit_register_file.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o eight_n_bit_register_file_map.ncd eight_n_bit_register_file.ngd eight_n_bit_register_file.pcf 
+par -w -intstyle ise -ol high -t 1 eight_n_bit_register_file_map.ncd eight_n_bit_register_file.ncd eight_n_bit_register_file.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml eight_n_bit_register_file.twx eight_n_bit_register_file.ncd -o eight_n_bit_register_file.twr eight_n_bit_register_file.pcf -ucf eight_bit_n_bit_register_file_constraint.ucf 
+bitgen -intstyle ise -f eight_n_bit_register_file.ut eight_n_bit_register_file.ncd 
