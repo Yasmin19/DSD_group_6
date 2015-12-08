@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-11-24T13:07:56</DateModified>
-  <ModuleName>n_bit_rfc_register</ModuleName>
+  <DateModified>2015-12-08T15:42:51</DateModified>
+  <ModuleName>eight_n_bit_register_file</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL/iseconfig/eight_n_bit_register_file.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/MicSeltene/Documents/GitHub/DSD_group_6/Lab_5/Lab_5_prep/MICHAEL\</ImplementationReportsDirectory>
   <DateInitialized>2015-11-24T13:06:28</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
