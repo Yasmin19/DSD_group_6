@@ -1,0 +1,997 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.39 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.39 secs
+ 
+--> Reading design: Data_path.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Data_path.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Data_path"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-ft256
+
+---- Source Options
+Top Module Name                    : Data_path
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/Data_path is now defined in a different file.  It was defined in "E:/Lab6/Lab6/Data_path.vhd", and is now defined in "H:/Lab6/Lab6/Data_path.vhd".
+WARNING:HDLParsers:3607 - Unit work/Data_path/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/Data_path.vhd", and is now defined in "H:/Lab6/Lab6/Data_path.vhd".
+WARNING:HDLParsers:3607 - Unit work/eight_n_bit_register_file is now defined in a different file.  It was defined in "E:/Lab6/Lab6/eight_n_bit_register_file.vhd", and is now defined in "H:/Lab6/Lab6/eight_n_bit_register_file.vhd".
+WARNING:HDLParsers:3607 - Unit work/eight_n_bit_register_file/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/eight_n_bit_register_file.vhd", and is now defined in "H:/Lab6/Lab6/eight_n_bit_register_file.vhd".
+WARNING:HDLParsers:3607 - Unit work/four_bit_alu is now defined in a different file.  It was defined in "E:/Lab6/Lab6/four_bit_alu.vhd", and is now defined in "H:/Lab6/Lab6/four_bit_alu.vhd".
+WARNING:HDLParsers:3607 - Unit work/four_bit_alu/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/four_bit_alu.vhd", and is now defined in "H:/Lab6/Lab6/four_bit_alu.vhd".
+WARNING:HDLParsers:3607 - Unit work/four_bit_shifter is now defined in a different file.  It was defined in "E:/Lab6/Lab6/four_bit_shifter.vhd", and is now defined in "H:/Lab6/Lab6/four_bit_shifter.vhd".
+WARNING:HDLParsers:3607 - Unit work/four_bit_shifter/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/four_bit_shifter.vhd", and is now defined in "H:/Lab6/Lab6/four_bit_shifter.vhd".
+WARNING:HDLParsers:3607 - Unit work/n_bit_register_hold_load is now defined in a different file.  It was defined in "E:/Lab6/Lab6/n_bit_register_hold-load.vhd", and is now defined in "H:/Lab6/Lab6/n_bit_register_hold-load.vhd".
+WARNING:HDLParsers:3607 - Unit work/n_bit_register_hold_load/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/n_bit_register_hold-load.vhd", and is now defined in "H:/Lab6/Lab6/n_bit_register_hold-load.vhd".
+WARNING:HDLParsers:3607 - Unit work/four_bit_arithmetic_unit is now defined in a different file.  It was defined in "E:/Lab6/Lab6/four_bit_arithmetic_unit.vhd", and is now defined in "H:/Lab6/Lab6/four_bit_arithmetic_unit.vhd".
+WARNING:HDLParsers:3607 - Unit work/four_bit_arithmetic_unit/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/four_bit_arithmetic_unit.vhd", and is now defined in "H:/Lab6/Lab6/four_bit_arithmetic_unit.vhd".
+WARNING:HDLParsers:3607 - Unit work/nbit_logic_unit is now defined in a different file.  It was defined in "E:/Lab6/Lab6/nbit_logic_unit.vhd", and is now defined in "H:/Lab6/Lab6/nbit_logic_unit.vhd".
+WARNING:HDLParsers:3607 - Unit work/nbit_logic_unit/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/nbit_logic_unit.vhd", and is now defined in "H:/Lab6/Lab6/nbit_logic_unit.vhd".
+WARNING:HDLParsers:3607 - Unit work/n_bit_2_input_mux is now defined in a different file.  It was defined in "E:/Lab6/Lab6/n_bit_2_input_mux.vhd", and is now defined in "H:/Lab6/Lab6/n_bit_2_input_mux.vhd".
+WARNING:HDLParsers:3607 - Unit work/n_bit_2_input_mux/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/n_bit_2_input_mux.vhd", and is now defined in "H:/Lab6/Lab6/n_bit_2_input_mux.vhd".
+WARNING:HDLParsers:3607 - Unit work/n_bit_register is now defined in a different file.  It was defined in "E:/Lab6/Lab6/n_bit_register.vhd", and is now defined in "H:/Lab6/Lab6/n_bit_register.vhd".
+WARNING:HDLParsers:3607 - Unit work/n_bit_register/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/n_bit_register.vhd", and is now defined in "H:/Lab6/Lab6/n_bit_register.vhd".
+WARNING:HDLParsers:3607 - Unit work/n_bit_rfc_register is now defined in a different file.  It was defined in "E:/Lab6/Lab6/n_bit_rfc_register.vhd", and is now defined in "H:/Lab6/Lab6/n_bit_rfc_register.vhd".
+WARNING:HDLParsers:3607 - Unit work/n_bit_rfc_register/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/n_bit_rfc_register.vhd", and is now defined in "H:/Lab6/Lab6/n_bit_rfc_register.vhd".
+WARNING:HDLParsers:3607 - Unit work/n_bit_shifter_rotator_unit is now defined in a different file.  It was defined in "E:/Lab6/Lab6/n_bit_shifter_rotator_unit.vhd", and is now defined in "H:/Lab6/Lab6/n_bit_shifter_rotator_unit.vhd".
+WARNING:HDLParsers:3607 - Unit work/n_bit_shifter_rotator_unit/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/n_bit_shifter_rotator_unit.vhd", and is now defined in "H:/Lab6/Lab6/n_bit_shifter_rotator_unit.vhd".
+WARNING:HDLParsers:3607 - Unit work/shift_control_logic is now defined in a different file.  It was defined in "E:/Lab6/Lab6/shift_control_logic.vhd", and is now defined in "H:/Lab6/Lab6/shift_control_logic.vhd".
+WARNING:HDLParsers:3607 - Unit work/shift_control_logic/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/shift_control_logic.vhd", and is now defined in "H:/Lab6/Lab6/shift_control_logic.vhd".
+WARNING:HDLParsers:3607 - Unit work/three_to_eight_decoder is now defined in a different file.  It was defined in "E:/Lab6/Lab6/three_to_eight_decoder.vhd", and is now defined in "H:/Lab6/Lab6/three_to_eight_decoder.vhd".
+WARNING:HDLParsers:3607 - Unit work/three_to_eight_decoder/with_select_arch is now defined in a different file.  It was defined in "E:/Lab6/Lab6/three_to_eight_decoder.vhd", and is now defined in "H:/Lab6/Lab6/three_to_eight_decoder.vhd".
+WARNING:HDLParsers:3607 - Unit work/four_bit_adder_subtractor is now defined in a different file.  It was defined in "E:/Lab6/Lab6/four_bit_adder_subtractor.vhd", and is now defined in "H:/Lab6/Lab6/four_bit_adder_subtractor.vhd".
+WARNING:HDLParsers:3607 - Unit work/four_bit_adder_subtractor/Behavorial is now defined in a different file.  It was defined in "E:/Lab6/Lab6/four_bit_adder_subtractor.vhd", and is now defined in "H:/Lab6/Lab6/four_bit_adder_subtractor.vhd".
+WARNING:HDLParsers:3607 - Unit work/LogicSlice is now defined in a different file.  It was defined in "E:/Lab6/Lab6/LogicSlice.vhd", and is now defined in "H:/Lab6/Lab6/LogicSlice.vhd".
+WARNING:HDLParsers:3607 - Unit work/LogicSlice/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/LogicSlice.vhd", and is now defined in "H:/Lab6/Lab6/LogicSlice.vhd".
+WARNING:HDLParsers:3607 - Unit work/nbit_two_input_mux is now defined in a different file.  It was defined in "E:/Lab6/Lab6/nbit_two_input_mux.vhd", and is now defined in "H:/Lab6/Lab6/nbit_two_input_mux.vhd".
+WARNING:HDLParsers:3607 - Unit work/nbit_two_input_mux/nbit_two_input_mux_architecture is now defined in a different file.  It was defined in "E:/Lab6/Lab6/nbit_two_input_mux.vhd", and is now defined in "H:/Lab6/Lab6/nbit_two_input_mux.vhd".
+WARNING:HDLParsers:3607 - Unit work/register_file_cell is now defined in a different file.  It was defined in "E:/Lab6/Lab6/register_file_cell.vhd", and is now defined in "H:/Lab6/Lab6/register_file_cell.vhd".
+WARNING:HDLParsers:3607 - Unit work/register_file_cell/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/register_file_cell.vhd", and is now defined in "H:/Lab6/Lab6/register_file_cell.vhd".
+WARNING:HDLParsers:3607 - Unit work/D_flipflop is now defined in a different file.  It was defined in "E:/Lab6/Lab6/D_flipflop.vhd", and is now defined in "H:/Lab6/Lab6/D_flipflop.vhd".
+WARNING:HDLParsers:3607 - Unit work/D_flipflop/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/D_flipflop.vhd", and is now defined in "H:/Lab6/Lab6/D_flipflop.vhd".
+WARNING:HDLParsers:3607 - Unit work/four_bit_lac_adder is now defined in a different file.  It was defined in "E:/Lab6/Lab6/four_bit_lac_adder.vhd", and is now defined in "H:/Lab6/Lab6/four_bit_lac_adder.vhd".
+WARNING:HDLParsers:3607 - Unit work/four_bit_lac_adder/four_bit_lac_adder_behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/four_bit_lac_adder.vhd", and is now defined in "H:/Lab6/Lab6/four_bit_lac_adder.vhd".
+WARNING:HDLParsers:3607 - Unit work/four_input_multiplexer is now defined in a different file.  It was defined in "E:/Lab6/Lab6/four_input_multiplexer.vhd", and is now defined in "H:/Lab6/Lab6/four_input_multiplexer.vhd".
+WARNING:HDLParsers:3607 - Unit work/four_input_multiplexer/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/four_input_multiplexer.vhd", and is now defined in "H:/Lab6/Lab6/four_input_multiplexer.vhd".
+WARNING:HDLParsers:3607 - Unit work/nbit_xor_control is now defined in a different file.  It was defined in "E:/Lab6/Lab6/nbit_xor_control.vhd", and is now defined in "H:/Lab6/Lab6/nbit_xor_control.vhd".
+WARNING:HDLParsers:3607 - Unit work/nbit_xor_control/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/nbit_xor_control.vhd", and is now defined in "H:/Lab6/Lab6/nbit_xor_control.vhd".
+WARNING:HDLParsers:3607 - Unit work/tri_buff is now defined in a different file.  It was defined in "E:/Lab6/Lab6/tri_buff.vhd", and is now defined in "H:/Lab6/Lab6/tri_buff.vhd".
+WARNING:HDLParsers:3607 - Unit work/tri_buff/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/tri_buff.vhd", and is now defined in "H:/Lab6/Lab6/tri_buff.vhd".
+WARNING:HDLParsers:3607 - Unit work/four_bit_LAC is now defined in a different file.  It was defined in "E:/Lab6/Lab6/four_bit_LAC.vhd", and is now defined in "H:/Lab6/Lab6/four_bit_LAC.vhd".
+WARNING:HDLParsers:3607 - Unit work/four_bit_LAC/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/four_bit_LAC.vhd", and is now defined in "H:/Lab6/Lab6/four_bit_LAC.vhd".
+WARNING:HDLParsers:3607 - Unit work/n_bit_adder is now defined in a different file.  It was defined in "E:/Lab6/Lab6/n_bit_adder.vhd", and is now defined in "H:/Lab6/Lab6/n_bit_adder.vhd".
+WARNING:HDLParsers:3607 - Unit work/n_bit_adder/n_bit_adder_behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/n_bit_adder.vhd", and is now defined in "H:/Lab6/Lab6/n_bit_adder.vhd".
+WARNING:HDLParsers:3607 - Unit work/two_input_multiplexer is now defined in a different file.  It was defined in "E:/Lab6/Lab6/two_input_multiplexer.vhd", and is now defined in "H:/Lab6/Lab6/two_input_multiplexer.vhd".
+WARNING:HDLParsers:3607 - Unit work/two_input_multiplexer/two_input_multiplexer_behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/two_input_multiplexer.vhd", and is now defined in "H:/Lab6/Lab6/two_input_multiplexer.vhd".
+WARNING:HDLParsers:3607 - Unit work/full_adder is now defined in a different file.  It was defined in "E:/Lab6/Lab6/full_adder.vhd", and is now defined in "H:/Lab6/Lab6/full_adder.vhd".
+WARNING:HDLParsers:3607 - Unit work/full_adder/full_adder_behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/full_adder.vhd", and is now defined in "H:/Lab6/Lab6/full_adder.vhd".
+WARNING:HDLParsers:3607 - Unit work/not_gate is now defined in a different file.  It was defined in "E:/Lab6/Lab6/not_gate.vhd", and is now defined in "H:/Lab6/Lab6/not_gate.vhd".
+WARNING:HDLParsers:3607 - Unit work/not_gate/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/not_gate.vhd", and is now defined in "H:/Lab6/Lab6/not_gate.vhd".
+WARNING:HDLParsers:3607 - Unit work/half_adder is now defined in a different file.  It was defined in "E:/Lab6/Lab6/half_adder.vhd", and is now defined in "H:/Lab6/Lab6/half_adder.vhd".
+WARNING:HDLParsers:3607 - Unit work/half_adder/half_adder_behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/half_adder.vhd", and is now defined in "H:/Lab6/Lab6/half_adder.vhd".
+WARNING:HDLParsers:3607 - Unit work/or_gate is now defined in a different file.  It was defined in "E:/Lab6/Lab6/or_gate.vhd", and is now defined in "H:/Lab6/Lab6/or_gate.vhd".
+WARNING:HDLParsers:3607 - Unit work/or_gate/or_gate_behaviour is now defined in a different file.  It was defined in "E:/Lab6/Lab6/or_gate.vhd", and is now defined in "H:/Lab6/Lab6/or_gate.vhd".
+WARNING:HDLParsers:3607 - Unit work/and_gate is now defined in a different file.  It was defined in "E:/Lab6/Lab6/and_gate.vhd", and is now defined in "H:/Lab6/Lab6/and_gate.vhd".
+WARNING:HDLParsers:3607 - Unit work/and_gate/and_gate_behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/and_gate.vhd", and is now defined in "H:/Lab6/Lab6/and_gate.vhd".
+WARNING:HDLParsers:3607 - Unit work/xor_gate is now defined in a different file.  It was defined in "E:/Lab6/Lab6/xor_gate.vhd", and is now defined in "H:/Lab6/Lab6/xor_gate.vhd".
+WARNING:HDLParsers:3607 - Unit work/xor_gate/Behavioral is now defined in a different file.  It was defined in "E:/Lab6/Lab6/xor_gate.vhd", and is now defined in "H:/Lab6/Lab6/xor_gate.vhd".
+Compiling vhdl file "H:/Lab6/Lab6/xor_gate.vhd" in Library work.
+Entity <xor_gate> compiled.
+Entity <xor_gate> (Architecture <behavioral>) compiled.
+Compiling vhdl file "H:/Lab6/Lab6/and_gate.vhd" in Library work.
+Architecture and_gate_behavioral of Entity and_gate is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/half_adder.vhd" in Library work.
+Architecture half_adder_behavioral of Entity half_adder is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/or_gate.vhd" in Library work.
+Architecture or_gate_behaviour of Entity or_gate is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/not_gate.vhd" in Library work.
+Entity <not_gate> compiled.
+Entity <not_gate> (Architecture <behavioral>) compiled.
+Compiling vhdl file "H:/Lab6/Lab6/full_adder.vhd" in Library work.
+Architecture full_adder_behavioral of Entity full_adder is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/two_input_multiplexer.vhd" in Library work.
+Architecture two_input_multiplexer_behavioral of Entity two_input_multiplexer is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/four_bit_LAC.vhd" in Library work.
+Architecture behavioral of Entity four_bit_lac is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/n_bit_adder.vhd" in Library work.
+Architecture n_bit_adder_behavioral of Entity n_bit_adder is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/four_input_multiplexer.vhd" in Library work.
+Architecture behavioral of Entity four_input_multiplexer is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/nbit_xor_control.vhd" in Library work.
+Architecture behavioral of Entity nbit_xor_control is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/four_bit_lac_adder.vhd" in Library work.
+Architecture four_bit_lac_adder_behavioral of Entity four_bit_lac_adder is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/D_flipflop.vhd" in Library work.
+Architecture behavioral of Entity d_flipflop is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/tri_buff.vhd" in Library work.
+Architecture behavioral of Entity tri_buff is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/LogicSlice.vhd" in Library work.
+Architecture behavioral of Entity logicslice is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/nbit_two_input_mux.vhd" in Library work.
+Architecture nbit_two_input_mux_architecture of Entity nbit_two_input_mux is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/four_bit_adder_subtractor.vhd" in Library work.
+Architecture behavorial of Entity four_bit_adder_subtractor is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/register_file_cell.vhd" in Library work.
+Architecture behavioral of Entity register_file_cell is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/n_bit_2_input_mux.vhd" in Library work.
+Architecture behavioral of Entity n_bit_2_input_mux is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/n_bit_register.vhd" in Library work.
+Architecture behavioral of Entity n_bit_register is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/shift_control_logic.vhd" in Library work.
+Architecture behavioral of Entity shift_control_logic is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/n_bit_shifter_rotator_unit.vhd" in Library work.
+Architecture behavioral of Entity n_bit_shifter_rotator_unit is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/four_bit_arithmetic_unit.vhd" in Library work.
+Architecture behavioral of Entity four_bit_arithmetic_unit is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/nbit_logic_unit.vhd" in Library work.
+Architecture behavioral of Entity nbit_logic_unit is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/three_to_eight_decoder.vhd" in Library work.
+Architecture with_select_arch of Entity three_to_eight_decoder is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/n_bit_rfc_register.vhd" in Library work.
+Architecture behavioral of Entity n_bit_rfc_register is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/eight_n_bit_register_file.vhd" in Library work.
+Architecture behavioral of Entity eight_n_bit_register_file is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/four_bit_alu.vhd" in Library work.
+Architecture behavioral of Entity four_bit_alu is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/four_bit_shifter.vhd" in Library work.
+Architecture behavioral of Entity four_bit_shifter is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/n_bit_register_hold-load.vhd" in Library work.
+Architecture behavioral of Entity n_bit_register_hold_load is up to date.
+Compiling vhdl file "H:/Lab6/Lab6/Data_path.vhd" in Library work.
+Entity <data_path> compiled.
+Entity <data_path> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Data_path> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <nbit_two_input_mux> in library <work> (architecture <nbit_two_input_mux_architecture>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <eight_n_bit_register_file> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <four_bit_alu> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <four_bit_shifter> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <n_bit_register_hold_load> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <two_input_multiplexer> in library <work> (architecture <two_input_multiplexer_behavioral>).
+
+Analyzing hierarchy for entity <three_to_eight_decoder> in library <work> (architecture <with_select_arch>).
+
+Analyzing hierarchy for entity <n_bit_rfc_register> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <four_bit_arithmetic_unit> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <nbit_logic_unit> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <nbit_two_input_mux> in library <work> (architecture <nbit_two_input_mux_architecture>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <shift_control_logic> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <n_bit_shifter_rotator_unit> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <n_bit_2_input_mux> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <n_bit_register> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <not_gate> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <and_gate> in library <work> (architecture <and_gate_behavioral>).
+
+Analyzing hierarchy for entity <or_gate> in library <work> (architecture <or_gate_behaviour>).
+
+Analyzing hierarchy for entity <register_file_cell> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <nbit_two_input_mux> in library <work> (architecture <nbit_two_input_mux_architecture>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <four_bit_adder_subtractor> in library <work> (architecture <behavorial>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <LogicSlice> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <two_input_multiplexer> in library <work> (architecture <two_input_multiplexer_behavioral>).
+
+Analyzing hierarchy for entity <four_input_multiplexer> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <D_flipflop> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <tri_buff> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <nbit_xor_control> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <four_bit_lac_adder> in library <work> (architecture <four_bit_lac_adder_behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <not_gate> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <and_gate> in library <work> (architecture <and_gate_behavioral>).
+
+Analyzing hierarchy for entity <xor_gate> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <or_gate> in library <work> (architecture <or_gate_behaviour>).
+
+Analyzing hierarchy for entity <two_input_multiplexer> in library <work> (architecture <two_input_multiplexer_behavioral>).
+
+Analyzing hierarchy for entity <four_bit_LAC> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <n_bit_adder> in library <work> (architecture <n_bit_adder_behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <not_gate> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <and_gate> in library <work> (architecture <and_gate_behavioral>).
+
+Analyzing hierarchy for entity <or_gate> in library <work> (architecture <or_gate_behaviour>).
+
+Analyzing hierarchy for entity <full_adder> in library <work> (architecture <full_adder_behavioral>).
+
+Analyzing hierarchy for entity <half_adder> in library <work> (architecture <half_adder_behavioral>).
+
+Analyzing hierarchy for entity <or_gate> in library <work> (architecture <or_gate_behaviour>).
+
+Analyzing hierarchy for entity <xor_gate> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <and_gate> in library <work> (architecture <and_gate_behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <Data_path> in library <work> (Architecture <behavioral>).
+	n = 4
+WARNING:Xst:753 - "H:/Lab6/Lab6/Data_path.vhd" line 108: Unconnected output port 'C_out' of component 'four_bit_alu'.
+WARNING:Xst:754 - "H:/Lab6/Lab6/Data_path.vhd" line 110: Unconnected inout port 'Qbar_out' of component 'n_bit_register_hold_load'.
+Entity <Data_path> analyzed. Unit <Data_path> generated.
+
+Analyzing generic Entity <nbit_two_input_mux.1> in library <work> (Architecture <nbit_two_input_mux_architecture>).
+	n = 4
+Entity <nbit_two_input_mux.1> analyzed. Unit <nbit_two_input_mux.1> generated.
+
+Analyzing Entity <two_input_multiplexer> in library <work> (Architecture <two_input_multiplexer_behavioral>).
+Entity <two_input_multiplexer> analyzed. Unit <two_input_multiplexer> generated.
+
+Analyzing Entity <not_gate> in library <work> (Architecture <behavioral>).
+Entity <not_gate> analyzed. Unit <not_gate> generated.
+
+Analyzing Entity <and_gate> in library <work> (Architecture <and_gate_behavioral>).
+Entity <and_gate> analyzed. Unit <and_gate> generated.
+
+Analyzing Entity <or_gate> in library <work> (Architecture <or_gate_behaviour>).
+Entity <or_gate> analyzed. Unit <or_gate> generated.
+
+Analyzing generic Entity <eight_n_bit_register_file> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <eight_n_bit_register_file> analyzed. Unit <eight_n_bit_register_file> generated.
+
+Analyzing Entity <three_to_eight_decoder> in library <work> (Architecture <with_select_arch>).
+Entity <three_to_eight_decoder> analyzed. Unit <three_to_eight_decoder> generated.
+
+Analyzing generic Entity <n_bit_rfc_register> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <n_bit_rfc_register> analyzed. Unit <n_bit_rfc_register> generated.
+
+Analyzing Entity <register_file_cell> in library <work> (Architecture <behavioral>).
+Entity <register_file_cell> analyzed. Unit <register_file_cell> generated.
+
+Analyzing Entity <D_flipflop> in library <work> (Architecture <behavioral>).
+Entity <D_flipflop> analyzed. Unit <D_flipflop> generated.
+
+Analyzing Entity <tri_buff> in library <work> (Architecture <behavioral>).
+Entity <tri_buff> analyzed. Unit <tri_buff> generated.
+
+Analyzing Entity <four_bit_alu> in library <work> (Architecture <behavioral>).
+Entity <four_bit_alu> analyzed. Unit <four_bit_alu> generated.
+
+Analyzing generic Entity <four_bit_arithmetic_unit> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <four_bit_arithmetic_unit> analyzed. Unit <four_bit_arithmetic_unit> generated.
+
+Analyzing generic Entity <four_bit_adder_subtractor> in library <work> (Architecture <behavorial>).
+	n = 4
+Entity <four_bit_adder_subtractor> analyzed. Unit <four_bit_adder_subtractor> generated.
+
+Analyzing generic Entity <nbit_xor_control> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <nbit_xor_control> analyzed. Unit <nbit_xor_control> generated.
+
+Analyzing Entity <xor_gate> in library <work> (Architecture <behavioral>).
+Entity <xor_gate> analyzed. Unit <xor_gate> generated.
+
+Analyzing generic Entity <four_bit_lac_adder> in library <work> (Architecture <four_bit_lac_adder_behavioral>).
+	n = 4
+Entity <four_bit_lac_adder> analyzed. Unit <four_bit_lac_adder> generated.
+
+Analyzing Entity <four_bit_LAC> in library <work> (Architecture <behavioral>).
+Entity <four_bit_LAC> analyzed. Unit <four_bit_LAC> generated.
+
+Analyzing generic Entity <n_bit_adder> in library <work> (Architecture <n_bit_adder_behavioral>).
+	n = 4
+Entity <n_bit_adder> analyzed. Unit <n_bit_adder> generated.
+
+Analyzing Entity <full_adder> in library <work> (Architecture <full_adder_behavioral>).
+Entity <full_adder> analyzed. Unit <full_adder> generated.
+
+Analyzing Entity <half_adder> in library <work> (Architecture <half_adder_behavioral>).
+Entity <half_adder> analyzed. Unit <half_adder> generated.
+
+Analyzing generic Entity <nbit_logic_unit> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <nbit_logic_unit> analyzed. Unit <nbit_logic_unit> generated.
+
+Analyzing Entity <LogicSlice> in library <work> (Architecture <behavioral>).
+Entity <LogicSlice> analyzed. Unit <LogicSlice> generated.
+
+Analyzing Entity <four_input_multiplexer> in library <work> (Architecture <behavioral>).
+Entity <four_input_multiplexer> analyzed. Unit <four_input_multiplexer> generated.
+
+Analyzing generic Entity <nbit_two_input_mux.2> in library <work> (Architecture <nbit_two_input_mux_architecture>).
+	n = 4
+Entity <nbit_two_input_mux.2> analyzed. Unit <nbit_two_input_mux.2> generated.
+
+Analyzing Entity <four_bit_shifter> in library <work> (Architecture <behavioral>).
+Entity <four_bit_shifter> analyzed. Unit <four_bit_shifter> generated.
+
+Analyzing Entity <shift_control_logic> in library <work> (Architecture <behavioral>).
+Entity <shift_control_logic> analyzed. Unit <shift_control_logic> generated.
+
+Analyzing generic Entity <n_bit_shifter_rotator_unit> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <n_bit_shifter_rotator_unit> analyzed. Unit <n_bit_shifter_rotator_unit> generated.
+
+Analyzing generic Entity <n_bit_register_hold_load> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <n_bit_register_hold_load> analyzed. Unit <n_bit_register_hold_load> generated.
+
+Analyzing generic Entity <n_bit_2_input_mux> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <n_bit_2_input_mux> analyzed. Unit <n_bit_2_input_mux> generated.
+
+Analyzing generic Entity <n_bit_register> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <n_bit_register> analyzed. Unit <n_bit_register> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <not_gate>.
+    Related source file is "H:/Lab6/Lab6/not_gate.vhd".
+Unit <not_gate> synthesized.
+
+
+Synthesizing Unit <and_gate>.
+    Related source file is "H:/Lab6/Lab6/and_gate.vhd".
+Unit <and_gate> synthesized.
+
+
+Synthesizing Unit <or_gate>.
+    Related source file is "H:/Lab6/Lab6/or_gate.vhd".
+Unit <or_gate> synthesized.
+
+
+Synthesizing Unit <three_to_eight_decoder>.
+    Related source file is "H:/Lab6/Lab6/three_to_eight_decoder.vhd".
+Unit <three_to_eight_decoder> synthesized.
+
+
+Synthesizing Unit <D_flipflop>.
+    Related source file is "H:/Lab6/Lab6/D_flipflop.vhd".
+INFO:Xst:1608 - Relative priorities of control signals on register <Q_bar> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+    Found 1-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_bar>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <D_flipflop> synthesized.
+
+
+Synthesizing Unit <tri_buff>.
+    Related source file is "H:/Lab6/Lab6/tri_buff.vhd".
+    Found 1-bit tristate buffer for signal <Output>.
+    Summary:
+	inferred   1 Tristate(s).
+Unit <tri_buff> synthesized.
+
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "H:/Lab6/Lab6/xor_gate.vhd".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <four_bit_LAC>.
+    Related source file is "H:/Lab6/Lab6/four_bit_LAC.vhd".
+WARNING:Xst:646 - Signal <P<3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <G<3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <four_bit_LAC> synthesized.
+
+
+Synthesizing Unit <shift_control_logic>.
+    Related source file is "H:/Lab6/Lab6/shift_control_logic.vhd".
+Unit <shift_control_logic> synthesized.
+
+
+Synthesizing Unit <two_input_multiplexer>.
+    Related source file is "H:/Lab6/Lab6/two_input_multiplexer.vhd".
+Unit <two_input_multiplexer> synthesized.
+
+
+Synthesizing Unit <nbit_xor_control>.
+    Related source file is "H:/Lab6/Lab6/nbit_xor_control.vhd".
+Unit <nbit_xor_control> synthesized.
+
+
+Synthesizing Unit <half_adder>.
+    Related source file is "H:/Lab6/Lab6/half_adder.vhd".
+Unit <half_adder> synthesized.
+
+
+Synthesizing Unit <n_bit_register>.
+    Related source file is "H:/Lab6/Lab6/n_bit_register.vhd".
+Unit <n_bit_register> synthesized.
+
+
+Synthesizing Unit <nbit_two_input_mux_1>.
+    Related source file is "H:/Lab6/Lab6/nbit_two_input_mux.vhd".
+Unit <nbit_two_input_mux_1> synthesized.
+
+
+Synthesizing Unit <register_file_cell>.
+    Related source file is "H:/Lab6/Lab6/register_file_cell.vhd".
+Unit <register_file_cell> synthesized.
+
+
+Synthesizing Unit <nbit_two_input_mux_2>.
+    Related source file is "H:/Lab6/Lab6/nbit_two_input_mux.vhd".
+Unit <nbit_two_input_mux_2> synthesized.
+
+
+Synthesizing Unit <full_adder>.
+    Related source file is "H:/Lab6/Lab6/full_adder.vhd".
+Unit <full_adder> synthesized.
+
+
+Synthesizing Unit <four_input_multiplexer>.
+    Related source file is "H:/Lab6/Lab6/four_input_multiplexer.vhd".
+Unit <four_input_multiplexer> synthesized.
+
+
+Synthesizing Unit <n_bit_2_input_mux>.
+    Related source file is "H:/Lab6/Lab6/n_bit_2_input_mux.vhd".
+Unit <n_bit_2_input_mux> synthesized.
+
+
+Synthesizing Unit <n_bit_register_hold_load>.
+    Related source file is "H:/Lab6/Lab6/n_bit_register_hold-load.vhd".
+Unit <n_bit_register_hold_load> synthesized.
+
+
+Synthesizing Unit <n_bit_rfc_register>.
+    Related source file is "H:/Lab6/Lab6/n_bit_rfc_register.vhd".
+Unit <n_bit_rfc_register> synthesized.
+
+
+Synthesizing Unit <n_bit_adder>.
+    Related source file is "H:/Lab6/Lab6/n_bit_adder.vhd".
+WARNING:Xst:646 - Signal <unconnected> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <n_bit_adder> synthesized.
+
+
+Synthesizing Unit <LogicSlice>.
+    Related source file is "H:/Lab6/Lab6/LogicSlice.vhd".
+Unit <LogicSlice> synthesized.
+
+
+Synthesizing Unit <n_bit_shifter_rotator_unit>.
+    Related source file is "H:/Lab6/Lab6/n_bit_shifter_rotator_unit.vhd".
+Unit <n_bit_shifter_rotator_unit> synthesized.
+
+
+Synthesizing Unit <eight_n_bit_register_file>.
+    Related source file is "H:/Lab6/Lab6/eight_n_bit_register_file.vhd".
+Unit <eight_n_bit_register_file> synthesized.
+
+
+Synthesizing Unit <four_bit_shifter>.
+    Related source file is "H:/Lab6/Lab6/four_bit_shifter.vhd".
+Unit <four_bit_shifter> synthesized.
+
+
+Synthesizing Unit <nbit_logic_unit>.
+    Related source file is "H:/Lab6/Lab6/nbit_logic_unit.vhd".
+Unit <nbit_logic_unit> synthesized.
+
+
+Synthesizing Unit <four_bit_lac_adder>.
+    Related source file is "H:/Lab6/Lab6/four_bit_lac_adder.vhd".
+Unit <four_bit_lac_adder> synthesized.
+
+
+Synthesizing Unit <four_bit_adder_subtractor>.
+    Related source file is "H:/Lab6/Lab6/four_bit_adder_subtractor.vhd".
+Unit <four_bit_adder_subtractor> synthesized.
+
+
+Synthesizing Unit <four_bit_arithmetic_unit>.
+    Related source file is "H:/Lab6/Lab6/four_bit_arithmetic_unit.vhd".
+Unit <four_bit_arithmetic_unit> synthesized.
+
+
+Synthesizing Unit <four_bit_alu>.
+    Related source file is "H:/Lab6/Lab6/four_bit_alu.vhd".
+Unit <four_bit_alu> synthesized.
+
+
+Synthesizing Unit <Data_path>.
+    Related source file is "H:/Lab6/Lab6/Data_path.vhd".
+WARNING:Xst:1780 - Signal <ShifterToMux> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <Data_path> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 72
+ 1-bit register                                        : 72
+# Tristates                                            : 64
+ 1-bit tristate buffer                                 : 64
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <G2> is unconnected in block <X1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <G2> is unconnected in block <X2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <X3> is unconnected in block <instance[3].final_bit.G1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <G2> is unconnected in block <X1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <G2> is unconnected in block <X2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <X3> is unconnected in block <instance[2].cont_bits.G2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <G2> is unconnected in block <X1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <G2> is unconnected in block <X2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <X3> is unconnected in block <instance[1].cont_bits.G2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <G2> is unconnected in block <X1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <G2> is unconnected in block <X2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <X3> is unconnected in block <instance[0].cont_bits.G2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Gate1> is unconnected in block <inst[3].GMUX_i>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Gate2> is unconnected in block <inst[3].GMUX_i>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Gate1> is unconnected in block <inst[2].GMUX_i>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Gate2> is unconnected in block <inst[2].GMUX_i>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Gate1> is unconnected in block <inst[1].GMUX_i>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Gate2> is unconnected in block <inst[1].GMUX_i>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Gate3> is unconnected in block <GMUX2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Gate3> is unconnected in block <GMUX2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Gate3> is unconnected in block <GMUX2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <Gate3> is unconnected in block <GMUX2>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 72
+ Flip-Flops                                            : 72
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <inst_3[0].ins_4/inst[3].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[0].ins_4/inst[2].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[0].ins_4/inst[1].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[0].ins_4/inst[0].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[1].ins_4/inst[3].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[1].ins_4/inst[2].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[1].ins_4/inst[1].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[1].ins_4/inst[0].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[2].ins_4/inst[3].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[2].ins_4/inst[2].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[2].ins_4/inst[1].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[2].ins_4/inst[0].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[3].ins_4/inst[3].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[3].ins_4/inst[2].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[3].ins_4/inst[1].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[3].ins_4/inst[0].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[4].ins_4/inst[3].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[4].ins_4/inst[2].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[4].ins_4/inst[1].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[4].ins_4/inst[0].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[5].ins_4/inst[3].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[5].ins_4/inst[2].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[5].ins_4/inst[1].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[5].ins_4/inst[0].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[6].ins_4/inst[3].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[6].ins_4/inst[2].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[6].ins_4/inst[1].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[6].ins_4/inst[0].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[7].ins_4/inst[3].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[7].ins_4/inst[2].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[7].ins_4/inst[1].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <inst_3[7].ins_4/inst[0].G_RFC_i/G2_D_flipflop/Q_bar> of sequential type is unconnected in block <eight_n_bit_register_file>.
+WARNING:Xst:2677 - Node <Outregister/NRegister/inst[0].D_flipflop_i/Q_bar> of sequential type is unconnected in block <Data_path>.
+WARNING:Xst:2677 - Node <Outregister/NRegister/inst[1].D_flipflop_i/Q_bar> of sequential type is unconnected in block <Data_path>.
+WARNING:Xst:2677 - Node <Outregister/NRegister/inst[2].D_flipflop_i/Q_bar> of sequential type is unconnected in block <Data_path>.
+WARNING:Xst:2677 - Node <Outregister/NRegister/inst[3].D_flipflop_i/Q_bar> of sequential type is unconnected in block <Data_path>.
+WARNING:Xst:2040 - Unit eight_n_bit_register_file: 8 multi-source signals are replaced by logic (pull-up yes): OutA<0>, OutA<1>, OutA<2>, OutA<3>, OutB<0>, OutB<1>, OutB<2>, OutB<3>.
+
+Optimizing unit <Data_path> ...
+
+Optimizing unit <eight_n_bit_register_file> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Data_path, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 36
+ Flip-Flops                                            : 36
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Data_path.ngr
+Top Level Output File Name         : Data_path
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 30
+
+Cell Usage :
+# BELS                             : 110
+#      GND                         : 1
+#      LUT2                        : 4
+#      LUT3                        : 39
+#      LUT3_D                      : 2
+#      LUT4                        : 45
+#      LUT4_D                      : 1
+#      LUT4_L                      : 1
+#      MUXF5                       : 17
+# FlipFlops/Latches                : 36
+#      FDCPE                       : 36
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 29
+#      IBUF                        : 24
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500eft256-4 
+
+ Number of Slices:                       63  out of   4656     1%  
+ Number of Slice Flip Flops:             36  out of   9312     0%  
+ Number of 4 input LUTs:                 92  out of   9312     0%  
+ Number of IOs:                          30
+ Number of bonded IOBs:                  30  out of    190    15%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clock                              | BUFGP                  | 36    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+---------------------------------------------------+-------+
+Control Signal                     | Buffer(FF name)                                   | Load  |
+-----------------------------------+---------------------------------------------------+-------+
+N0(XST_GND:G)                      | NONE(Outregister/NRegister/inst[0].D_flipflop_i/Q)| 72    |
+-----------------------------------+---------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 10.444ns (Maximum Frequency: 95.749MHz)
+   Minimum input arrival time before clock: 11.754ns
+   Maximum output required time after clock: 14.231ns
+   Maximum combinational path delay: 15.541ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clock'
+  Clock period: 10.444ns (frequency: 95.749MHz)
+  Total number of paths / destination ports: 7664 / 36
+-------------------------------------------------------------------------
+Delay:               10.444ns (Levels of Logic = 10)
+  Source:            Register_file/inst_3[1].ins_4/inst[1].G_RFC_i/G2_D_flipflop/Q (FF)
+  Destination:       Register_file/inst_3[7].ins_4/inst[0].G_RFC_i/G2_D_flipflop/Q (FF)
+  Source Clock:      Clock rising
+  Destination Clock: Clock rising
+
+  Data Path: Register_file/inst_3[1].ins_4/inst[1].G_RFC_i/G2_D_flipflop/Q to Register_file/inst_3[7].ins_4/inst[0].G_RFC_i/G2_D_flipflop/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            2   0.591   0.526  Register_file/inst_3[1].ins_4/inst[1].G_RFC_i/G2_D_flipflop/Q (Register_file/inst_3[1].ins_4/inst[1].G_RFC_i/G2_D_flipflop/Q)
+     LUT3:I1->O            1   0.704   0.455  Register_file/OutB<1>LogicTrst92 (Register_file/OutB<1>LogicTrst92)
+     LUT4:I2->O            1   0.704   0.000  Register_file/OutB<1>LogicTrst127_F (N28)
+     MUXF5:I0->O           3   0.321   0.566  Register_file/OutB<1>LogicTrst127 (BusB<1>)
+     LUT3:I2->O            2   0.704   0.526  ALU/arith/adder_sub/G1/inst[1].xor_gate_i/f1 (ALU/arith/adder_sub/Output_InB<1>)
+     LUT3:I1->O            1   0.704   0.424  ALU/arith/adder_sub/G2/G1/C_terms_2_or00001 (ALU/arith/adder_sub/G2/LAC_Adder<2>)
+     LUT4:I3->O            1   0.704   0.000  Shifter/shift_device/inst[2].if3.fourMuxMid/GMUX2/F01_F (N38)
+     MUXF5:I0->O           4   0.321   0.591  Shifter/shift_device/inst[2].if3.fourMuxMid/GMUX2/F01 (N8)
+     LUT4:I3->O            1   0.704   0.000  Shifter/shift_device/inst[3].if1.fourMuxTwo/GMUX3/Gate4/f2 (Shifter/shift_device/inst[3].if1.fourMuxTwo/GMUX3/Gate4/f)
+     MUXF5:I1->O           3   0.321   0.566  Shifter/shift_device/inst[3].if1.fourMuxTwo/GMUX3/Gate4/f_f5 (ShifterToOutregister<3>)
+     LUT3:I2->O            8   0.704   0.000  two_input_mux/inst[3].GMUX_i/Gate4/f1 (MuxToRF<3>)
+     FDCPE:D                   0.308          Register_file/inst_3[7].ins_4/inst[3].G_RFC_i/G2_D_flipflop/Q
+    ----------------------------------------
+    Total                     10.444ns (6.790ns logic, 3.654ns route)
+                                       (65.0% logic, 35.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock'
+  Total number of paths / destination ports: 10262 / 72
+-------------------------------------------------------------------------
+Offset:              11.754ns (Levels of Logic = 11)
+  Source:            Control<10> (PAD)
+  Destination:       Register_file/inst_3[7].ins_4/inst[0].G_RFC_i/G2_D_flipflop/Q (FF)
+  Destination Clock: Clock rising
+
+  Data Path: Control<10> to Register_file/inst_3[7].ins_4/inst[0].G_RFC_i/G2_D_flipflop/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.218   1.209  Control_10_IBUF (Control_10_IBUF)
+     LUT3:I0->O            1   0.704   0.455  Register_file/OutB<1>LogicTrst79 (Register_file/OutB<1>LogicTrst79)
+     LUT4:I2->O            1   0.704   0.000  Register_file/OutB<1>LogicTrst127_G (N29)
+     MUXF5:I1->O           3   0.321   0.566  Register_file/OutB<1>LogicTrst127 (BusB<1>)
+     LUT3:I2->O            2   0.704   0.526  ALU/arith/adder_sub/G1/inst[1].xor_gate_i/f1 (ALU/arith/adder_sub/Output_InB<1>)
+     LUT3:I1->O            1   0.704   0.424  ALU/arith/adder_sub/G2/G1/C_terms_2_or00001 (ALU/arith/adder_sub/G2/LAC_Adder<2>)
+     LUT4:I3->O            1   0.704   0.000  Shifter/shift_device/inst[2].if3.fourMuxMid/GMUX2/F01_F (N38)
+     MUXF5:I0->O           4   0.321   0.591  Shifter/shift_device/inst[2].if3.fourMuxMid/GMUX2/F01 (N8)
+     LUT4:I3->O            1   0.704   0.000  Shifter/shift_device/inst[3].if1.fourMuxTwo/GMUX3/Gate4/f2 (Shifter/shift_device/inst[3].if1.fourMuxTwo/GMUX3/Gate4/f)
+     MUXF5:I1->O           3   0.321   0.566  Shifter/shift_device/inst[3].if1.fourMuxTwo/GMUX3/Gate4/f_f5 (ShifterToOutregister<3>)
+     LUT3:I2->O            8   0.704   0.000  two_input_mux/inst[3].GMUX_i/Gate4/f1 (MuxToRF<3>)
+     FDCPE:D                   0.308          Register_file/inst_3[7].ins_4/inst[3].G_RFC_i/G2_D_flipflop/Q
+    ----------------------------------------
+    Total                     11.754ns (7.417ns logic, 4.337ns route)
+                                       (63.1% logic, 36.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clock'
+  Total number of paths / destination ports: 756 / 5
+-------------------------------------------------------------------------
+Offset:              14.231ns (Levels of Logic = 11)
+  Source:            Register_file/inst_3[1].ins_4/inst[1].G_RFC_i/G2_D_flipflop/Q (FF)
+  Destination:       data (PAD)
+  Source Clock:      Clock rising
+
+  Data Path: Register_file/inst_3[1].ins_4/inst[1].G_RFC_i/G2_D_flipflop/Q to data
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCPE:C->Q            2   0.591   0.526  Register_file/inst_3[1].ins_4/inst[1].G_RFC_i/G2_D_flipflop/Q (Register_file/inst_3[1].ins_4/inst[1].G_RFC_i/G2_D_flipflop/Q)
+     LUT3:I1->O            1   0.704   0.455  Register_file/OutB<1>LogicTrst92 (Register_file/OutB<1>LogicTrst92)
+     LUT4:I2->O            1   0.704   0.000  Register_file/OutB<1>LogicTrst127_F (N28)
+     MUXF5:I0->O           3   0.321   0.566  Register_file/OutB<1>LogicTrst127 (BusB<1>)
+     LUT3:I2->O            2   0.704   0.526  ALU/arith/adder_sub/G1/inst[1].xor_gate_i/f1 (ALU/arith/adder_sub/Output_InB<1>)
+     LUT3:I1->O            1   0.704   0.424  ALU/arith/adder_sub/G2/G1/C_terms_2_or00001 (ALU/arith/adder_sub/G2/LAC_Adder<2>)
+     LUT4:I3->O            1   0.704   0.000  Shifter/shift_device/inst[2].if3.fourMuxMid/GMUX2/F01_F (N38)
+     MUXF5:I0->O           4   0.321   0.622  Shifter/shift_device/inst[2].if3.fourMuxMid/GMUX2/F01 (N8)
+     LUT3_D:I2->LO         1   0.704   0.104  Shifter/shift_device/inst[2].if3.fourMuxMid/GMUX3/Gate4/f15 (N60)
+     LUT4:I3->O            2   0.704   0.451  Shifter/shift_device/inst[2].if3.fourMuxMid/GMUX3/Gate4/f23 (ShifterToOutregister<2>)
+     LUT4:I3->O            1   0.704   0.420  data1 (data_OBUF)
+     OBUF:I->O                 3.272          data_OBUF (data)
+    ----------------------------------------
+    Total                     14.231ns (10.137ns logic, 4.094ns route)
+                                       (71.2% logic, 28.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 978 / 1
+-------------------------------------------------------------------------
+Delay:               15.541ns (Levels of Logic = 12)
+  Source:            Control<10> (PAD)
+  Destination:       data (PAD)
+
+  Data Path: Control<10> to data
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.218   1.209  Control_10_IBUF (Control_10_IBUF)
+     LUT3:I0->O            1   0.704   0.455  Register_file/OutB<1>LogicTrst79 (Register_file/OutB<1>LogicTrst79)
+     LUT4:I2->O            1   0.704   0.000  Register_file/OutB<1>LogicTrst127_G (N29)
+     MUXF5:I1->O           3   0.321   0.566  Register_file/OutB<1>LogicTrst127 (BusB<1>)
+     LUT3:I2->O            2   0.704   0.526  ALU/arith/adder_sub/G1/inst[1].xor_gate_i/f1 (ALU/arith/adder_sub/Output_InB<1>)
+     LUT3:I1->O            1   0.704   0.424  ALU/arith/adder_sub/G2/G1/C_terms_2_or00001 (ALU/arith/adder_sub/G2/LAC_Adder<2>)
+     LUT4:I3->O            1   0.704   0.000  Shifter/shift_device/inst[2].if3.fourMuxMid/GMUX2/F01_F (N38)
+     MUXF5:I0->O           4   0.321   0.622  Shifter/shift_device/inst[2].if3.fourMuxMid/GMUX2/F01 (N8)
+     LUT3_D:I2->LO         1   0.704   0.104  Shifter/shift_device/inst[2].if3.fourMuxMid/GMUX3/Gate4/f15 (N60)
+     LUT4:I3->O            2   0.704   0.451  Shifter/shift_device/inst[2].if3.fourMuxMid/GMUX3/Gate4/f23 (ShifterToOutregister<2>)
+     LUT4:I3->O            1   0.704   0.420  data1 (data_OBUF)
+     OBUF:I->O                 3.272          data_OBUF (data)
+    ----------------------------------------
+    Total                     15.541ns (10.764ns logic, 4.777ns route)
+                                       (69.3% logic, 30.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 22.00 secs
+Total CPU time to Xst completion: 22.70 secs
+ 
+--> 
+
+Total memory usage is 306100 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  127 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

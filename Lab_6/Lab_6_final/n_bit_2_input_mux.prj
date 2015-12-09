@@ -1,0 +1,5 @@
+vhdl work "or_gate.vhd"
+vhdl work "not_gate.vhd"
+vhdl work "and_gate.vhd"
+vhdl work "two_input_multiplexer.vhd"
+vhdl work "n_bit_2_input_mux.vhd"

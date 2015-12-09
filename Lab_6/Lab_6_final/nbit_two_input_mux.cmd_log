@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/Lab6/Lab6/nbit_two_input_mux.xst" -ofn "E:/Lab6/Lab6/nbit_two_input_mux.syr" 

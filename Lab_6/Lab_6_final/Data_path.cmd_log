@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "C:/Users/edsv3/Desktop/Lab6/Lab6/Data_path.xst" -ofn "C:/Users/edsv3/Desktop/Lab6/Lab6/Data_path.syr" 
+xst -intstyle ise -ifn "C:/Users/edsv3/Desktop/Lab6/Lab6/Data_path.xst" -ofn "C:/Users/edsv3/Desktop/Lab6/Lab6/Data_path.syr" 
+xst -intstyle ise -ifn "C:/Users/edsv3/Desktop/Lab6/Lab6/Data_path.xst" -ofn "C:/Users/edsv3/Desktop/Lab6/Lab6/Data_path.syr" 
+xst -intstyle ise -ifn "C:/Users/edsv3/Desktop/Lab6/Lab6/Data_path.xst" -ofn "C:/Users/edsv3/Desktop/Lab6/Lab6/Data_path.syr" 
+xst -intstyle ise -ifn "E:/Lab6/Lab6/Data_path.xst" -ofn "E:/Lab6/Lab6/Data_path.syr" 
+xst -intstyle ise -ifn "E:/Lab6/Lab6/Data_path.xst" -ofn "E:/Lab6/Lab6/Data_path.syr" 
+xst -intstyle ise -ifn "E:/Lab6/Lab6/Data_path.xst" -ofn "E:/Lab6/Lab6/Data_path.syr" 
+xst -intstyle ise -ifn "E:/Lab6/Lab6/Data_path.xst" -ofn "E:/Lab6/Lab6/Data_path.syr" 
+xst -intstyle ise -ifn "E:/Lab6/Lab6/Data_path.xst" -ofn "E:/Lab6/Lab6/Data_path.syr" 
+xst -intstyle ise -ifn "E:/Lab6/Lab6/Data_path.xst" -ofn "E:/Lab6/Lab6/Data_path.syr" 
+xst -intstyle ise -ifn "E:/Lab6/Lab6/Data_path.xst" -ofn "E:/Lab6/Lab6/Data_path.syr" 
+xst -intstyle ise -ifn "E:/Lab6/Lab6/Data_path.xst" -ofn "E:/Lab6/Lab6/Data_path.syr" 
+xst -intstyle ise -ifn "E:/Lab6/Lab6/Data_path.xst" -ofn "E:/Lab6/Lab6/Data_path.syr" 
+xst -intstyle ise -ifn "E:/Lab6/Lab6/Data_path.xst" -ofn "E:/Lab6/Lab6/Data_path.syr" 
+xst -intstyle ise -ifn "E:/Lab6/Lab6/Data_path.xst" -ofn "E:/Lab6/Lab6/Data_path.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-ft256-4 Data_path.ngc Data_path.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o Data_path_map.ncd Data_path.ngd Data_path.pcf 
+par -w -intstyle ise -ol high -t 1 Data_path_map.ncd Data_path.ncd Data_path.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_path.twx Data_path.ncd -o Data_path.twr Data_path.pcf 
+xst -intstyle ise -ifn "E:/Lab6/Lab6/Data_path.xst" -ofn "E:/Lab6/Lab6/Data_path.syr" 
+xst -intstyle ise -ifn "H:/Lab6/Lab6/Data_path.xst" -ofn "H:/Lab6/Lab6/Data_path.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-ft256-4 Data_path.ngc Data_path.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o Data_path_map.ncd Data_path.ngd Data_path.pcf 
+par -w -intstyle ise -ol high -t 1 Data_path_map.ncd Data_path.ncd Data_path.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Data_path.twx Data_path.ncd -o Data_path.twr Data_path.pcf 
