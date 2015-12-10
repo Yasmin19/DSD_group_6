@@ -1,0 +1,8 @@
+vhdl work "C:\Users\MicSeltene\Desktop\Lab6\Lab_6\or_gate.vhd"
+vhdl work "C:\Users\MicSeltene\Desktop\Lab6\Lab_6\not_gate.vhd"
+vhdl work "C:\Users\MicSeltene\Desktop\Lab6\Lab_6\and_gate.vhd"
+vhdl work "C:\Users\MicSeltene\Desktop\Lab6\Lab_6\two_input_multiplexer.vhd"
+vhdl work "C:\Users\MicSeltene\Desktop\Lab6\Lab_6\D_flipflop.vhd"
+vhdl work "C:\Users\MicSeltene\Desktop\Lab6\Lab_6\n_bit_register.vhd"
+vhdl work "C:\Users\MicSeltene\Desktop\Lab6\Lab_6\n_bit_2_input_mux.vhd"
+vhdl work "C:\Users\MicSeltene\Desktop\Lab6\Lab_6\n_bit_register_hold-load.vhd"

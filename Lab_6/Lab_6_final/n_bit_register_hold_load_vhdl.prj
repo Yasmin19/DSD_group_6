@@ -1,8 +1,0 @@
-vhdl work "E:\Lab6\Lab6\or_gate.vhd"
-vhdl work "E:\Lab6\Lab6\not_gate.vhd"
-vhdl work "E:\Lab6\Lab6\and_gate.vhd"
-vhdl work "E:\Lab6\Lab6\two_input_multiplexer.vhd"
-vhdl work "E:\Lab6\Lab6\D_flipflop.vhd"
-vhdl work "E:\Lab6\Lab6\n_bit_register.vhd"
-vhdl work "E:\Lab6\Lab6\n_bit_2_input_mux.vhd"
-vhdl work "E:\Lab6\Lab6\n_bit_register_hold-load.vhd"

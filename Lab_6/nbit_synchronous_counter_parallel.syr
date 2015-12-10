@@ -1,0 +1,494 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.28 secs
+ 
+--> Reading design: nbit_synchronous_counter_parallel.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "nbit_synchronous_counter_parallel.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "nbit_synchronous_counter_parallel"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-ft256
+
+---- Source Options
+Top Module Name                    : nbit_synchronous_counter_parallel
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/not_gate.vhd" in Library work.
+Architecture behavioral of Entity not_gate is up to date.
+Compiling vhdl file "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/and_gate.vhd" in Library work.
+Architecture and_gate_behavioral of Entity and_gate is up to date.
+Compiling vhdl file "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/or_gate.vhd" in Library work.
+Architecture or_gate_behaviour of Entity or_gate is up to date.
+Compiling vhdl file "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/xor_gate.vhd" in Library work.
+Architecture behavioral of Entity xor_gate is up to date.
+Compiling vhdl file "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/D_flipflop.vhd" in Library work.
+Architecture behavioral of Entity d_flipflop is up to date.
+Compiling vhdl file "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/two_input_multiplexer.vhd" in Library work.
+Architecture two_input_multiplexer_behavioral of Entity two_input_multiplexer is up to date.
+Compiling vhdl file "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/half_adder.vhd" in Library work.
+Architecture half_adder_behavioral of Entity half_adder is up to date.
+Compiling vhdl file "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/n_bit_incrementer.vhd" in Library work.
+Architecture behavioral of Entity n_bit_incrementer is up to date.
+Compiling vhdl file "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/n_bit_two_input_mux.vhd" in Library work.
+Architecture behavioral of Entity n_bit_two_input_mux is up to date.
+Compiling vhdl file "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/n_bit_register.vhd" in Library work.
+Architecture behavioral of Entity n_bit_register is up to date.
+Compiling vhdl file "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/nbit_synchronous_counter_parallel.vhd" in Library work.
+Entity <nbit_synchronous_counter_parallel> compiled.
+Entity <nbit_synchronous_counter_parallel> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <nbit_synchronous_counter_parallel> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <n_bit_incrementer> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <n_bit_two_input_mux> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <n_bit_register> in library <work> (architecture <behavioral>) with generics.
+	n = 4
+
+Analyzing hierarchy for entity <half_adder> in library <work> (architecture <half_adder_behavioral>).
+
+Analyzing hierarchy for entity <two_input_multiplexer> in library <work> (architecture <two_input_multiplexer_behavioral>).
+
+Analyzing hierarchy for entity <D_flipflop> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <xor_gate> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <and_gate> in library <work> (architecture <and_gate_behavioral>).
+
+Analyzing hierarchy for entity <not_gate> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <or_gate> in library <work> (architecture <or_gate_behaviour>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <nbit_synchronous_counter_parallel> in library <work> (Architecture <behavioral>).
+	n = 4
+WARNING:Xst:754 - "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/nbit_synchronous_counter_parallel.vhd" line 73: Unconnected inout port 'qnot' of component 'n_bit_register'.
+Entity <nbit_synchronous_counter_parallel> analyzed. Unit <nbit_synchronous_counter_parallel> generated.
+
+Analyzing generic Entity <n_bit_incrementer> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <n_bit_incrementer> analyzed. Unit <n_bit_incrementer> generated.
+
+Analyzing Entity <half_adder> in library <work> (Architecture <half_adder_behavioral>).
+Entity <half_adder> analyzed. Unit <half_adder> generated.
+
+Analyzing Entity <xor_gate> in library <work> (Architecture <behavioral>).
+Entity <xor_gate> analyzed. Unit <xor_gate> generated.
+
+Analyzing Entity <and_gate> in library <work> (Architecture <and_gate_behavioral>).
+Entity <and_gate> analyzed. Unit <and_gate> generated.
+
+Analyzing generic Entity <n_bit_two_input_mux> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <n_bit_two_input_mux> analyzed. Unit <n_bit_two_input_mux> generated.
+
+Analyzing Entity <two_input_multiplexer> in library <work> (Architecture <two_input_multiplexer_behavioral>).
+Entity <two_input_multiplexer> analyzed. Unit <two_input_multiplexer> generated.
+
+Analyzing Entity <not_gate> in library <work> (Architecture <behavioral>).
+Entity <not_gate> analyzed. Unit <not_gate> generated.
+
+Analyzing Entity <or_gate> in library <work> (Architecture <or_gate_behaviour>).
+Entity <or_gate> analyzed. Unit <or_gate> generated.
+
+Analyzing generic Entity <n_bit_register> in library <work> (Architecture <behavioral>).
+	n = 4
+Entity <n_bit_register> analyzed. Unit <n_bit_register> generated.
+
+Analyzing Entity <D_flipflop> in library <work> (Architecture <behavioral>).
+Entity <D_flipflop> analyzed. Unit <D_flipflop> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <xor_gate>.
+    Related source file is "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/xor_gate.vhd".
+Unit <xor_gate> synthesized.
+
+
+Synthesizing Unit <and_gate>.
+    Related source file is "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/and_gate.vhd".
+Unit <and_gate> synthesized.
+
+
+Synthesizing Unit <not_gate>.
+    Related source file is "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/not_gate.vhd".
+Unit <not_gate> synthesized.
+
+
+Synthesizing Unit <or_gate>.
+    Related source file is "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/or_gate.vhd".
+Unit <or_gate> synthesized.
+
+
+Synthesizing Unit <D_flipflop>.
+    Related source file is "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/D_flipflop.vhd".
+INFO:Xst:1608 - Relative priorities of control signals on register <Q_bar> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+    Found 1-bit register for signal <Q>.
+    Found 1-bit register for signal <Q_bar>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <D_flipflop> synthesized.
+
+
+Synthesizing Unit <n_bit_register>.
+    Related source file is "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/n_bit_register.vhd".
+Unit <n_bit_register> synthesized.
+
+
+Synthesizing Unit <half_adder>.
+    Related source file is "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/half_adder.vhd".
+Unit <half_adder> synthesized.
+
+
+Synthesizing Unit <two_input_multiplexer>.
+    Related source file is "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/two_input_multiplexer.vhd".
+Unit <two_input_multiplexer> synthesized.
+
+
+Synthesizing Unit <n_bit_incrementer>.
+    Related source file is "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/n_bit_incrementer.vhd".
+Unit <n_bit_incrementer> synthesized.
+
+
+Synthesizing Unit <n_bit_two_input_mux>.
+    Related source file is "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/n_bit_two_input_mux.vhd".
+Unit <n_bit_two_input_mux> synthesized.
+
+
+Synthesizing Unit <nbit_synchronous_counter_parallel>.
+    Related source file is "C:/Users/MicSeltene/Desktop/Lab6/Lab_6/nbit_synchronous_counter_parallel.vhd".
+WARNING:Xst:646 - Signal <dummy> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <nbit_synchronous_counter_parallel> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 8
+ 1-bit register                                        : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <G2> is unconnected in block <inst[3].Half_adder_i>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <G3_nbit_register/inst[3].D_flipflop_i/Q_bar> of sequential type is unconnected in block <nbit_synchronous_counter_parallel>.
+WARNING:Xst:2677 - Node <G3_nbit_register/inst[2].D_flipflop_i/Q_bar> of sequential type is unconnected in block <nbit_synchronous_counter_parallel>.
+WARNING:Xst:2677 - Node <G3_nbit_register/inst[1].D_flipflop_i/Q_bar> of sequential type is unconnected in block <nbit_synchronous_counter_parallel>.
+WARNING:Xst:2677 - Node <G3_nbit_register/inst[0].D_flipflop_i/Q_bar> of sequential type is unconnected in block <nbit_synchronous_counter_parallel>.
+
+Optimizing unit <nbit_synchronous_counter_parallel> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block nbit_synchronous_counter_parallel, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : nbit_synchronous_counter_parallel.ngr
+Top Level Output File Name         : nbit_synchronous_counter_parallel
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 12
+
+Cell Usage :
+# BELS                             : 8
+#      GND                         : 1
+#      LUT2_L                      : 1
+#      LUT3_L                      : 1
+#      LUT4                        : 4
+#      LUT4_L                      : 1
+# FlipFlops/Latches                : 4
+#      FDCP                        : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      IBUF                        : 7
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500eft256-4 
+
+ Number of Slices:                        4  out of   4656     0%  
+ Number of Slice Flip Flops:              4  out of   9312     0%  
+ Number of 4 input LUTs:                  7  out of   9312     0%  
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    190     6%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 4     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+----------------------------------------------+-------+
+Control Signal                     | Buffer(FF name)                              | Load  |
+-----------------------------------+----------------------------------------------+-------+
+N0(XST_GND:G)                      | NONE(G3_nbit_register/inst[0].D_flipflop_i/Q)| 4     |
+reset                              | IBUF                                         | 4     |
+-----------------------------------+----------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 3.123ns (Maximum Frequency: 320.205MHz)
+   Minimum input arrival time before clock: 3.800ns
+   Maximum output required time after clock: 4.496ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 3.123ns (frequency: 320.205MHz)
+  Total number of paths / destination ports: 10 / 4
+-------------------------------------------------------------------------
+Delay:               3.123ns (Levels of Logic = 2)
+  Source:            G3_nbit_register/inst[0].D_flipflop_i/Q (FF)
+  Destination:       G3_nbit_register/inst[1].D_flipflop_i/Q (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: G3_nbit_register/inst[0].D_flipflop_i/Q to G3_nbit_register/inst[1].D_flipflop_i/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCP:C->Q             5   0.591   0.712  G3_nbit_register/inst[0].D_flipflop_i/Q (G3_nbit_register/inst[0].D_flipflop_i/Q)
+     LUT2_L:I1->LO         1   0.704   0.104  G2_nbit_two_mux/inst[1].one_bit_mux_i/Gate4/f_SW0 (N5)
+     LUT4:I3->O            1   0.704   0.000  G2_nbit_two_mux/inst[1].one_bit_mux_i/Gate4/f (n_bit_two_mux_out<1>)
+     FDCP:D                    0.308          G3_nbit_register/inst[1].D_flipflop_i/Q
+    ----------------------------------------
+    Total                      3.123ns (2.307ns logic, 0.816ns route)
+                                       (73.9% logic, 26.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 12 / 4
+-------------------------------------------------------------------------
+Offset:              3.800ns (Levels of Logic = 3)
+  Source:            count_enable (PAD)
+  Destination:       G3_nbit_register/inst[3].D_flipflop_i/Q (FF)
+  Destination Clock: CLK rising
+
+  Data Path: count_enable to G3_nbit_register/inst[3].D_flipflop_i/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.762  count_enable_IBUF (count_enable_IBUF)
+     LUT2_L:I0->LO         1   0.704   0.104  G2_nbit_two_mux/inst[1].one_bit_mux_i/Gate4/f_SW0 (N5)
+     LUT4:I3->O            1   0.704   0.000  G2_nbit_two_mux/inst[1].one_bit_mux_i/Gate4/f (n_bit_two_mux_out<1>)
+     FDCP:D                    0.308          G3_nbit_register/inst[1].D_flipflop_i/Q
+    ----------------------------------------
+    Total                      3.800ns (2.934ns logic, 0.866ns route)
+                                       (77.2% logic, 22.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              4.496ns (Levels of Logic = 1)
+  Source:            G3_nbit_register/inst[0].D_flipflop_i/Q (FF)
+  Destination:       Q_outputs<0> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: G3_nbit_register/inst[0].D_flipflop_i/Q to Q_outputs<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCP:C->Q             5   0.591   0.633  G3_nbit_register/inst[0].D_flipflop_i/Q (G3_nbit_register/inst[0].D_flipflop_i/Q)
+     OBUF:I->O                 3.272          Q_outputs_0_OBUF (Q_outputs<0>)
+    ----------------------------------------
+    Total                      4.496ns (3.863ns logic, 0.633ns route)
+                                       (85.9% logic, 14.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 15.00 secs
+Total CPU time to Xst completion: 14.18 secs
+ 
+--> 
+
+Total memory usage is 306956 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    7 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "H:/Lab6/Lab6/Data_path_tb_isim_beh.exe" -prj "H:/Lab6/Lab6/Data_path_tb_beh.prj" "work.Data_path_tb" 

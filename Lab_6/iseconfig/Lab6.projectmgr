@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Lab6" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Control - Behavioral C:|Users|Yasmin|Documents|Lab6|Lab6|Control.vhd</ClosedNode>
+         <ClosedNode>/Control - Behavioral C:|Users|edsv3|Desktop|Lab6|Lab6|Control.vhd/counter - nbit_synchronous_counter_parallel - Behavioral</ClosedNode>
+         <ClosedNode>/Control - Behavioral H:|Documents|Lab6|Lab6|Control.vhd</ClosedNode>
+         <ClosedNode>/Control - Behavioral H:|Documents|Lab6|Lab6|Control.vhd/counter - nbit_synchronous_counter_parallel - Behavioral</ClosedNode>
+         <ClosedNode>/Data_path - Behavioral C:|Users|Yasmin|Documents|Lab6|Lab6|Data_path.vhd</ClosedNode>
+         <ClosedNode>/Data_path - Behavioral C:|Users|edsv3|Desktop|Lab6|Lab6|Data_path.vhd</ClosedNode>
+         <ClosedNode>/Data_path - Behavioral H:|Documents|Lab6|Lab6|Data_path.vhd</ClosedNode>
+         <ClosedNode>/Data_path - Behavioral H:|Documents|Lab6|Lab6|Data_path.vhd/ALU - four_bit_alu - Behavioral</ClosedNode>
+         <ClosedNode>/Data_path - Behavioral H:|Documents|Lab6|Lab6|Data_path.vhd/ALU - four_bit_alu - Behavioral/arith - four_bit_arithmetic_unit - Behavioral/adder_sub - four_bit_adder_subtractor - Behavioral/G2 - four_bit_lac_adder - four_bit_lac_adder_behavioral</ClosedNode>
+         <ClosedNode>/Data_path - Behavioral H:|Documents|Lab6|Lab6|Data_path.vhd/ALU - four_bit_alu - Behavioral/arith - four_bit_arithmetic_unit - Behavioral/nbitMux - nbit_two_input_mux - nbit_two_input_mux_architecture</ClosedNode>
+         <ClosedNode>/Data_path - Behavioral H:|Documents|Lab6|Lab6|Data_path.vhd/ALU - four_bit_alu - Behavioral/logic - nbit_logic_unit - Behavioral</ClosedNode>
+         <ClosedNode>/Data_path - Behavioral H:|Documents|Lab6|Lab6|Data_path.vhd/ALU - four_bit_alu - Behavioral/mux - nbit_two_input_mux - nbit_two_input_mux_architecture</ClosedNode>
+         <ClosedNode>/Data_path - Behavioral H:|Documents|Lab6|Lab6|Data_path.vhd/Outregister - n_bit_register_hold_load - Behavioral</ClosedNode>
+         <ClosedNode>/Data_path - Behavioral H:|Documents|Lab6|Lab6|Data_path.vhd/Register_file - eight_n_bit_register_file - Behavioral</ClosedNode>
+         <ClosedNode>/Data_path - Behavioral H:|Documents|Lab6|Lab6|Data_path.vhd/Register_file - eight_n_bit_register_file - Behavioral/ins_4 - n_bit_rfc_register - Behavioral/G_RFC_i - register_file_cell - Behavioral</ClosedNode>
+         <ClosedNode>/Data_path - Behavioral H:|Documents|Lab6|Lab6|Data_path.vhd/Shifter - four_bit_shifter - Behavioral</ClosedNode>
+         <ClosedNode>/Data_path - Behavioral H:|Documents|Lab6|Lab6|Data_path.vhd/two_input_mux - nbit_two_input_mux - nbit_two_input_mux_architecture</ClosedNode>
+         <ClosedNode>/Data_path - Behavioral H:|Documents|Lab6|Lab6|Data_path.vhd/two_input_mux - nbit_two_input_mux - nbit_two_input_mux_architecture/GMUX_i - two_input_multiplexer - two_input_multiplexer_behavioral</ClosedNode>
+         <ClosedNode>/eight_n_bit_register_file - Behavioral H:|Documents|Lab6|Lab6|eight_n_bit_register_file.vhd/ins_4 - n_bit_rfc_register - Behavioral</ClosedNode>
+         <ClosedNode>/four_bit_adder_sub_test_bench - behavior H:|Documents|Lab6|Lab6|four_bit_adder_sub_test_bench.vhd</ClosedNode>
+         <ClosedNode>/four_bit_adder_subtructor - Behavioral H:|Documents|Lab6|Lab6|four_bit_adder_subtractor.vhd/G2 - four_bit_lac_adder - four_bit_lac_adder_behavioral</ClosedNode>
+         <ClosedNode>/four_bit_adder_subtructor - four_bit_adder_subtractor_behavioral H:|Documents|Lab6|Lab6|four_bit_adder_subtractor.vhd</ClosedNode>
+         <ClosedNode>/four_bit_alu - Behavioral H:|Documents|Lab6|Lab6|four_bit_alu.vhd/arith - four_bit_arithmetic_unit - Behavioral/nbitMux - nbit_two_input_mux - nbit_two_input_mux_architecture</ClosedNode>
+         <ClosedNode>/four_bit_alu - Behavioral H:|Documents|Lab6|Lab6|four_bit_alu.vhd/logic - nbit_logic_unit - Behavioral</ClosedNode>
+         <ClosedNode>/four_bit_alu - Behavioral H:|Documents|Lab6|Lab6|four_bit_alu.vhd/logic - nbit_logic_unit - Behavioral/Logic_Slice_i - LogicSlice - Behavioral</ClosedNode>
+         <ClosedNode>/four_bit_alu - Behavioral H:|Documents|Lab6|Lab6|four_bit_alu.vhd/mux - nbit_two_input_mux - nbit_two_input_mux_architecture</ClosedNode>
+         <ClosedNode>/four_bit_alu - Behavioral H:|Documents|Lab6|Lab6|four_bit_alu.vhd/mux - nbit_two_input_mux - nbit_two_input_mux_architecture/GMUX_i - two_input_multiplexer - two_input_multiplexer_behavioral</ClosedNode>
+         <ClosedNode>/four_bit_lac_adder - four_bit_lac_adder_behavioral H:|Documents|Lab6|Lab6|four_bit_lac_adder.vhd</ClosedNode>
+         <ClosedNode>/four_bit_shifter - Behavioral H:|Documents|Lab6|Lab6|four_bit_shifter.vhd</ClosedNode>
+         <ClosedNode>/four_bit_shifter - Behavioral H:|Documents|Lab6|Lab6|four_bit_shifter.vhd/shift_device - n_bit_shifter_rotator_unit - Behavioral/fourMuxMid - four_input_multiplexer - Behavioral</ClosedNode>
+         <ClosedNode>/four_bit_shifter - Behavioral H:|Documents|Lab6|Lab6|four_bit_shifter.vhd/shift_device - n_bit_shifter_rotator_unit - Behavioral/fourMuxTwo - four_input_multiplexer - Behavioral</ClosedNode>
+         <ClosedNode>/four_bit_shifter - Behavioral H:|Documents|Lab6|Lab6|four_bit_shifter.vhd/shift_device - n_bit_shifter_rotator_unit - Behavioral/fourMuxZero - four_input_multiplexer - Behavioral</ClosedNode>
+         <ClosedNode>/four_bit_shifter - Behavioral H:|Documents|Lab6|Lab6|four_bit_shifter.vhd/shift_device - n_bit_shifter_rotator_unit - Behavioral/twoMux - two_input_multiplexer - two_input_multiplexer_behavioral</ClosedNode>
+         <ClosedNode>/four_bit_shifter - Behavioral H:|Documents|Lab6|Lab6|four_bit_shifter.vhd/shift_device - n_bit_shifter_rotator_unit - Behavioral/twoMuxZero - two_input_multiplexer - two_input_multiplexer_behavioral</ClosedNode>
+         <ClosedNode>/full_adder - full_adder_behavioral H:|Documents|Lab6|Lab6|full_adder.vhd</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|MicSeltene|Desktop|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/Controller - Control - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|MicSeltene|Desktop|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|MicSeltene|Desktop|Lab6|Lab_6|mircoprogram_controlled_datapath_system.vhd/Controller - Control - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|MicSeltene|Desktop|Lab6|Lab_6|mircoprogram_controlled_datapath_system.vhd/Controller - Control - Behavioral/counter - nbit_synchronous_counter_parallel - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|MicSeltene|Desktop|Lab6|Lab_6|mircoprogram_controlled_datapath_system.vhd/Controller - Control - Behavioral/counter - nbit_synchronous_counter_parallel - Behavioral/G1_nbit_incrementer - n_bit_incrementer - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|MicSeltene|Desktop|Lab6|Lab_6|mircoprogram_controlled_datapath_system.vhd/Controller - Control - Behavioral/counter - nbit_synchronous_counter_parallel - Behavioral/G2_nbit_two_mux - n_bit_two_input_mux - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|MicSeltene|Desktop|Lab6|Lab_6|mircoprogram_controlled_datapath_system.vhd/Controller - Control - Behavioral/counter - nbit_synchronous_counter_parallel - Behavioral/G3_nbit_register - n_bit_register - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|MicSeltene|Desktop|Lab6|Lab_6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|MicSeltene|Desktop|Lab6|Lab_6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/ALU - four_bit_alu - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|MicSeltene|Desktop|Lab6|Lab_6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/Outregister - n_bit_register_hold_load - Behavioral/NRegister - n_bit_register - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|MicSeltene|Desktop|Lab6|Lab_6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/Outregister - n_bit_register_hold_load - Behavioral/TwoInMux - n_bit_2_input_mux - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|MicSeltene|Desktop|Lab6|Lab_6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/Register_file - eight_n_bit_register_file - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|MicSeltene|Desktop|Lab6|Lab_6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/Shifter - four_bit_shifter - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|MicSeltene|Desktop|Lab6|Lab_6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/two_input_mux - nbit_two_input_mux - nbit_two_input_mux_architecture</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|edsv3|Desktop|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/Controller - Control - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|edsv3|Desktop|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/Controller - Control - Behavioral/counter - nbit_synchronous_counter_parallel - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|edsv3|Desktop|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|edsv3|Desktop|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/ALU - four_bit_alu - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|edsv3|Desktop|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/Register_file - eight_n_bit_register_file - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|edsv3|Desktop|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/Shifter - four_bit_shifter - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral C:|Users|edsv3|Desktop|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/two_input_mux - nbit_two_input_mux - nbit_two_input_mux_architecture</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral E:|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/Controller - Control - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral E:|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/Controller - Control - Behavioral/counter - nbit_synchronous_counter_parallel - Behavioral/G1_nbit_incrementer - n_bit_incrementer - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral E:|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/Controller - Control - Behavioral/counter - nbit_synchronous_counter_parallel - Behavioral/G2_nbit_two_mux - n_bit_two_input_mux - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral E:|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/ALU - four_bit_alu - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral E:|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/Outregister - n_bit_register_hold_load - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral E:|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/Outregister - n_bit_register_hold_load - Behavioral/A - n_bit_two_input_mux - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral E:|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/Outregister - n_bit_register_hold_load - Behavioral/NRegister - n_bit_register - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral E:|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/Outregister - n_bit_register_hold_load - Behavioral/TwoInMux - n_bit_2_input_mux - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral E:|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/Register_file - eight_n_bit_register_file - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral E:|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/Shifter - four_bit_shifter - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral E:|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/Shifter - four_bit_shifter - Behavioral/shift_device - n_bit_shifter_rotator_unit - Behavioral/fourMuxMid - four_input_multiplexer - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral E:|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/Shifter - four_bit_shifter - Behavioral/shift_device - n_bit_shifter_rotator_unit - Behavioral/fourMuxTwo - four_input_multiplexer - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral E:|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/Shifter - four_bit_shifter - Behavioral/shift_device - n_bit_shifter_rotator_unit - Behavioral/fourMuxZero - four_input_multiplexer - Behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral E:|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/Shifter - four_bit_shifter - Behavioral/shift_device - n_bit_shifter_rotator_unit - Behavioral/twoMux - two_input_multiplexer - two_input_multiplexer_behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral E:|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/Shifter - four_bit_shifter - Behavioral/shift_device - n_bit_shifter_rotator_unit - Behavioral/twoMuxZero - two_input_multiplexer - two_input_multiplexer_behavioral</ClosedNode>
+         <ClosedNode>/mircoprogram_controlled_datapath_system - Behavioral E:|Lab6|Lab6|mircoprogram_controlled_datapath_system.vhd/DataPath - Data_path - Behavioral/two_input_mux - nbit_two_input_mux - nbit_two_input_mux_architecture</ClosedNode>
+         <ClosedNode>/n_bit_2_input_mux - Behavioral E:|Lab6|Lab6|n_bit_2_input_mux.vhd/one_bit_mux_i - two_input_multiplexer - two_input_multiplexer_behavioral</ClosedNode>
+         <ClosedNode>/n_bit_2_input_mux - Behavioral H:|Documents|Lab6|Lab6|n_bit_2_input_mux.vhd</ClosedNode>
+         <ClosedNode>/n_bit_adder - n_bit_adder_behavioral H:|Documents|Lab6|Lab6|n_bit_adder.vhd</ClosedNode>
+         <ClosedNode>/n_bit_logic_unit_tb - behavior H:|Documents|Lab6|Lab6|n_bit_logic_unit_test_bench.vhd</ClosedNode>
+         <ClosedNode>/n_bit_register_hold_load - Behavioral H:|Documents|Lab6|Lab6|n_bit_register_hold-load.vhd</ClosedNode>
+         <ClosedNode>/n_bit_register_hold_load - Behavioral H:|Documents|Lab6|Lab6|n_bit_register_hold-load.vhd/NRegister - n_bit_register - Behavioral</ClosedNode>
+         <ClosedNode>/n_bit_register_hold_load - Behavioral H:|Documents|Lab6|Lab6|n_bit_register_hold-load.vhd/TwoInMux - n_bit_2_input_mux - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_synchronous_counter_parallel - Behavioral H:|Documents|Lab6|Lab6|nbit_synchronous_counter_parallel.vhd/G1_nbit_incrementer - n_bit_incrementer - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_synchronous_counter_parallel - Behavioral H:|Documents|Lab6|Lab6|nbit_synchronous_counter_parallel.vhd/G2_nbit_two_mux - n_bit_two_input_mux - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_synchronous_counter_parallel - Behavioral H:|Documents|Lab6|Lab6|nbit_synchronous_counter_parallel.vhd/G3_nbit_register - n_bit_register - Behavioral</ClosedNode>
+         <ClosedNode>/register_file_cell - Behavioral H:|Documents|Lab6|Lab6|register_file_cell.vhd</ClosedNode>
+         <ClosedNode>/register_file_cell - Behavioral H:|Documents|Lab6|Lab6|register_file_cell.vhd/G1_two_mux - two_input_multiplexer - two_input_multiplexer_behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>mircoprogram_controlled_datapath_system - Behavioral (C:/Users/MicSeltene/Desktop/Lab6/Lab_6/mircoprogram_controlled_datapath_system.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000274000000020000000000000000000000000200000064ffffffff000000810000000300000002000002740000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>mircoprogram_controlled_datapath_system - Behavioral (C:/Users/MicSeltene/Desktop/Lab6/Lab_6/mircoprogram_controlled_datapath_system.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f6000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000002c60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>and_gate.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f6000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Data_path_tb - behavior C:|Users|MicSeltene|Desktop|Lab6|Lab_6|Data_path_tb.vhd/uut - Data_path - Behavioral</ClosedNode>
+         <ClosedNode>/Data_path_tb - behavior C:|Users|edsv3|Desktop|Lab6|Lab6|Data_path_tb.vhd</ClosedNode>
+         <ClosedNode>/Data_path_tb - behavior C:|Users|edsv3|Desktop|Lab6|Lab6|Data_path_tb.vhd/uut - Data_path - Behavioral</ClosedNode>
+         <ClosedNode>/Data_path_tb - behavior E:|Lab6|Lab6|Data_path_tb.vhd/uut - Data_path - Behavioral/ALU - four_bit_alu - Behavioral</ClosedNode>
+         <ClosedNode>/Data_path_tb - behavior E:|Lab6|Lab6|Data_path_tb.vhd/uut - Data_path - Behavioral/Outregister - n_bit_register_hold_load - Behavioral</ClosedNode>
+         <ClosedNode>/Data_path_tb - behavior E:|Lab6|Lab6|Data_path_tb.vhd/uut - Data_path - Behavioral/Outregister - n_bit_register_hold_load - Behavioral/A - n_bit_two_input_mux - Behavioral</ClosedNode>
+         <ClosedNode>/Data_path_tb - behavior E:|Lab6|Lab6|Data_path_tb.vhd/uut - Data_path - Behavioral/Register_file - eight_n_bit_register_file - Behavioral</ClosedNode>
+         <ClosedNode>/Data_path_tb - behavior E:|Lab6|Lab6|Data_path_tb.vhd/uut - Data_path - Behavioral/Shifter - four_bit_shifter - Behavioral</ClosedNode>
+         <ClosedNode>/Data_path_tb - behavior E:|Lab6|Lab6|Data_path_tb.vhd/uut - Data_path - Behavioral/two_input_mux - nbit_two_input_mux - nbit_two_input_mux_architecture</ClosedNode>
+         <ClosedNode>/Data_path_tb - behavior H:|Documents|Lab6|Lab6|Data_path_tb.vhd</ClosedNode>
+         <ClosedNode>/Microprogram_tb - behavior C:|Users|MicSeltene|Desktop|Lab6|Lab_6|Microprogram_tb.vhd/uut - mircoprogram_controlled_datapath_system - Behavioral</ClosedNode>
+         <ClosedNode>/Microprogram_tb - behavior C:|Users|edsv3|Desktop|Lab6|Lab6|Microprogram_tb.vhd/uut - mircoprogram_controlled_datapath_system - Behavioral/Controller - Control - Behavioral</ClosedNode>
+         <ClosedNode>/Microprogram_tb - behavior C:|Users|edsv3|Desktop|Lab6|Lab6|Microprogram_tb.vhd/uut - mircoprogram_controlled_datapath_system - Behavioral/DataPath - Data_path - Behavioral</ClosedNode>
+         <ClosedNode>/Microprogram_tb - behavior E:|Lab6|Lab6|Microprogram_tb.vhd</ClosedNode>
+         <ClosedNode>/Microprogram_tb - behavior E:|Lab6|Lab6|Microprogram_tb.vhd/uut - mircoprogram_controlled_datapath_system - Behavioral/Controller - Control - Behavioral</ClosedNode>
+         <ClosedNode>/Microprogram_tb - behavior E:|Lab6|Lab6|Microprogram_tb.vhd/uut - mircoprogram_controlled_datapath_system - Behavioral/DataPath - Data_path - Behavioral</ClosedNode>
+         <ClosedNode>/n_bit_2_input_mux - Behavioral E:|Lab6|Lab6|n_bit_2_input_mux.vhd</ClosedNode>
+         <ClosedNode>/nbit_synchronous_counter_parallel - Behavioral H:|Documents|Lab6|Lab6|nbit_synchronous_counter_parallel.vhd</ClosedNode>
+         <ClosedNode>/nbit_synchronous_counter_parallel - Behavioral H:|Documents|Lab6|Lab6|nbit_synchronous_counter_parallel.vhd/G1_nbit_incrementer - n_bit_incrementer - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_synchronous_counter_parallel - Behavioral H:|Documents|Lab6|Lab6|nbit_synchronous_counter_parallel.vhd/G2_nbit_two_mux - n_bit_two_input_mux - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_synchronous_counter_parallel - Behavioral H:|Documents|Lab6|Lab6|nbit_synchronous_counter_parallel.vhd/G3_nbit_register - n_bit_register - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Microprogram_tb - behavior (C:/Users/MicSeltene/Desktop/Lab6/Lab_6/Microprogram_tb.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002a5000000020000000000000000000000000200000064ffffffff000000810000000300000002000002a50000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Microprogram_tb - behavior (C:/Users/MicSeltene/Desktop/Lab6/Lab_6/Microprogram_tb.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f6000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f6000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+</Project>
